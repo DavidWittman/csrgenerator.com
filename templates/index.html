@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block body %}
+<form id="csrform" action="" method="POST">
+  <ol>
+    <li>
+      <label for="C">Country:<span class="small">Two letter abbreviation</span></label>
+      <input class="jq_watermark" type="text" title="US" name="C" required maxlength="2" autofocus pattern="[A-Z]{2}" />
+    </li>
+    <li>
+      <label for="ST">State:<span class="small">Full state name</span></label>
+      <input class="jq_watermark" type="text" title="Texas" name="ST" required />
+    </li>
+    <li>
+      <label for="L">Locality:<span class="small">Full city name</span></label>
+      <input class="jq_watermark" type="text" title="San Antonio" name="L" required />
+    </li>
+    <li>
+      <label for="O">Organization:<span class="small">Full legal company or personal name</span></label>
+      <input class="jq_watermark" type="text" title="Big Bob's Beepers" name="O" required />
+    </li>
+    <li>
+      <label for="OU">Organizational Unit:<span class="small">Branch of organization</span></label>
+      <input class="jq_watermark" type="text" title="Marketing" name="OU" />
+    </li>
+    <li>
+      <label for="CN">Common Name:<span class="small">The FQDN for your domain</span></label>
+      <input class="jq_watermark" type="text" title="example.com" name="CN" required />
+    </li>
+  </ol>
+  <br/>
+  <input type="submit" value="Generate CSR" />
+</form>
+<div id="postgenerate">
+  <textarea id="csr" rows="47" cols="65" readonly="readonly"></textarea>
+</div> <!-- End postgenerate div -->
+{% endblock %}

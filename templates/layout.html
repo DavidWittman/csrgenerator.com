@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CSR Generator | Generate a Certificate Signing Request in seconds!</title>
+    <!-- Meta Tags -->
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="description" content="Certificate Signing Request Generator">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css" media="screen,projection" type="text/css" />
+    <!-- Google Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        {% block header %}
+        <h1>Certificate Signing Request Generator</h1>
+        <h2>Click click done.</h2>
+        {% endblock %}
+      </header>
+      <div id="content">
+        {% block body %}{% endblock %}
+      </div> <!-- End content -->
+      <img src="static/img/shadow.png" width="648" height="49" />
+    </div> <!-- End wrapper -->
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.watermark.m.js"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28493273-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!-- End Google Analytics -->
+  </body>
+</html>
