@@ -66,9 +66,6 @@ class CsrGenerator:
         request.sign(self.keypair, digest)
         return crypt.dump_certificate_request(crypt.FILETYPE_PEM, request)
 
-def cgi_field_storage_to_dict(field_storage):
-    "Transforms a FieldStorage object into a dictionary"
-    return dict((key, field_storage[key].value) for key in field_storage.keys())
 
 def main():
     pass
