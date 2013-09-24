@@ -24,7 +24,7 @@
 
 import OpenSSL.crypto as crypt
 
-class CsrGenerator:
+class CsrGenerator(object):
     def __init__(self, key_bit_length, form_values):
         self.csr_info = self._validate(form_values)
         self.keypair = self.generate_rsa_keypair(crypt.TYPE_RSA, key_bit_length)
