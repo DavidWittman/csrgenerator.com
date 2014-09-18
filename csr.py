@@ -2,10 +2,10 @@
 # -*- coding: utf8 -*-
 
 """ 
- generate.py
+ csr.py
  CSR Generator for csrgenerator.com
 
- Copyright (c) 2013 David Wittman <david@wittman.com>
+ Copyright (c) 2014 David Wittman <david@wittman.com>
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -55,7 +55,7 @@ class CsrGenerator(object):
 
     @property
     def csr(self):
-        digest = "md5"
+        digest = "sha256"
         request = crypt.X509Req()
         subject = request.get_subject()
 
@@ -65,10 +65,3 @@ class CsrGenerator(object):
         request.set_pubkey(self.keypair)
         request.sign(self.keypair, digest)
         return crypt.dump_certificate_request(crypt.FILETYPE_PEM, request)
-
-
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()
