@@ -20,7 +20,7 @@ class GenerationTests(unittest.TestCase):
     def test_keypair_type(self):
         import OpenSSL.crypto
         csr = CsrGenerator(2048, self.csr_info)
-        assert(isinstance(csr.keypair, OpenSSL.crypto.PKey))
+        self.assertTrue(isinstance(csr.keypair, OpenSSL.crypto.PKey))
 
     def test_keypair_bits(self):
         csr = CsrGenerator(2048, self.csr_info)
@@ -35,19 +35,19 @@ class GenerationTests(unittest.TestCase):
 
     def test_csr_starts_with(self):
         csr = CsrGenerator(2048, self.csr_info)
-        assert(csr.csr.startswith('-----BEGIN CERTIFICATE REQUEST-----'))
+        self.assertTrue(csr.csr.startswith('-----BEGIN CERTIFICATE REQUEST-----'))
 
     def test_csr_ends_with(self):
         csr = CsrGenerator(2048, self.csr_info)
-        assert(csr.csr.endswith('-----END CERTIFICATE REQUEST-----\n'))
+        self.assertTrue(csr.csr.endswith('-----END CERTIFICATE REQUEST-----\n'))
 
     def test_private_key_starts_with(self):
         csr = CsrGenerator(2048, self.csr_info)
-        assert(csr.private_key.startswith('-----BEGIN PRIVATE KEY-----'))
+        self.assertTrue(csr.private_key.startswith('-----BEGIN PRIVATE KEY-----'))
 
     def test_private_key_ends_with(self):
         csr = CsrGenerator(2048, self.csr_info)
-        assert(csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
+        self.assertTrue(csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
 
 class ExceptionTests(unittest.TestCase):
     @raises(KeyError)
