@@ -43,11 +43,15 @@ class GenerationTests(unittest.TestCase):
 
     def test_private_key_starts_with(self):
         csr = CsrGenerator(2048, self.csr_info)
-        self.assertTrue(csr.private_key.startswith('-----BEGIN PRIVATE KEY-----'))
+        # The result here can differ based on OpenSSL versions
+        self.assertTrue(csr.private_key.startswith('-----BEGIN RSA PRIVATE KEY-----') or
+                        csr.private_key.startswith('-----BEGIN PRIVATE KEY-----'))
 
     def test_private_key_ends_with(self):
         csr = CsrGenerator(2048, self.csr_info)
-        self.assertTrue(csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
+        # The result here can differ based on OpenSSL versions
+        self.assertTrue(csr.private_key.endswith('-----END RSA PRIVATE KEY-----\n') or
+                        csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
 
 class ExceptionTests(unittest.TestCase):
     @raises(KeyError)
