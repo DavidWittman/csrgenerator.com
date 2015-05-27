@@ -99,3 +99,14 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers'
                    }
         CsrGenerator(2048, csr_info)
+    
+    def test_missing_ou(self):
+        "This should _not_ raise any exceptions"
+        csr_info = {
+                    'C': 'US',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'CN': 'example.com'
+                   }
+        CsrGenerator(2048, csr_info)
