@@ -65,6 +65,17 @@ class ExceptionTests(unittest.TestCase):
         CsrGenerator(2048, csr_info)
 
     @raises(KeyError)
+    def test_empty_country(self):
+        csr_info = {
+                    'C': '',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'CN': 'example.com'
+                   }
+        CsrGenerator(2048, csr_info)
+
+    @raises(KeyError)
     def test_missing_state(self):
         csr_info = {
                     'C': 'US',
@@ -111,6 +122,18 @@ class ExceptionTests(unittest.TestCase):
                     'ST': 'Texas',
                     'L': 'San Antonio',
                     'O': 'Big Bob\'s Beepers',
+                    'CN': 'example.com'
+                   }
+        CsrGenerator(2048, csr_info)
+
+    def test_empty_ou(self):
+        "This should _not_ raise any exceptions"
+        csr_info = {
+                    'C': 'US',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'OU': '',
                     'CN': 'example.com'
                    }
         CsrGenerator(2048, csr_info)

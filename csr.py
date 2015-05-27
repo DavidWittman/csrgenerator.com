@@ -5,7 +5,7 @@
  csr.py
  CSR Generator for csrgenerator.com
 
- Copyright (c) 2014 David Wittman <david@wittman.com>
+ Copyright (c) 2015 David Wittman <david@wittman.com>
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -36,6 +36,9 @@ class CsrGenerator(object):
 
         for field in fields:
             try:
+                # Remove empty values
+                if form_values[field] == "":
+                    form_values.pop(field)
                 valid[field] = form_values[field]
             except KeyError:
                 if field not in optional:
