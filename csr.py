@@ -36,9 +36,9 @@ class CsrGenerator(object):
 
         for field in fields:
             try:
-                # Remove empty values
+                # Check for keys with empty values
                 if form_values[field] == "":
-                    form_values.pop(field)
+                    raise KeyError
                 valid[field] = form_values[field]
             except KeyError:
                 if field not in optional:
