@@ -1,7 +1,7 @@
-Flask==0.9
-Jinja2==2.6
-Werkzeug==0.8.3
-argparse==1.2.1
-distribute==0.6.24
+Flask==0.10.1
+gunicorn==19.4.5
+itsdangerous==0.24
+Jinja2==2.8
+MarkupSafe==0.23
 pyOpenSSL==0.13
-wsgiref==0.1.2
+Werkzeug==0.11.4
