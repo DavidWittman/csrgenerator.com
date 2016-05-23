@@ -55,12 +55,12 @@ h2 {
   display:    block;
   font-weight: bold;
   text-align: right;
-  text-shadow: 1px 1px 0px #fff;
+  text-shadow: 1px 1px 0 #fff;
   width:      200px;
   float:      left;
 }
 #csrform .small {
-  color:      #666666;
+  color:      #666;
   display:    block;
   font-size:  11px;
   font-weight:normal;
@@ -78,22 +78,20 @@ h2 {
   background:  url('/static/img/buttonbg.png') repeat-x;
   color:  #fff;
 }
-
 .error {
   -moz-box-shadow: 0 0 5px #F22233;
   -webkit-box-shadow: 0 0 5px #F22233;
   box-shadow: 0 0 5px #F22233;
 }
-
 #csr {
-  margin:     15px 60px;
+  margin:     28px 0;
   padding:    20px;
 }
 #postgenerate {
   height:     800px;
   display:    none;
+  text-align: center;
 }
-
 #content + img { /* Any image that immediately follows #content */
   margin-top: 15px;
 }
