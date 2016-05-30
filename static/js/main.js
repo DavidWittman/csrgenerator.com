@@ -1,14 +1,13 @@
 $(function() {
-    $("textarea").val('');
-    $("#csr").hide().bind('click focus', function() { this.select(); } );
-    $("#csrform").submit(function(event) {
-        event.preventDefault();
-        $("#postgenerate").slideDown("slow");
+    $(".close").on("click", function() {
+        $(this).closest(".modal").removeClass("active");
+    });
+    $("form").submit(function(e) {
+        e.preventDefault();
         $.post("/generate", $(this).serialize(), function(data) {
-            $("#csr").val(data).fadeIn("slow");
-            $('html, body').animate({
-                scrollTop: $("#postgenerate").offset().top
-            }, 1500);
+            $("#csr").val(data);
         }, "text");
-   });
+        $("#csr-modal").addClass("active");
+    });
+    $("#csr").on("click focus", function() { this.select() } );
 });

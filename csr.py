@@ -5,7 +5,7 @@
  csr.py
  CSR Generator for csrgenerator.com
 
- Copyright (c) 2015 David Wittman <david@wittman.com>
+ Copyright (c) 2016 David Wittman <david@wittman.com>
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -25,14 +25,17 @@
 import OpenSSL.crypto as crypt
 
 class CsrGenerator(object):
-    def __init__(self, key_bit_length, form_values):
+    def __init__(self, form_values):
+        # TODO(dw): Better docstrings, rename form_values
         self.csr_info = self._validate(form_values)
-        self.keypair = self.generate_rsa_keypair(crypt.TYPE_RSA, key_bit_length)
+        # TODO(dw): Some exception handling here would be good
+        key_size = int(self.csr_info.pop('keySize', 2048))
+        self.keypair = self.generate_rsa_keypair(crypt.TYPE_RSA, key_size)
 
     def _validate(self, form_values):
         valid = {}
-        fields = ('C', 'ST', 'L', 'O', 'OU', 'CN')
-        optional = ('OU',)
+        fields = ('C', 'ST', 'L', 'O', 'OU', 'CN', 'keySize')
+        optional = ('OU', 'keySize')
 
         for field in fields:
             try:

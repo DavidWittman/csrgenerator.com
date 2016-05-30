@@ -1,36 +1,67 @@
 {% extends "layout.html" %}
 {% block body %}
-<form id="csrform" action="" method="POST">
-  <ol>
-    <li>
-      <label for="C">Country:<span class="small">Two letter abbreviation</span></label>
-      <input type="text" placeholder="US" name="C" required maxlength="2" autofocus pattern="[A-Z]{2}" />
-    </li>
-    <li>
-      <label for="ST">State:<span class="small">Full state name</span></label>
-      <input type="text" placeholder="Texas" name="ST" required />
-    </li>
-    <li>
-      <label for="L">Locality:<span class="small">Full city name</span></label>
-      <input type="text" placeholder="San Antonio" name="L" required />
-    </li>
-    <li>
-      <label for="O">Organization:<span class="small">Full legal company or personal name</span></label>
-      <input type="text" placeholder="Big Bob's Beepers" name="O" required />
-    </li>
-    <li>
-      <label for="OU">Organizational Unit:<span class="small">Branch of organization</span></label>
-      <input type="text" placeholder="Marketing" name="OU" />
-    </li>
-    <li>
-      <label for="CN">Common Name:<span class="small">The FQDN for your domain</span></label>
-      <input type="text" placeholder="example.com" name="CN" required />
-    </li>
-  </ol>
-  <br/>
-  <input type="submit" value="Generate CSR" />
-</form>
-<div id="postgenerate">
-  <textarea id="csr" rows="47" cols="65" readonly="readonly"></textarea>
-</div> <!-- End postgenerate div -->
+      <div class="text-center">
+        <h3>Generate a Certificate Signing Request</h3>
+        <p>Complete this form to generate a new Certificate Signing Request and RSA private key.</p>
+      </div>
+      <div class="columns mt-10">
+        <div class="column col-xs-2 col-md-3"></div>
+        <div class="column col-xs-8 col-md-6 bg-grey">
+          <form>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Two letter abbreviation" for="C">Country</label>
+              <input class="form-input input-lg" type="text" name="C" placeholder="US" required maxlength="2" autofocus pattern="[A-Z]{2}" />
+            </div>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Full state name" for="ST">State</label>
+              <input class="form-input input-lg" type="text" placeholder="Texas" name="ST" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Full city name" for="L">Locality</label>
+              <input class="form-input input-lg" type="text" placeholder="San Antonio" name="L" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Full legal company or personal name" for="O">Organization</label>
+              <input class="form-input input-lg" type="text" placeholder="Big Bob's Beepers" name="O" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Branch of organization" for="OU">Organizational Unit</label>
+              <input class="form-input input-lg" type="text" placeholder="Marketing" name="OU" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="The FQDN for your domain" for="CN">Common Name</label>
+              <input class="form-input input-lg" type="text" placeholder="example.com" name="CN" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Size of the RSA modulus in bits">Key Size</label>
+              <label class="form-radio">
+                <input type="radio" name="keySize" value="2048" checked />
+                <i class="form-icon"></i> 2048
+              </label>
+              <label class="form-radio">
+                <input type="radio" name="keySize" value="4096" />
+                <i class="form-icon"></i> 4096
+              </label>
+            </div>
+            <button class="btn btn-primary centered">Generate CSR</button>
+          </form>
+        </div>
+        <div class="column col-xs-2 col-md-3"></div>
+      </div>
+      <div id="csr-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container tall no-max-height">
+          <div class="modal-header">
+            <button type="button" class="btn btn-clear close float-right"></button>
+          </div>
+          <div class="modal-body no-max-height">
+            <div class="content">
+              <textarea id="csr" rows="47" cols="62" readonly="readonly"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn close btn-link">Close</button>
+          </div>
+        </div>
+      </div>
 {% endblock %}
