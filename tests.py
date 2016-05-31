@@ -19,36 +19,43 @@ class GenerationTests(unittest.TestCase):
 
     def test_keypair_type(self):
         import OpenSSL.crypto
-        csr = CsrGenerator(2048, self.csr_info)
+        csr = CsrGenerator(self.csr_info)
         self.assertTrue(isinstance(csr.keypair, OpenSSL.crypto.PKey))
 
-    def test_keypair_bits(self):
-        csr = CsrGenerator(2048, self.csr_info)
+    def test_keypair_bits_default(self):
+        csr = CsrGenerator(self.csr_info)
         assert_equal(csr.keypair.bits(), 2048)
 
-        csr = CsrGenerator(1024, self.csr_info)
+    def test_keypair_1024_bits(self):
+        self.csr_info['keySize'] = 1024
+        csr = CsrGenerator(self.csr_info)
         assert_equal(csr.keypair.bits(), 1024)
 
+    def test_keypair_4096_bits(self):
+        self.csr_info['keySize'] = 4096
+        csr = CsrGenerator(self.csr_info)
+        assert_equal(csr.keypair.bits(), 4096)
+
     def test_csr_length(self):
-        csr = CsrGenerator(2048, self.csr_info)
+        csr = CsrGenerator(self.csr_info)
         assert_equal(len(csr.csr), 1025)
 
     def test_csr_starts_with(self):
-        csr = CsrGenerator(2048, self.csr_info)
+        csr = CsrGenerator(self.csr_info)
         self.assertTrue(csr.csr.startswith('-----BEGIN CERTIFICATE REQUEST-----'))
 
     def test_csr_ends_with(self):
-        csr = CsrGenerator(2048, self.csr_info)
+        csr = CsrGenerator(self.csr_info)
         self.assertTrue(csr.csr.endswith('-----END CERTIFICATE REQUEST-----\n'))
 
     def test_private_key_starts_with(self):
-        csr = CsrGenerator(2048, self.csr_info)
+        csr = CsrGenerator(self.csr_info)
         # The result here can differ based on OpenSSL versions
         self.assertTrue(csr.private_key.startswith('-----BEGIN RSA PRIVATE KEY-----') or
                         csr.private_key.startswith('-----BEGIN PRIVATE KEY-----'))
 
     def test_private_key_ends_with(self):
-        csr = CsrGenerator(2048, self.csr_info)
+        csr = CsrGenerator(self.csr_info)
         # The result here can differ based on OpenSSL versions
         self.assertTrue(csr.private_key.endswith('-----END RSA PRIVATE KEY-----\n') or
                         csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
@@ -62,7 +69,7 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_empty_country(self):
@@ -73,7 +80,7 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_missing_state(self):
@@ -83,7 +90,7 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_missing_locality(self):
@@ -93,7 +100,7 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_missing_organization(self):
@@ -103,7 +110,7 @@ class ExceptionTests(unittest.TestCase):
                     'L': 'San Antonio',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_missing_common_name(self):
@@ -113,7 +120,7 @@ class ExceptionTests(unittest.TestCase):
                     'L': 'San Antonio',
                     'O': 'Big Bob\'s Beepers'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
     
     def test_missing_ou(self):
         "This should _not_ raise any exceptions"
@@ -124,7 +131,7 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
 
     def test_empty_ou(self):
         "This should _not_ raise any exceptions"
@@ -136,4 +143,30 @@ class ExceptionTests(unittest.TestCase):
                     'OU': '',
                     'CN': 'example.com'
                    }
-        CsrGenerator(2048, csr_info)
+        CsrGenerator(csr_info)
+
+    @raises(KeyError)
+    def test_zero_key_size(self):
+        csr_info = {
+                    'C': 'US',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'OU': 'Marketing',
+                    'CN': 'example.com',
+                    'keySize': 0
+                   }
+        CsrGenerator(csr_info)
+
+    @raises(ValueError)
+    def test_invalid_key_size(self):
+        csr_info = {
+                    'C': 'US',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'OU': 'Marketing',
+                    'CN': 'example.com',
+                    'keySize': 'penguins'
+                   }
+        CsrGenerator(csr_info)
