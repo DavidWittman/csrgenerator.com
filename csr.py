@@ -25,12 +25,15 @@
 import OpenSSL.crypto as crypt
 
 class CsrGenerator(object):
+    DIGEST = "sha256"
+    SUPPORTED_KEYSIZES = (1024, 2048, 4096)
+    DEFAULT_KEYSIZE = 2048
+
     def __init__(self, form_values):
         # TODO(dw): Better docstrings, rename form_values
         self.csr_info = self._validate(form_values)
-        # TODO(dw): Some exception handling here would be good
-        key_size = int(self.csr_info.pop('keySize', 2048))
-        self.keypair = self.generate_rsa_keypair(crypt.TYPE_RSA, key_size)
+        key_size = self.csr_info.pop('keySize')
+        self.keypair = self.generate_rsa_keypair(key_size)
 
     def _validate(self, form_values):
         valid = {}
@@ -41,18 +44,30 @@ class CsrGenerator(object):
             try:
                 # Check for keys with empty values
                 if form_values[field] == "":
-                    raise KeyError
+                    raise KeyError("%s cannot be empty" % field)
                 valid[field] = form_values[field]
             except KeyError:
                 if field not in optional:
                     raise
 
+        try:
+            valid['keySize'] = int(valid.get('keySize', self.DEFAULT_KEYSIZE))
+        except:
+            raise ValueError("RSA key size must be an integer")
+
         return valid
 
-    def generate_rsa_keypair(self, key_type, key_bit_length):
-        "Generates a public/private key pair of the type key_type and size key_bit_length"
+    def generate_rsa_keypair(self, bits):
+        """
+        Generates a public/private RSA keypair of length bits.
+        """
+
+        if bits not in self.SUPPORTED_KEYSIZES:
+            raise KeyError("Only 2048 and 4096-bit RSA keys are supported")
+
         key = crypt.PKey()
-        key.generate_key(key_type, key_bit_length)
+        key.generate_key(crypt.TYPE_RSA, bits)
+
         return key
 
     @property
@@ -61,7 +76,6 @@ class CsrGenerator(object):
 
     @property
     def csr(self):
-        digest = "sha256"
         request = crypt.X509Req()
         subject = request.get_subject()
 
@@ -69,5 +83,5 @@ class CsrGenerator(object):
             setattr(subject, k, v)
 
         request.set_pubkey(self.keypair)
-        request.sign(self.keypair, digest)
+        request.sign(self.keypair, self.DIGEST)
         return crypt.dump_certificate_request(crypt.FILETYPE_PEM, request)

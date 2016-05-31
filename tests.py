@@ -144,3 +144,29 @@ class ExceptionTests(unittest.TestCase):
                     'CN': 'example.com'
                    }
         CsrGenerator(csr_info)
+
+    @raises(KeyError)
+    def test_zero_key_size(self):
+        csr_info = {
+                    'C': 'US',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'OU': 'Marketing',
+                    'CN': 'example.com',
+                    'keySize': 0
+                   }
+        CsrGenerator(csr_info)
+
+    @raises(ValueError)
+    def test_invalid_key_size(self):
+        csr_info = {
+                    'C': 'US',
+                    'ST': 'Texas',
+                    'L': 'San Antonio',
+                    'O': 'Big Bob\'s Beepers',
+                    'OU': 'Marketing',
+                    'CN': 'example.com',
+                    'keySize': 'penguins'
+                   }
+        CsrGenerator(csr_info)
