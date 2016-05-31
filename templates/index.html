@@ -1,12 +1,11 @@
 {% extends "layout.html" %}
 {% block body %}
       <div class="text-center">
-        <h3>Generate a Certificate Signing Request</h3>
-        <p>Complete this form to generate a new Certificate Signing Request and RSA private key.</p>
+        <h4>Generate a Certificate Signing Request</h4>
+        <p>Complete this form to generate a new CSR and private key.</p>
       </div>
       <div class="columns mt-10">
-        <div class="column col-xs-2 col-md-3"></div>
-        <div class="column col-xs-8 col-md-6 bg-grey">
+        <div class="column bg-grey">
           <form>
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Two letter abbreviation" for="C">Country</label>
@@ -46,7 +45,6 @@
             <button class="btn btn-primary centered">Generate CSR</button>
           </form>
         </div>
-        <div class="column col-xs-2 col-md-3"></div>
       </div>
       <div id="csr-modal" class="modal">
         <div class="modal-overlay"></div>
