@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<h5>Security Considerations</h5>
+<p>This site makes it as easy as possible to generate a Certificate Signing Request in a secure manner. All data is transferred over an end-to-end TLS connection with forward secrecy (on modern browsers). Further, for your privacy and security, <b>none of the information used on this site is stored</b> with the exception of metadata from Google Analytics and the webserver access logs.</p>
+<p>However, there are some inherent concerns with generating a private key on a remote server and transferring it over the internet. More specifically, a malicious attacker could potentially store your RSA private key as it is generated or transmitted to your computer and use that information to impersonate your website with HTTPS. This is not specific to this site; any key generation occurring on a remote host is subject to these potential vulnerabilities.</p>
+<p>With that in mind, if you have some concerns about the security of this site or your connection, we encourage you to generate a Certificate Signing Request locally on a secure computer which you own.</p>
+<h5>Generating a Certificate Signing Request with OpenSSL</h5>
+<p>Run the following command to generate a certificate signing request using OpenSSL. You will be prompted for information regarding your certificate and then two files will be created: one containing your CSR and the other your RSA private key.</p>
+<pre>$ openssl req -nodes -newkey rsa:2048 -keyout example.key -out example.csr</pre>
+{% endblock %}
