@@ -12,6 +12,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/security')
+def security():
+    return render_template('security.html')
+
 @app.route('/generate', methods=['POST'])
 def generate_csr():
     csr = CsrGenerator(request.form)
