@@ -6,5 +6,5 @@
 <p>With that in mind, if you have some concerns about the security of this site or your connection, we encourage you to generate a Certificate Signing Request locally on a secure computer which you own.</p>
 <h5>Generating a Certificate Signing Request with OpenSSL</h5>
 <p>Run the following command to generate a certificate signing request using OpenSSL. You will be prompted for information regarding your certificate and then two files will be created: one containing your CSR and the other your RSA private key.</p>
-<pre>$ openssl req -nodes -newkey rsa:2048 -keyout example.key -out example.csr</pre>
+<pre>$ openssl req -nodes -newkey rsa:2048 -sha256 -keyout example.key -out example.csr</pre>
 {% endblock %}
