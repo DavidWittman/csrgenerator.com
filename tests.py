@@ -6,6 +6,7 @@ from nose.tools import raises, assert_equal
 
 from csr import CsrGenerator
 
+
 class GenerationTests(unittest.TestCase):
     def setUp(self):
         self.csr_info = {
@@ -59,6 +60,7 @@ class GenerationTests(unittest.TestCase):
         # The result here can differ based on OpenSSL versions
         self.assertTrue(csr.private_key.endswith('-----END RSA PRIVATE KEY-----\n') or
                         csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
+
 
 class ExceptionTests(unittest.TestCase):
     @raises(KeyError)
@@ -121,7 +123,7 @@ class ExceptionTests(unittest.TestCase):
                     'O': 'Big Bob\'s Beepers'
                    }
         CsrGenerator(csr_info)
-    
+
     def test_missing_ou(self):
         "This should _not_ raise any exceptions"
         csr_info = {

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-""" 
+"""
  csr.py
  CSR Generator for csrgenerator.com
 
@@ -23,6 +23,7 @@
 """
 
 import OpenSSL.crypto as crypt
+
 
 class CsrGenerator(object):
     DIGEST = "sha256"
@@ -79,7 +80,7 @@ class CsrGenerator(object):
         request = crypt.X509Req()
         subject = request.get_subject()
 
-        for (k,v) in self.csr_info.items():
+        for (k, v) in self.csr_info.items():
             setattr(subject, k, v)
 
         request.set_pubkey(self.keypair)
