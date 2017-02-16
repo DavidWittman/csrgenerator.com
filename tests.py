@@ -39,7 +39,7 @@ class GenerationTests(unittest.TestCase):
 
     def test_csr_length(self):
         csr = CsrGenerator(self.csr_info)
-        assert_equal(len(csr.csr), 1025)
+        assert_equal(len(csr.csr), 1029)
 
     def test_csr_starts_with(self):
         csr = CsrGenerator(self.csr_info)
