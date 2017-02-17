@@ -1,5 +1,5 @@
 FROM jazzdd/alpine-flask:latest
-MAINTAINER "David Wittman"
+LABEL maintainer="David Wittman"
 
 # Install deps before we add our project to cache this layer
 RUN apk add --no-cache gcc python-dev musl-dev libffi-dev openssl openssl-dev
