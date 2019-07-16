@@ -1,5 +1,6 @@
-#!/usr/bin/env python
 
+
+from __future__ import absolute_import
 import os
 
 from flask import Flask, request, Response, render_template
@@ -22,10 +23,10 @@ def security():
 @app.route('/generate', methods=['POST'])
 def generate_csr():
     csr = CsrGenerator(request.form)
-    response = '\n'.join([csr.csr, csr.private_key])
+    response = '\n'.join([str(csr.csr), str(csr.private_key)])
     return Response(response, mimetype='text/plain')
 
 
 if __name__ == '__main__':
     port = int(os.environ.get('FLASK_PORT', 5555))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port,debug=True)
