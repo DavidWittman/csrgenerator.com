@@ -6,7 +6,7 @@ $(function() {
         $(this).closest(".modal").removeClass("active");
     });
 
-    $("form").submit(function(e) {
+    $("#csr-form").submit(function(e) {
         e.preventDefault();
         $.post("/generate", $(this).serialize(), function(data) {
             $("#csr").val(data);
