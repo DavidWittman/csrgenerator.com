@@ -1,5 +1,5 @@
 *.pyc
 env
 *.bak
-
+.idea/
 venv/
