@@ -1,0 +1,23 @@
+.bg-grey {
+    background-color: #efefef;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.tall {
+    max-height: 90vh;
+}
+.no-max-height {
+    /* To override Spectre's modal size */
+    max-height: unset !important;
+}
+
+#csr {
+    margin-left: 6rem;
+    font-family: monospace;
+    font-size: 80%;
+    padding: .5rem;
+}
+
+#csr-form {
+    display: none;
+}
