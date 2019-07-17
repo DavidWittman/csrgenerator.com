@@ -12,7 +12,7 @@
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Your Org Handle" for="org-id">Org Handle</label>
-              <input class="form-input input-lg" type="text" name="org_id" id="org-id" placeholder="Org Handle" />
+              <input class="form-input input-lg" type="text" name="org_id" id="org-id" placeholder="Org Handle" autofocus />
             </div>
 
           <div class="form-group">
@@ -27,33 +27,33 @@
             <form id="csr-form">
 
             <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Two letter abbreviation" for="C">Country</label>
-              <input class="form-input input-lg" type="text" id="C" name="C" placeholder="US" required maxlength="2" autofocus pattern="[A-Z]{2}" />
+              <label class="form-label tooltip tooltip-left" data-tooltip="Two letter abbreviation" for="country">Country</label>
+              <input class="form-input input-lg" type="text" id="country" name="C" placeholder="US" required maxlength="2"  pattern="[A-Z]{2}" />
             </div>
 
             <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Full state name" for="ST">State</label>
-              <input class="form-input input-lg" type="text" id="ST" placeholder="Texas" name="ST" required />
+              <label class="form-label tooltip tooltip-left" data-tooltip="Full state name" for="state">State</label>
+              <input class="form-input input-lg" type="text" id="state" placeholder="Texas" name="ST" required />
             </div>
 
             <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Full city name" for="L">Locality</label>
-              <input class="form-input input-lg" type="text" id="L" placeholder="San Antonio" name="L" required />
+              <label class="form-label tooltip tooltip-left" data-tooltip="Full city name" for="locality">Locality</label>
+              <input class="form-input input-lg" type="text" id="locality" placeholder="San Antonio" name="L" required />
             </div>
 
             <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Full legal company or personal name" for="O">Organization</label>
-              <input class="form-input input-lg" type="text" id="O" placeholder="Big Bob's Beepers" name="O" required />
+              <label class="form-label tooltip tooltip-left" data-tooltip="Full legal company or personal name" for="org">Organization</label>
+              <input class="form-input input-lg" type="text" id="org" placeholder="Big Bob's Beepers" name="O" required />
             </div>
 
             <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Branch of organization" for="OU">Organizational Unit</label>
-              <input class="form-input input-lg" type="text" id="OU" placeholder="Marketing" name="OU" required />
+              <label class="form-label tooltip tooltip-left" data-tooltip="Branch of organization" for="org-unit">Organizational Unit</label>
+              <input class="form-input input-lg" type="text" id="org-unit" placeholder="Marketing" name="OU" required />
             </div>
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="The FQDN for your domain" for="CN">Common Name</label>
-              <input class="form-input input-lg" type="text" id="CN" placeholder="example.com" name="CN" required />
+              <input class="form-input input-lg" type="text" id="common-name" placeholder="example.com" name="CN" required />
             </div>
 
             <div class="form-group">
