@@ -8,23 +8,26 @@
 
       <div class="columns">
         <div class="centered column col-10 bg-grey">
-          <form>
-
-            <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Your Org Handle" for="org-id">Org Handle</label>
-              <input class="form-input input-lg" type="text" name="org_id" id="org-id" placeholder="Org Handle" autofocus />
-            </div>
-
-          <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Your NIC Handle" for="nic-id">NIC Handle</label>
-              <select class="form-select" name="nic_id" id="nic-id">
-                <option value=""> Please select NIC-Handle</option>
-
-              </select>
-          </div>
-          </form>
 
             <form id="csr-form">
+
+            <div class="form-group" id="basic-details">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Your Org Handle" for="org-id">Org Handle</label>
+              <input class="form-input input-lg" type="text" name="org_id" id="org-id" placeholder="Org Handle" autofocus required/>
+            </div>
+
+           <div class="form-group">
+                  <label class="form-label tooltip tooltip-left" data-tooltip="Your NIC Handle" for="nic-id">NIC Handle</label>
+                  <select class="form-select" name="nic_id" id="nic-id" required>
+                     <option value=""> Please select NIC-Handle</option>
+
+                  </select>
+           </div>
+
+           <div class="form-group">
+                <label class="form-label tooltip-left" data-tooltip="Your password" for="password">Password</label>
+                <input class="form-input input-lg" type="password" name="password" id="password" placeholder="Password" required/>
+           </div>
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Two letter abbreviation" for="country">Country</label>

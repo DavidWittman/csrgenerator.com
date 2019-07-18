@@ -6,6 +6,7 @@ $(function() {
         $(this).closest(".modal").removeClass("active");
     });
 
+
     $("#csr-form").submit(function(e) {
         e.preventDefault();
         $.post("/generate", $(this).serialize(), function(data) {
@@ -45,17 +46,20 @@ $(function() {
 
     let nicHandle = $("#nic-id");
 
-    nicHandle.on("change",showForm)
+    nicHandle.on("change",showForm);
 
 
 
     function showForm() {
-        fillForm(nicIds)
-        let csrForm = $("#csr-form");
 
-        if(csrForm.css("display") === "none"){
-            csrForm.css("display", "block");
-        }
+            fillForm(nicIds);
+            let csrForm = $("#csr-form");
+
+            if (csrForm.css("display") === "none") {
+                csrForm.css("display", "block");
+            }
+
+
     }
 
     function fillForm(nicIds) {
@@ -70,17 +74,19 @@ $(function() {
                 let selectedNic = nicIds[counter];
                 roles = selectedNic.roles;
                 address = selectedNic["vcardArray"][1][5][3];
-                console.log(address);
+                //console.log(address);
             }
         }
 
         if(roles.length > 1){
+
             for(let i in roles){
+
                 if(i < roles.length -1){
                     orgUnit += roles[i] + ",";
                 }
                 else {
-                    orgUnit += roles[i]
+                    orgUnit += roles[i];
                 }
             }
 
@@ -94,7 +100,7 @@ $(function() {
         //$("#locality").val(address[1]);
         $("#org-unit").val(orgUnit);
         $("#common-name").val(nicId);
-        $("#org").val($("#org-id").val())
+        $("#org").val($("#org-id").val());
     }
 
 

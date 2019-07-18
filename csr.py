@@ -32,7 +32,10 @@ class CsrGenerator(object):
     DEFAULT_KEYSIZE = 2048
 
     def __init__(self, form_values):
-        # TODO(dw): Better docstrings, rename form_values
+        """
+        Initialize CsrGenerator to generate CSR from data received from form.
+        :param form_values: the contents user submitted on the form.
+        """
         self.csr_info = self._validate(form_values)
         key_size = self.csr_info.pop('keySize')
         self.keypair = self.generate_rsa_keypair(key_size)
