@@ -7,26 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/static/img/favicon.ico" />
     <link rel="stylesheet" href="/static/css/spectre.min.css" />
-    <style>
-        .bg-grey {
-            background-color: #efefef;
-            padding: 1rem;
-            border-radius: .5rem;
-        }
-        .tall {
-            max-height: 90vh;
-        }
-        .no-max-height {
-            /* To override Spectre's modal size */
-            max-height: unset !important;
-        }
-        #csr {
-            margin-left: 6rem;
-            font-family: monospace;
-            font-size: 80%;
-            padding: .5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="/static/css/main.css" />
+
   </head>
   <body>
     <div class="container grid-960">
@@ -35,11 +17,11 @@
           {% block header %}
           <header class="navbar">
             <section class="navbar-section">
-              <a href="https://csrgenerator.com" class="navbar-brand">CSR Generator</a>
+<!--              <a href="https://csrgenerator.com" class="navbar-brand">CSR Generator</a>-->
             </section>
             <section class="navbar-section">
-              <a href="{{ url_for('security') }}" class="btn btn-link" />security</a>
-              <a href="https://github.com/DavidWittman/csrgenerator.com" class="btn btn-link" />github</a>
+<!--              <a href="{{ url_for('security') }}" class="btn btn-link" />security</a>-->
+<!--              <a href="https://github.com/DavidWittman/csrgenerator.com" class="btn btn-link" />github</a>-->
             </section>
           </header>
           {% endblock %}
@@ -49,15 +31,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="/static/js/main.js"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-28493273-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+
   </body>
 </html>

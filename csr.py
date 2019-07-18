@@ -22,6 +22,7 @@
 
 """
 
+from __future__ import absolute_import
 import OpenSSL.crypto as crypt
 
 
