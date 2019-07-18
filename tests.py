@@ -43,23 +43,23 @@ class GenerationTests(unittest.TestCase):
 
     def test_csr_starts_with(self):
         csr = CsrGenerator(self.csr_info)
-        self.assertTrue(csr.csr.startswith('-----BEGIN CERTIFICATE REQUEST-----'))
+        self.assertTrue(csr.csr.startswith(b'-----BEGIN CERTIFICATE REQUEST-----'))
 
     def test_csr_ends_with(self):
         csr = CsrGenerator(self.csr_info)
-        self.assertTrue(csr.csr.endswith('-----END CERTIFICATE REQUEST-----\n'))
+        self.assertTrue(csr.csr.endswith(b'-----END CERTIFICATE REQUEST-----\n'))
 
     def test_private_key_starts_with(self):
         csr = CsrGenerator(self.csr_info)
         # The result here can differ based on OpenSSL versions
-        self.assertTrue(csr.private_key.startswith('-----BEGIN RSA PRIVATE KEY-----') or
-                        csr.private_key.startswith('-----BEGIN PRIVATE KEY-----'))
+        self.assertTrue(csr.private_key.startswith(b'-----BEGIN RSA PRIVATE KEY-----') or
+                        csr.private_key.startswith(b'-----BEGIN PRIVATE KEY-----'))
 
     def test_private_key_ends_with(self):
         csr = CsrGenerator(self.csr_info)
         # The result here can differ based on OpenSSL versions
-        self.assertTrue(csr.private_key.endswith('-----END RSA PRIVATE KEY-----\n') or
-                        csr.private_key.endswith('-----END PRIVATE KEY-----\n'))
+        self.assertTrue(csr.private_key.endswith(b'-----END RSA PRIVATE KEY-----\n') or
+                        csr.private_key.endswith(b'-----END PRIVATE KEY-----\n'))
 
 
 class ExceptionTests(unittest.TestCase):

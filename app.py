@@ -22,7 +22,7 @@ def security():
 @app.route('/generate', methods=['POST'])
 def generate_csr():
     csr = CsrGenerator(request.form)
-    response = '\n'.join([csr.csr, csr.private_key])
+    response = b'\n'.join([csr.csr, csr.private_key])
     return Response(response, mimetype='text/plain')
 
 
