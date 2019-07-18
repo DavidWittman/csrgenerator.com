@@ -1,10 +1,4 @@
-# csrgenerator.com
-[![Build Status](https://travis-ci.org/DavidWittman/csrgenerator.com.svg?branch=master)](https://travis-ci.org/DavidWittman/csrgenerator.com) [![Docker Hub](https://img.shields.io/docker/automated/wittman/csrgenerator.com.svg)](https://hub.docker.com/r/wittman/csrgenerator.com/)
+# BPKI Enrolment Helper
+The aim of this tool is to provide a GUI to user to (1) generate a CSR and private key (2) automatically sends the CSR  the AFRINIC BPKI RA to retrieve the CERTIFICATE.
 
-This is the public repository for https://csrgenerator.com. It's a pretty simple Flask webapp which generates a Certificate Signing Request for creating SSL certificates. Sure, you can do it with OpenSSL via the command-line, but not everyone is as smart as you are.
-
-## Running with Docker
-
-``` bash
-$ docker run -d -p 8080:80 --name csrgenerator wittman/csrgenerator.com
-```
+It's a pretty simple Flask webapp which generates a Certificate Signing Request for creating SSL certificates. Of course, if you are smart, you can run the same thing on command-line.
