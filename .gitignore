@@ -3,3 +3,4 @@ env
 *.bak
 .idea/
 venv/
+*.pem
