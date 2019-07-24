@@ -119,7 +119,7 @@ def generate_p12(nic_id, password, private_key):
             print('Unable to write p12 file ', error)
 
     except UnboundLocalError as error:
-        print('File not available:', error)
+        print('File was not created:', error)
 
     except crypt.Error as error:
         print('An unexpected error occurred while generating p12 file: ', error)

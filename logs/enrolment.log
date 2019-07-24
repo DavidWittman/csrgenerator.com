@@ -1,18 +1,59 @@
-2019-07-23 21:50:21,008 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-23 21:50:21,031 -  * Restarting with stat
-2019-07-23 21:50:21,509 -  * Debugger is active!
-2019-07-23 21:50:21,532 -  * Debugger PIN: 447-554-036
-2019-07-23 21:52:21,816 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-23 21:52:21,817 -  * Restarting with stat
-2019-07-23 21:52:22,301 -  * Debugger is active!
-2019-07-23 21:52:22,302 -  * Debugger PIN: 447-554-036
-2019-07-23 21:52:32,392 - 127.0.0.1 - - [23/Jul/2019 21:52:32] "GET / HTTP/1.1" 200 -
-2019-07-23 21:52:32,486 - 127.0.0.1 - - [23/Jul/2019 21:52:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
-2019-07-23 21:52:32,498 - 127.0.0.1 - - [23/Jul/2019 21:52:32] "GET /static/css/main.css HTTP/1.1" 200 -
-2019-07-23 21:55:43,757 - 127.0.0.1 - - [23/Jul/2019 21:55:43] "POST /generate HTTP/1.1" 500 -
-2019-07-23 21:56:11,297 - 127.0.0.1 - - [23/Jul/2019 21:56:11] "GET / HTTP/1.1" 200 -
-2019-07-23 21:59:02,595 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-23 21:59:02,596 -  * Restarting with stat
-2019-07-23 21:59:03,076 -  * Debugger is active!
-2019-07-23 21:59:03,077 -  * Debugger PIN: 447-554-036
-2019-07-23 22:01:33,298 - 127.0.0.1 - - [23/Jul/2019 22:01:33] "POST /generate HTTP/1.1" 500 -
+2019-07-24 13:27:51,470 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-24 13:27:51,472 -  * Restarting with stat
+2019-07-24 13:27:51,930 -  * Debugger is active!
+2019-07-24 13:27:51,930 -  * Debugger PIN: 447-554-036
+2019-07-24 13:27:55,533 - 127.0.0.1 - - [24/Jul/2019 13:27:55] "GET / HTTP/1.1" 200 -
+2019-07-24 13:28:31,539 - Unable to retrieve error message: Message: no such element: Unable to locate element: {"method":"css selector","selector":".iceMsgsError"}
+  (Session info: chrome=75.0.3770.142)
+
+2019-07-24 13:28:31,540 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
+2019-07-24 13:28:31,540 - Pem file not created: local variable 'pem' referenced before assignment
+2019-07-24 13:28:31,541 - 127.0.0.1 - - [24/Jul/2019 13:28:31] "POST /generate HTTP/1.1" 200 -
+2019-07-24 13:36:45,031 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-24 13:36:45,172 -  * Restarting with stat
+2019-07-24 13:36:45,818 -  * Debugger is active!
+2019-07-24 13:36:45,819 -  * Debugger PIN: 447-554-036
+2019-07-24 14:55:10,955 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-24 14:55:10,956 -  * Restarting with stat
+2019-07-24 14:55:11,444 -  * Debugger is active!
+2019-07-24 14:55:11,444 -  * Debugger PIN: 447-554-036
+2019-07-24 14:55:16,025 - 127.0.0.1 - - [24/Jul/2019 14:55:16] "GET / HTTP/1.1" 200 -
+2019-07-24 14:56:30,341 - 127.0.0.1 - - [24/Jul/2019 14:56:30] "POST /generate HTTP/1.1" 500 -
+2019-07-24 14:57:19,157 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-24 14:57:19,231 -  * Restarting with stat
+2019-07-24 14:57:19,682 -  * Debugger is active!
+2019-07-24 14:57:19,683 -  * Debugger PIN: 447-554-036
+2019-07-24 15:00:02,499 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-24 15:00:02,501 -  * Restarting with stat
+2019-07-24 15:00:02,945 -  * Debugger is active!
+2019-07-24 15:00:02,946 -  * Debugger PIN: 447-554-036
+2019-07-24 15:00:06,766 - 127.0.0.1 - - [24/Jul/2019 15:00:06] "GET / HTTP/1.1" 200 -
+2019-07-24 15:00:51,956 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
+2019-07-24 15:00:51,957 - Pem file not created: local variable 'pem' referenced before assignment
+2019-07-24 15:00:51,957 - 127.0.0.1 - - [24/Jul/2019 15:00:51] "POST /generate HTTP/1.1" 200 -
+2019-07-24 15:03:37,480 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-24 15:03:37,482 -  * Restarting with stat
+2019-07-24 15:03:39,000 -  * Debugger is active!
+2019-07-24 15:03:39,001 -  * Debugger PIN: 447-554-036
+2019-07-24 15:03:40,526 - 127.0.0.1 - - [24/Jul/2019 15:03:40] "GET / HTTP/1.1" 200 -
+2019-07-24 15:06:26,706 - Unable to retrieve error. Operation timeout: Message: 
+
+2019-07-24 15:06:26,708 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
+2019-07-24 15:06:26,710 - Pem file not created: local variable 'pem' referenced before assignment
+2019-07-24 15:06:26,713 - 127.0.0.1 - - [24/Jul/2019 15:06:26] "POST /generate HTTP/1.1" 200 -
+2019-07-24 15:07:37,794 - 127.0.0.1 - - [24/Jul/2019 15:07:37] "GET / HTTP/1.1" 200 -
+2019-07-24 15:10:15,859 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
+2019-07-24 15:10:15,860 - Pem file not created: local variable 'pem' referenced before assignment
+2019-07-24 15:10:15,861 - 127.0.0.1 - - [24/Jul/2019 15:10:15] "POST /generate HTTP/1.1" 200 -
+2019-07-24 15:15:23,341 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-24 15:15:23,440 -  * Restarting with stat
+2019-07-24 15:15:24,956 -  * Debugger is active!
+2019-07-24 15:15:24,957 -  * Debugger PIN: 447-554-036
+2019-07-24 15:15:31,892 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-24 15:15:31,895 -  * Restarting with stat
+2019-07-24 15:15:33,480 -  * Debugger is active!
+2019-07-24 15:15:33,481 -  * Debugger PIN: 447-554-036
+2019-07-24 15:15:34,519 - 127.0.0.1 - - [24/Jul/2019 15:15:34] "GET / HTTP/1.1" 200 -
+2019-07-24 15:16:52,708 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
+2019-07-24 15:16:52,709 - Pem file not created: local variable 'pem' referenced before assignment
+2019-07-24 15:16:52,711 - 127.0.0.1 - - [24/Jul/2019 15:16:52] "POST /generate HTTP/1.1" 200 -

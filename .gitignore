@@ -4,3 +4,4 @@ env
 .idea/
 venv/
 *.pem
+*.p12
