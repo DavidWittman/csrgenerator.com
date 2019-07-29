@@ -1,59 +1,631 @@
-2019-07-24 13:27:51,470 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-24 13:27:51,472 -  * Restarting with stat
-2019-07-24 13:27:51,930 -  * Debugger is active!
-2019-07-24 13:27:51,930 -  * Debugger PIN: 447-554-036
-2019-07-24 13:27:55,533 - 127.0.0.1 - - [24/Jul/2019 13:27:55] "GET / HTTP/1.1" 200 -
-2019-07-24 13:28:31,539 - Unable to retrieve error message: Message: no such element: Unable to locate element: {"method":"css selector","selector":".iceMsgsError"}
-  (Session info: chrome=75.0.3770.142)
+2019-07-25 17:04:33,317 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 17:04:33,322 -  * Restarting with stat
+2019-07-25 17:04:35,000 -  * Debugger is active!
+2019-07-25 17:04:35,003 -  * Debugger PIN: 447-554-036
+2019-07-25 17:04:35,059 - 127.0.0.1 - - [25/Jul/2019 17:04:35] "GET / HTTP/1.1" 200 -
+2019-07-25 17:06:09,814 - 127.0.0.1 - - [25/Jul/2019 17:06:09] "POST /generate HTTP/1.1" 412 -
+2019-07-25 17:24:57,971 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 17:24:57,973 -  * Restarting with stat
+2019-07-25 17:24:58,544 -  * Debugger is active!
+2019-07-25 17:24:58,545 -  * Debugger PIN: 447-554-036
+2019-07-25 17:28:15,010 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 17:28:15,011 -  * Restarting with stat
+2019-07-25 17:28:15,472 -  * Debugger is active!
+2019-07-25 17:28:15,473 -  * Debugger PIN: 447-554-036
+2019-07-25 17:28:21,674 - 127.0.0.1 - - [25/Jul/2019 17:28:21] "GET / HTTP/1.1" 200 -
+2019-07-25 17:29:10,176 - 127.0.0.1 - - [25/Jul/2019 17:29:10] "POST /generate HTTP/1.1" 412 -
+2019-07-25 17:29:35,807 - 127.0.0.1 - - [25/Jul/2019 17:29:35] "GET /user_error/ HTTP/1.1" 404 -
+2019-07-25 17:33:18,594 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-25 17:33:18,685 -  * Restarting with stat
+2019-07-25 17:33:19,523 -  * Debugger is active!
+2019-07-25 17:33:19,524 -  * Debugger PIN: 447-554-036
+2019-07-25 17:33:29,492 - 127.0.0.1 - - [25/Jul/2019 17:33:29] "GET  HTTP/1.1" 308 -
+2019-07-25 17:33:29,518 - 127.0.0.1 - - [25/Jul/2019 17:33:29] "GET / HTTP/1.1" 200 -
+2019-07-25 21:03:50,966 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-07-25 21:04:24,266 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 21:04:24,279 -  * Restarting with stat
+2019-07-25 21:04:24,736 -  * Debugger is active!
+2019-07-25 21:04:24,753 -  * Debugger PIN: 447-554-036
+2019-07-25 21:04:33,647 - 127.0.0.1 - - [25/Jul/2019 21:04:33] "GET / HTTP/1.1" 200 -
+2019-07-25 21:04:33,732 - 127.0.0.1 - - [25/Jul/2019 21:04:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-25 21:04:33,746 - 127.0.0.1 - - [25/Jul/2019 21:04:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-25 21:04:33,756 - 127.0.0.1 - - [25/Jul/2019 21:04:33] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-25 21:04:33,782 - 127.0.0.1 - - [25/Jul/2019 21:04:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-25 21:04:48,785 - 127.0.0.1 - - [25/Jul/2019 21:04:48] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:05:47,568 - 127.0.0.1 - - [25/Jul/2019 21:05:47] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:05:56,633 - 127.0.0.1 - - [25/Jul/2019 21:05:56] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:06:10,837 - 127.0.0.1 - - [25/Jul/2019 21:06:10] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:06:10,868 - 127.0.0.1 - - [25/Jul/2019 21:06:10] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-25 21:06:10,875 - 127.0.0.1 - - [25/Jul/2019 21:06:10] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-25 21:06:10,885 - 127.0.0.1 - - [25/Jul/2019 21:06:10] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-25 21:06:10,887 - 127.0.0.1 - - [25/Jul/2019 21:06:10] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-25 21:06:24,054 - 127.0.0.1 - - [25/Jul/2019 21:06:24] "GET /u HTTP/1.1" 404 -
+2019-07-25 21:06:29,087 - 127.0.0.1 - - [25/Jul/2019 21:06:29] "GET / HTTP/1.1" 200 -
+2019-07-25 21:06:39,727 - 127.0.0.1 - - [25/Jul/2019 21:06:39] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:07:14,042 - 127.0.0.1 - - [25/Jul/2019 21:07:14] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:07:31,905 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 21:07:31,908 -  * Restarting with stat
+2019-07-25 21:07:33,691 -  * Debugger is active!
+2019-07-25 21:07:33,692 -  * Debugger PIN: 447-554-036
+2019-07-25 21:07:36,389 - 127.0.0.1 - - [25/Jul/2019 21:07:36] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:07:41,613 - 127.0.0.1 - - [25/Jul/2019 21:07:41] "GET / HTTP/1.1" 200 -
+2019-07-25 21:07:50,878 - 127.0.0.1 - - [25/Jul/2019 21:07:50] "GET /user-error/ HTTP/1.1" 404 -
+2019-07-25 21:10:01,166 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 21:10:01,167 -  * Restarting with stat
+2019-07-25 21:10:01,629 -  * Debugger is active!
+2019-07-25 21:10:01,630 -  * Debugger PIN: 447-554-036
+2019-07-25 21:11:13,169 - 127.0.0.1 - - [25/Jul/2019 21:11:13] "GET / HTTP/1.1" 200 -
+2019-07-25 21:15:39,431 - 127.0.0.1 - - [25/Jul/2019 21:15:39] "POST /generate HTTP/1.1" 412 -
+2019-07-25 21:17:33,813 - 192.168.100.13 - - [25/Jul/2019 21:17:33] "GET / HTTP/1.1" 200 -
+2019-07-25 21:17:33,878 - 192.168.100.13 - - [25/Jul/2019 21:17:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-25 21:17:33,889 - 192.168.100.13 - - [25/Jul/2019 21:17:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-25 21:17:33,892 - 192.168.100.13 - - [25/Jul/2019 21:17:33] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-25 21:17:33,903 - 192.168.100.13 - - [25/Jul/2019 21:17:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-25 21:17:34,631 - 192.168.100.13 - - [25/Jul/2019 21:17:34] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-07-25 21:23:24,621 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 21:23:24,624 -  * Restarting with stat
+2019-07-25 21:23:26,240 -  * Debugger is active!
+2019-07-25 21:23:26,242 -  * Debugger PIN: 447-554-036
+2019-07-25 21:24:35,434 - 127.0.0.1 - - [25/Jul/2019 21:24:35] "GET / HTTP/1.1" 200 -
+2019-07-25 21:29:10,300 - 127.0.0.1 - - [25/Jul/2019 21:29:10] "POST /generate HTTP/1.1" 412 -
+2019-07-25 21:30:45,165 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-25 21:30:45,316 -  * Restarting with stat
+2019-07-25 21:30:47,774 -  * Debugger is active!
+2019-07-25 21:30:47,776 -  * Debugger PIN: 447-554-036
+2019-07-25 21:30:49,995 - 127.0.0.1 - - [25/Jul/2019 21:30:49] "GET / HTTP/1.1" 200 -
+2019-07-25 21:31:48,985 - 127.0.0.1 - - [25/Jul/2019 21:31:48] "POST /generate HTTP/1.1" 412 -
+2019-07-25 21:39:14,352 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 21:39:14,353 -  * Restarting with stat
+2019-07-25 21:39:14,819 -  * Debugger is active!
+2019-07-25 21:39:14,819 -  * Debugger PIN: 447-554-036
+2019-07-25 21:39:21,626 - 127.0.0.1 - - [25/Jul/2019 21:39:21] "GET / HTTP/1.1" 200 -
+2019-07-25 21:40:56,458 - Unable to retrieve error. Operation timeout: Message: 
 
-2019-07-24 13:28:31,540 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
-2019-07-24 13:28:31,540 - Pem file not created: local variable 'pem' referenced before assignment
-2019-07-24 13:28:31,541 - 127.0.0.1 - - [24/Jul/2019 13:28:31] "POST /generate HTTP/1.1" 200 -
-2019-07-24 13:36:45,031 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
-2019-07-24 13:36:45,172 -  * Restarting with stat
-2019-07-24 13:36:45,818 -  * Debugger is active!
-2019-07-24 13:36:45,819 -  * Debugger PIN: 447-554-036
-2019-07-24 14:55:10,955 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-24 14:55:10,956 -  * Restarting with stat
-2019-07-24 14:55:11,444 -  * Debugger is active!
-2019-07-24 14:55:11,444 -  * Debugger PIN: 447-554-036
-2019-07-24 14:55:16,025 - 127.0.0.1 - - [24/Jul/2019 14:55:16] "GET / HTTP/1.1" 200 -
-2019-07-24 14:56:30,341 - 127.0.0.1 - - [24/Jul/2019 14:56:30] "POST /generate HTTP/1.1" 500 -
-2019-07-24 14:57:19,157 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
-2019-07-24 14:57:19,231 -  * Restarting with stat
-2019-07-24 14:57:19,682 -  * Debugger is active!
-2019-07-24 14:57:19,683 -  * Debugger PIN: 447-554-036
-2019-07-24 15:00:02,499 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-24 15:00:02,501 -  * Restarting with stat
-2019-07-24 15:00:02,945 -  * Debugger is active!
-2019-07-24 15:00:02,946 -  * Debugger PIN: 447-554-036
-2019-07-24 15:00:06,766 - 127.0.0.1 - - [24/Jul/2019 15:00:06] "GET / HTTP/1.1" 200 -
-2019-07-24 15:00:51,956 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
-2019-07-24 15:00:51,957 - Pem file not created: local variable 'pem' referenced before assignment
-2019-07-24 15:00:51,957 - 127.0.0.1 - - [24/Jul/2019 15:00:51] "POST /generate HTTP/1.1" 200 -
-2019-07-24 15:03:37,480 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-24 15:03:37,482 -  * Restarting with stat
-2019-07-24 15:03:39,000 -  * Debugger is active!
-2019-07-24 15:03:39,001 -  * Debugger PIN: 447-554-036
-2019-07-24 15:03:40,526 - 127.0.0.1 - - [24/Jul/2019 15:03:40] "GET / HTTP/1.1" 200 -
-2019-07-24 15:06:26,706 - Unable to retrieve error. Operation timeout: Message: 
+2019-07-25 21:40:56,462 - 127.0.0.1 - - [25/Jul/2019 21:40:56] "POST /generate HTTP/1.1" 500 -
+2019-07-25 21:47:59,886 - 127.0.0.1 - - [25/Jul/2019 21:47:59] "GET / HTTP/1.1" 200 -
+2019-07-25 21:49:33,116 - Unable to retrieve error. Operation timeout: Message: 
 
-2019-07-24 15:06:26,708 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
-2019-07-24 15:06:26,710 - Pem file not created: local variable 'pem' referenced before assignment
-2019-07-24 15:06:26,713 - 127.0.0.1 - - [24/Jul/2019 15:06:26] "POST /generate HTTP/1.1" 200 -
-2019-07-24 15:07:37,794 - 127.0.0.1 - - [24/Jul/2019 15:07:37] "GET / HTTP/1.1" 200 -
-2019-07-24 15:10:15,859 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
-2019-07-24 15:10:15,860 - Pem file not created: local variable 'pem' referenced before assignment
-2019-07-24 15:10:15,861 - 127.0.0.1 - - [24/Jul/2019 15:10:15] "POST /generate HTTP/1.1" 200 -
-2019-07-24 15:15:23,341 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
-2019-07-24 15:15:23,440 -  * Restarting with stat
-2019-07-24 15:15:24,956 -  * Debugger is active!
-2019-07-24 15:15:24,957 -  * Debugger PIN: 447-554-036
-2019-07-24 15:15:31,892 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
-2019-07-24 15:15:31,895 -  * Restarting with stat
-2019-07-24 15:15:33,480 -  * Debugger is active!
-2019-07-24 15:15:33,481 -  * Debugger PIN: 447-554-036
-2019-07-24 15:15:34,519 - 127.0.0.1 - - [24/Jul/2019 15:15:34] "GET / HTTP/1.1" 200 -
-2019-07-24 15:16:52,708 - Could not read pem file. Make sure file exists and you have the right permission: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/ATU1-AFRINIC.pem'
-2019-07-24 15:16:52,709 - Pem file not created: local variable 'pem' referenced before assignment
-2019-07-24 15:16:52,711 - 127.0.0.1 - - [24/Jul/2019 15:16:52] "POST /generate HTTP/1.1" 200 -
+2019-07-25 21:49:33,118 - 127.0.0.1 - - [25/Jul/2019 21:49:33] "POST /generate HTTP/1.1" 500 -
+2019-07-25 21:51:27,118 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 21:51:27,121 -  * Restarting with stat
+2019-07-25 21:51:28,623 -  * Debugger is active!
+2019-07-25 21:51:28,625 -  * Debugger PIN: 447-554-036
+2019-07-25 21:51:31,000 - 127.0.0.1 - - [25/Jul/2019 21:51:31] "GET / HTTP/1.1" 200 -
+2019-07-25 21:53:25,707 - 127.0.0.1 - - [25/Jul/2019 21:53:25] "POST /generate HTTP/1.1" 200 -
+2019-07-25 21:54:23,530 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-25 21:54:23,644 -  * Restarting with stat
+2019-07-25 21:54:25,701 -  * Debugger is active!
+2019-07-25 21:54:25,702 -  * Debugger PIN: 447-554-036
+2019-07-25 21:55:27,009 - 127.0.0.1 - - [25/Jul/2019 21:55:27] "GET / HTTP/1.1" 200 -
+2019-07-25 21:57:36,263 - Unable to retrieve error. Operation timeout: Message: 
+
+2019-07-25 21:58:00,391 - 127.0.0.1 - - [25/Jul/2019 21:58:00] "POST /generate HTTP/1.1" 500 -
+2019-07-25 22:23:21,058 - 127.0.0.1 - - [25/Jul/2019 22:23:21] "GET / HTTP/1.1" 200 -
+2019-07-25 23:00:30,498 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-25 23:00:30,502 -  * Restarting with stat
+2019-07-25 23:00:30,970 -  * Debugger is active!
+2019-07-25 23:00:30,971 -  * Debugger PIN: 447-554-036
+2019-07-25 23:00:34,552 - 127.0.0.1 - - [25/Jul/2019 23:00:34] "GET / HTTP/1.1" 200 -
+2019-07-25 23:02:00,090 - Unable to retrieve error. Operation timeout: Message: 
+
+2019-07-25 23:02:00,094 - 127.0.0.1 - - [25/Jul/2019 23:02:00] "POST /generate HTTP/1.1" 500 -
+2019-07-26 00:21:13,465 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 00:21:13,487 -  * Restarting with stat
+2019-07-26 00:21:13,989 -  * Debugger is active!
+2019-07-26 00:21:13,990 -  * Debugger PIN: 447-554-036
+2019-07-26 00:21:16,363 - 127.0.0.1 - - [26/Jul/2019 00:21:16] "GET / HTTP/1.1" 200 -
+2019-07-26 00:23:10,881 - 127.0.0.1 - - [26/Jul/2019 00:23:10] "POST /generate HTTP/1.1" 200 -
+2019-07-26 09:26:31,828 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 09:26:31,864 -  * Restarting with stat
+2019-07-26 09:26:33,203 -  * Debugger is active!
+2019-07-26 09:26:33,282 -  * Debugger PIN: 447-554-036
+2019-07-26 09:26:58,243 - 127.0.0.1 - - [26/Jul/2019 09:26:58] "GET / HTTP/1.1" 200 -
+2019-07-26 09:26:58,332 - 127.0.0.1 - - [26/Jul/2019 09:26:58] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-26 09:26:58,342 - 127.0.0.1 - - [26/Jul/2019 09:26:58] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-26 09:26:58,359 - 127.0.0.1 - - [26/Jul/2019 09:26:58] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-26 09:26:58,371 - 127.0.0.1 - - [26/Jul/2019 09:26:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-26 09:29:15,388 - 127.0.0.1 - - [26/Jul/2019 09:29:15] "POST /generate HTTP/1.1" 200 -
+2019-07-26 09:31:28,717 - Unable to retrieve error. Operation timeout: Message: 
+
+2019-07-26 09:31:28,720 - 127.0.0.1 - - [26/Jul/2019 09:31:28] "POST /generate HTTP/1.1" 200 -
+2019-07-26 09:32:43,230 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 09:32:43,627 -  * Restarting with stat
+2019-07-26 09:32:45,624 -  * Debugger is active!
+2019-07-26 09:32:45,642 -  * Debugger PIN: 447-554-036
+2019-07-26 09:51:03,173 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 09:51:03,181 -  * Restarting with stat
+2019-07-26 09:51:06,043 -  * Debugger is active!
+2019-07-26 09:51:06,046 -  * Debugger PIN: 447-554-036
+2019-07-26 09:51:14,054 - 127.0.0.1 - - [26/Jul/2019 09:51:14] "GET / HTTP/1.1" 200 -
+2019-07-26 09:52:09,836 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 09:52:09,838 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 09:52:09,850 - 127.0.0.1 - - [26/Jul/2019 09:52:09] "POST /generate HTTP/1.1" 200 -
+2019-07-26 09:54:52,396 - 127.0.0.1 - - [26/Jul/2019 09:54:52] "GET / HTTP/1.1" 200 -
+2019-07-26 09:54:52,452 - 127.0.0.1 - - [26/Jul/2019 09:54:52] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-26 09:54:52,453 - 127.0.0.1 - - [26/Jul/2019 09:54:52] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-26 09:54:52,458 - 127.0.0.1 - - [26/Jul/2019 09:54:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-26 09:54:52,468 - 127.0.0.1 - - [26/Jul/2019 09:54:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-26 09:55:24,879 - 127.0.0.1 - - [26/Jul/2019 09:55:24] "POST /generate HTTP/1.1" 500 -
+2019-07-26 10:15:56,149 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 10:15:56,152 -  * Restarting with stat
+2019-07-26 10:15:57,655 -  * Debugger is active!
+2019-07-26 10:15:57,656 -  * Debugger PIN: 447-554-036
+2019-07-26 10:16:03,351 - 127.0.0.1 - - [26/Jul/2019 10:16:03] "GET / HTTP/1.1" 200 -
+2019-07-26 10:16:42,511 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 10:16:42,512 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 10:16:42,520 - 127.0.0.1 - - [26/Jul/2019 10:16:42] "POST /generate HTTP/1.1" 200 -
+2019-07-26 10:17:23,371 - 127.0.0.1 - - [26/Jul/2019 10:17:23] "GET / HTTP/1.1" 200 -
+2019-07-26 10:19:30,049 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 10:19:38,057 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 10:20:28,368 - 127.0.0.1 - - [26/Jul/2019 10:20:28] "POST /generate HTTP/1.1" 200 -
+2019-07-26 10:22:41,698 - 127.0.0.1 - - [26/Jul/2019 10:22:41] "GET / HTTP/1.1" 200 -
+2019-07-26 10:24:24,873 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 10:24:24,874 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 10:24:24,876 - 127.0.0.1 - - [26/Jul/2019 10:24:24] "POST /generate HTTP/1.1" 200 -
+2019-07-26 10:25:08,724 - 127.0.0.1 - - [26/Jul/2019 10:25:08] "GET / HTTP/1.1" 200 -
+2019-07-26 10:38:23,161 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 10:38:23,164 -  * Restarting with stat
+2019-07-26 10:38:24,594 -  * Debugger is active!
+2019-07-26 10:38:24,596 -  * Debugger PIN: 447-554-036
+2019-07-26 10:40:17,749 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 10:40:34,214 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 10:41:02,742 - 127.0.0.1 - - [26/Jul/2019 10:41:02] "POST /generate HTTP/1.1" 200 -
+2019-07-26 10:41:42,572 - 127.0.0.1 - - [26/Jul/2019 10:41:42] "GET /certificate/ATU1-AFRINIC.pem HTTP/1.1" 404 -
+2019-07-26 10:43:39,148 - 127.0.0.1 - - [26/Jul/2019 10:43:39] "GET /certificate/ATU1-AFRINIC.p12 HTTP/1.1" 200 -
+2019-07-26 10:45:28,547 - 127.0.0.1 - - [26/Jul/2019 10:45:28] "GET / HTTP/1.1" 200 -
+2019-07-26 10:48:03,139 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 10:48:03,339 -  * Restarting with stat
+2019-07-26 10:48:04,796 -  * Debugger is active!
+2019-07-26 10:48:04,798 -  * Debugger PIN: 447-554-036
+2019-07-26 10:48:15,258 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 10:48:15,261 -  * Restarting with stat
+2019-07-26 10:48:16,823 -  * Debugger is active!
+2019-07-26 10:48:16,825 -  * Debugger PIN: 447-554-036
+2019-07-26 10:50:03,920 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 10:50:03,922 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 10:50:03,981 - 127.0.0.1 - - [26/Jul/2019 10:50:03] "POST /generate HTTP/1.1" 200 -
+2019-07-26 10:50:26,629 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 10:50:26,748 -  * Restarting with stat
+2019-07-26 10:50:28,424 -  * Debugger is active!
+2019-07-26 10:50:28,425 -  * Debugger PIN: 447-554-036
+2019-07-26 10:50:33,101 - 127.0.0.1 - - [26/Jul/2019 10:50:33] "GET / HTTP/1.1" 200 -
+2019-07-26 10:52:16,468 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 10:52:16,475 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 10:52:16,487 - 127.0.0.1 - - [26/Jul/2019 10:52:16] "POST /generate HTTP/1.1" 200 -
+2019-07-26 11:16:37,209 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 11:16:37,212 -  * Restarting with stat
+2019-07-26 11:16:38,793 -  * Debugger is active!
+2019-07-26 11:16:38,794 -  * Debugger PIN: 447-554-036
+2019-07-26 11:16:43,246 - 127.0.0.1 - - [26/Jul/2019 11:16:43] "GET / HTTP/1.1" 200 -
+2019-07-26 11:17:45,275 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 11:17:45,382 -  * Restarting with stat
+2019-07-26 11:17:47,250 -  * Debugger is active!
+2019-07-26 11:17:47,251 -  * Debugger PIN: 447-554-036
+2019-07-26 11:17:51,527 - 127.0.0.1 - - [26/Jul/2019 11:17:51] "GET / HTTP/1.1" 200 -
+2019-07-26 11:19:16,454 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 11:19:22,173 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 11:26:25,810 - 127.0.0.1 - - [26/Jul/2019 11:26:25] "POST /generate HTTP/1.1" 200 -
+2019-07-26 11:36:09,198 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 11:36:09,201 -  * Restarting with stat
+2019-07-26 11:36:10,647 -  * Debugger is active!
+2019-07-26 11:36:10,649 -  * Debugger PIN: 447-554-036
+2019-07-26 11:36:12,677 - 127.0.0.1 - - [26/Jul/2019 11:36:12] "GET / HTTP/1.1" 200 -
+2019-07-26 11:37:06,922 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 11:37:08,968 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 11:37:09,388 - 127.0.0.1 - - [26/Jul/2019 11:37:09] "POST /generate HTTP/1.1" 302 -
+2019-07-26 11:37:09,412 - 127.0.0.1 - - [26/Jul/2019 11:37:09] "GET /server_error.html HTTP/1.1" 404 -
+2019-07-26 11:37:48,654 - 127.0.0.1 - - [26/Jul/2019 11:37:48] "GET /server_error.html HTTP/1.1" 404 -
+2019-07-26 11:39:06,644 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 11:39:06,734 -  * Restarting with stat
+2019-07-26 11:41:03,031 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 11:41:03,033 -  * Restarting with stat
+2019-07-26 11:41:04,481 -  * Debugger is active!
+2019-07-26 11:41:04,482 -  * Debugger PIN: 447-554-036
+2019-07-26 11:41:07,981 - 127.0.0.1 - - [26/Jul/2019 11:41:07] "GET / HTTP/1.1" 200 -
+2019-07-26 11:41:52,660 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 11:41:54,583 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 11:41:55,003 - 127.0.0.1 - - [26/Jul/2019 11:41:55] "POST /generate HTTP/1.1" 302 -
+2019-07-26 11:41:55,021 - 127.0.0.1 - - [26/Jul/2019 11:41:55] "GET /server-error.html HTTP/1.1" 404 -
+2019-07-26 11:42:12,342 - 127.0.0.1 - - [26/Jul/2019 11:42:12] "GET /server-error.html HTTP/1.1" 404 -
+2019-07-26 11:42:44,735 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 11:42:44,860 -  * Restarting with stat
+2019-07-26 11:42:46,432 -  * Debugger is active!
+2019-07-26 11:42:46,433 -  * Debugger PIN: 447-554-036
+2019-07-26 11:42:49,751 - 127.0.0.1 - - [26/Jul/2019 11:42:49] "GET / HTTP/1.1" 200 -
+2019-07-26 11:42:49,801 - 127.0.0.1 - - [26/Jul/2019 11:42:49] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-26 11:42:49,815 - 127.0.0.1 - - [26/Jul/2019 11:42:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-26 11:42:49,827 - 127.0.0.1 - - [26/Jul/2019 11:42:49] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-26 11:42:49,828 - 127.0.0.1 - - [26/Jul/2019 11:42:49] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-26 11:43:38,305 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 11:43:40,277 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 11:43:40,647 - 127.0.0.1 - - [26/Jul/2019 11:43:40] "POST /generate HTTP/1.1" 302 -
+2019-07-26 11:43:40,660 - 127.0.0.1 - - [26/Jul/2019 11:43:40] "GET /server-error HTTP/1.1" 200 -
+2019-07-26 11:46:17,216 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 11:46:17,307 -  * Restarting with stat
+2019-07-26 11:46:19,041 -  * Debugger is active!
+2019-07-26 11:46:19,044 -  * Debugger PIN: 447-554-036
+2019-07-26 11:46:23,387 - 127.0.0.1 - - [26/Jul/2019 11:46:23] "GET / HTTP/1.1" 200 -
+2019-07-26 11:47:22,897 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 11:47:26,936 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 11:47:28,609 - 127.0.0.1 - - [26/Jul/2019 11:47:28] "POST /generate HTTP/1.1" 302 -
+2019-07-26 11:47:28,632 - 127.0.0.1 - - [26/Jul/2019 11:47:28] "GET /server-error HTTP/1.1" 200 -
+2019-07-26 11:58:18,493 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-26 11:58:18,495 -  * Restarting with stat
+2019-07-26 11:58:19,657 -  * Debugger is active!
+2019-07-26 11:58:19,659 -  * Debugger PIN: 447-554-036
+2019-07-26 11:58:21,566 - 127.0.0.1 - - [26/Jul/2019 11:58:21] "GET / HTTP/1.1" 200 -
+2019-07-26 11:59:10,198 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-26 11:59:10,199 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-26 11:59:10,201 - 127.0.0.1 - - [26/Jul/2019 11:59:10] "POST /generate HTTP/1.1" 302 -
+2019-07-26 11:59:10,222 - 127.0.0.1 - - [26/Jul/2019 11:59:10] "GET /server-error HTTP/1.1" 200 -
+2019-07-26 12:09:42,892 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-26 12:09:43,001 -  * Restarting with stat
+2019-07-26 12:09:43,606 -  * Debugger is active!
+2019-07-26 12:09:43,607 -  * Debugger PIN: 447-554-036
+2019-07-27 17:23:08,007 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 17:23:08,020 -  * Restarting with stat
+2019-07-27 17:23:08,509 -  * Debugger is active!
+2019-07-27 17:23:08,605 -  * Debugger PIN: 447-554-036
+2019-07-27 17:23:18,008 - 127.0.0.1 - - [27/Jul/2019 17:23:18] "GET / HTTP/1.1" 200 -
+2019-07-27 17:23:18,069 - 127.0.0.1 - - [27/Jul/2019 17:23:18] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-27 17:23:18,076 - 127.0.0.1 - - [27/Jul/2019 17:23:18] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-27 17:23:18,085 - 127.0.0.1 - - [27/Jul/2019 17:23:18] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-27 17:23:18,100 - 127.0.0.1 - - [27/Jul/2019 17:23:18] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-27 17:24:30,305 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-27 17:24:30,305 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-27 17:24:30,381 - 127.0.0.1 - - [27/Jul/2019 17:24:30] "POST /generate HTTP/1.1" 500 -
+2019-07-27 17:26:22,176 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-27 17:26:22,287 -  * Restarting with stat
+2019-07-27 17:26:22,865 -  * Debugger is active!
+2019-07-27 17:26:22,866 -  * Debugger PIN: 447-554-036
+2019-07-27 17:27:09,989 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 17:27:09,990 -  * Restarting with stat
+2019-07-27 17:27:10,449 -  * Debugger is active!
+2019-07-27 17:27:10,450 -  * Debugger PIN: 447-554-036
+2019-07-27 17:27:13,623 - 127.0.0.1 - - [27/Jul/2019 17:27:13] "GET / HTTP/1.1" 200 -
+2019-07-27 17:28:15,863 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-27 17:28:15,864 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-27 17:28:15,875 - 127.0.0.1 - - [27/Jul/2019 17:28:15] "POST /generate HTTP/1.1" 500 -
+2019-07-27 17:30:26,019 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-27 17:30:26,100 -  * Restarting with stat
+2019-07-27 17:30:26,817 -  * Debugger is active!
+2019-07-27 17:30:26,818 -  * Debugger PIN: 447-554-036
+2019-07-27 17:30:38,297 - 127.0.0.1 - - [27/Jul/2019 17:30:38] "GET / HTTP/1.1" 200 -
+2019-07-27 17:31:18,522 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-27 17:31:18,522 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-27 17:31:18,533 - 127.0.0.1 - - [27/Jul/2019 17:31:18] "POST /generate HTTP/1.1" 500 -
+2019-07-27 17:31:37,304 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 17:31:37,307 -  * Restarting with stat
+2019-07-27 17:31:38,928 -  * Debugger is active!
+2019-07-27 17:31:38,931 -  * Debugger PIN: 447-554-036
+2019-07-27 17:32:03,517 - 127.0.0.1 - - [27/Jul/2019 17:32:03] "GET / HTTP/1.1" 200 -
+2019-07-27 17:33:21,583 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-27 17:33:30,477 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-27 17:33:37,365 - 127.0.0.1 - - [27/Jul/2019 17:33:37] "POST /generate HTTP/1.1" 500 -
+2019-07-27 17:35:46,071 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 17:35:46,074 -  * Restarting with stat
+2019-07-27 17:35:47,672 -  * Debugger is active!
+2019-07-27 17:35:47,673 -  * Debugger PIN: 447-554-036
+2019-07-27 17:35:52,930 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 17:35:52,931 -  * Restarting with stat
+2019-07-27 17:35:53,388 -  * Debugger is active!
+2019-07-27 17:35:53,389 -  * Debugger PIN: 447-554-036
+2019-07-27 17:36:04,242 - 127.0.0.1 - - [27/Jul/2019 17:36:04] "GET / HTTP/1.1" 200 -
+2019-07-27 17:37:27,240 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-27 17:37:27,240 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-27 17:37:27,254 - 127.0.0.1 - - [27/Jul/2019 17:37:27] "POST /generate HTTP/1.1" 500 -
+2019-07-27 17:37:39,075 - 127.0.0.1 - - [27/Jul/2019 17:37:39] "GET / HTTP/1.1" 200 -
+2019-07-27 17:37:39,121 - 127.0.0.1 - - [27/Jul/2019 17:37:39] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-27 17:37:39,121 - 127.0.0.1 - - [27/Jul/2019 17:37:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-27 17:37:39,128 - 127.0.0.1 - - [27/Jul/2019 17:37:39] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-27 17:37:39,133 - 127.0.0.1 - - [27/Jul/2019 17:37:39] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-27 17:37:40,716 - 127.0.0.1 - - [27/Jul/2019 17:37:40] "GET / HTTP/1.1" 200 -
+2019-07-27 17:37:40,749 - 127.0.0.1 - - [27/Jul/2019 17:37:40] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-27 17:37:40,760 - 127.0.0.1 - - [27/Jul/2019 17:37:40] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-27 17:37:40,761 - 127.0.0.1 - - [27/Jul/2019 17:37:40] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-27 17:37:40,765 - 127.0.0.1 - - [27/Jul/2019 17:37:40] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-27 17:37:41,288 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET / HTTP/1.1" 200 -
+2019-07-27 17:37:41,327 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-27 17:37:41,331 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-27 17:37:41,332 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-27 17:37:41,334 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-27 17:37:41,512 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET / HTTP/1.1" 200 -
+2019-07-27 17:37:41,545 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-27 17:37:41,565 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-27 17:37:41,566 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-27 17:37:41,576 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-27 17:37:41,735 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET / HTTP/1.1" 200 -
+2019-07-27 17:37:41,767 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-27 17:37:41,776 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-27 17:37:41,781 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-27 17:37:41,783 - 127.0.0.1 - - [27/Jul/2019 17:37:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-27 17:38:28,964 - 127.0.0.1 - - [27/Jul/2019 17:38:28] "POST /generate HTTP/1.1" 500 -
+2019-07-27 17:38:28,986 - 127.0.0.1 - - [27/Jul/2019 17:38:28] "GET /undefined HTTP/1.1" 404 -
+2019-07-27 17:49:03,217 - 127.0.0.1 - - [27/Jul/2019 17:49:03] "GET /generate HTTP/1.1" 500 -
+2019-07-27 17:49:03,251 - 127.0.0.1 - - [27/Jul/2019 17:49:03] "GET /generate?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-27 17:49:03,256 - 127.0.0.1 - - [27/Jul/2019 17:49:03] "GET /generate?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-27 17:49:03,263 - 127.0.0.1 - - [27/Jul/2019 17:49:03] "GET /generate?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-27 17:49:03,960 - 127.0.0.1 - - [27/Jul/2019 17:49:03] "GET /generate?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-27 17:49:04,013 - 127.0.0.1 - - [27/Jul/2019 17:49:04] "GET /generate?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-27 17:52:12,595 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-27 17:52:12,668 -  * Restarting with stat
+2019-07-27 17:52:13,101 -  * Debugger is active!
+2019-07-27 17:52:13,102 -  * Debugger PIN: 447-554-036
+2019-07-27 17:53:00,360 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 17:53:00,361 -  * Restarting with stat
+2019-07-27 17:53:00,828 -  * Debugger is active!
+2019-07-27 17:53:00,829 -  * Debugger PIN: 447-554-036
+2019-07-27 17:53:01,296 - 127.0.0.1 - - [27/Jul/2019 17:53:01] "GET /generate HTTP/1.1" 405 -
+2019-07-27 17:53:01,919 - 127.0.0.1 - - [27/Jul/2019 17:53:01] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-27 18:09:44,534 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 18:09:44,535 -  * Restarting with stat
+2019-07-27 18:09:45,008 -  * Debugger is active!
+2019-07-27 18:09:45,009 -  * Debugger PIN: 447-554-036
+2019-07-27 18:09:46,226 - 127.0.0.1 - - [27/Jul/2019 18:09:46] "GET /generate HTTP/1.1" 200 -
+2019-07-27 18:10:00,264 - 127.0.0.1 - - [27/Jul/2019 18:10:00] "GET / HTTP/1.1" 200 -
+2019-07-27 18:14:04,819 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-27 18:14:04,822 -  * Restarting with stat
+2019-07-27 18:14:06,255 -  * Debugger is active!
+2019-07-27 18:14:06,257 -  * Debugger PIN: 447-554-036
+2019-07-27 18:16:20,259 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-27 18:16:24,610 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-27 18:16:31,415 - 127.0.0.1 - - [27/Jul/2019 18:16:31] "POST /generate HTTP/1.1" 302 -
+2019-07-27 18:16:31,458 - 127.0.0.1 - - [27/Jul/2019 18:16:31] "GET /server-error HTTP/1.1" 200 -
+2019-07-27 18:16:31,485 - 127.0.0.1 - - [27/Jul/2019 18:16:31] "GET /undefined HTTP/1.1" 404 -
+2019-07-27 18:16:58,108 - 127.0.0.1 - - [27/Jul/2019 18:16:58] "GET / HTTP/1.1" 200 -
+2019-07-28 13:42:54,889 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-28 13:42:54,896 -  * Restarting with stat
+2019-07-28 13:42:56,382 -  * Debugger is active!
+2019-07-28 13:42:56,403 -  * Debugger PIN: 447-554-036
+2019-07-28 13:43:03,844 - 127.0.0.1 - - [28/Jul/2019 13:43:03] "GET / HTTP/1.1" 200 -
+2019-07-28 13:43:03,953 - 127.0.0.1 - - [28/Jul/2019 13:43:03] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:43:03,962 - 127.0.0.1 - - [28/Jul/2019 13:43:03] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:43:03,982 - 127.0.0.1 - - [28/Jul/2019 13:43:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:43:03,988 - 127.0.0.1 - - [28/Jul/2019 13:43:03] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:44:14,446 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-28 13:44:19,284 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-28 13:44:21,751 - 127.0.0.1 - - [28/Jul/2019 13:44:21] "POST /generate HTTP/1.1" 302 -
+2019-07-28 13:44:21,764 - 127.0.0.1 - - [28/Jul/2019 13:44:21] "GET /server-error HTTP/1.1" 200 -
+2019-07-28 13:44:21,791 - 127.0.0.1 - - [28/Jul/2019 13:44:21] "GET /undefined HTTP/1.1" 404 -
+2019-07-28 13:45:57,515 - 127.0.0.1 - - [28/Jul/2019 13:45:57] "GET / HTTP/1.1" 200 -
+2019-07-28 13:47:15,035 - 127.0.0.1 - - [28/Jul/2019 13:47:15] "POST /generate HTTP/1.1" 500 -
+2019-07-28 13:47:15,058 - 127.0.0.1 - - [28/Jul/2019 13:47:15] "GET /undefined HTTP/1.1" 404 -
+2019-07-28 13:47:56,784 - 127.0.0.1 - - [28/Jul/2019 13:47:56] "GET / HTTP/1.1" 200 -
+2019-07-28 13:49:11,190 - 127.0.0.1 - - [28/Jul/2019 13:49:11] "POST /generate HTTP/1.1" 500 -
+2019-07-28 13:49:11,217 - 127.0.0.1 - - [28/Jul/2019 13:49:11] "GET /undefined HTTP/1.1" 404 -
+2019-07-28 13:49:18,760 - 127.0.0.1 - - [28/Jul/2019 13:49:18] "GET / HTTP/1.1" 200 -
+2019-07-28 13:49:42,561 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-28 13:49:42,670 -  * Restarting with stat
+2019-07-28 13:49:44,400 -  * Debugger is active!
+2019-07-28 13:49:44,402 -  * Debugger PIN: 447-554-036
+2019-07-28 13:49:47,118 - 127.0.0.1 - - [28/Jul/2019 13:49:47] "GET / HTTP/1.1" 200 -
+2019-07-28 13:50:52,922 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-28 13:50:59,281 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-28 13:51:02,229 - 127.0.0.1 - - [28/Jul/2019 13:51:02] "POST /generate HTTP/1.1" 302 -
+2019-07-28 13:51:02,241 - 127.0.0.1 - - [28/Jul/2019 13:51:02] "GET /server-error HTTP/1.1" 200 -
+2019-07-28 13:51:02,268 - 127.0.0.1 - - [28/Jul/2019 13:51:02] "GET /undefined HTTP/1.1" 404 -
+2019-07-28 13:51:44,203 - 127.0.0.1 - - [28/Jul/2019 13:51:44] "GET /undefined HTTP/1.1" 404 -
+2019-07-28 13:51:44,262 - 127.0.0.1 - - [28/Jul/2019 13:51:44] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:44,286 - 127.0.0.1 - - [28/Jul/2019 13:51:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:44,289 - 127.0.0.1 - - [28/Jul/2019 13:51:44] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:44,300 - 127.0.0.1 - - [28/Jul/2019 13:51:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:49,896 - 127.0.0.1 - - [28/Jul/2019 13:51:49] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:50,583 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:50,641 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:50,647 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:50,655 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:50,694 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:50,794 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:50,877 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:50,879 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:50,895 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:50,896 - 127.0.0.1 - - [28/Jul/2019 13:51:50] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:51,005 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:51,101 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:51,110 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:51,117 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:51,123 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:51,221 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:51,280 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:51,286 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:51,304 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:51,313 - 127.0.0.1 - - [28/Jul/2019 13:51:51] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:52,232 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:52,287 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:52,292 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:52,306 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:52,312 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:52,451 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:52,544 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:52,548 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:52,551 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:52,564 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:51:52,667 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET / HTTP/1.1" 200 -
+2019-07-28 13:51:52,734 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 13:51:52,751 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 13:51:52,764 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 13:51:52,764 - 127.0.0.1 - - [28/Jul/2019 13:51:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 13:53:00,793 - 127.0.0.1 - - [28/Jul/2019 13:53:00] "POST /generate HTTP/1.1" 500 -
+2019-07-28 13:59:58,140 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-28 13:59:58,230 -  * Restarting with stat
+2019-07-28 13:59:59,706 -  * Debugger is active!
+2019-07-28 13:59:59,707 -  * Debugger PIN: 447-554-036
+2019-07-28 14:00:08,411 - 127.0.0.1 - - [28/Jul/2019 14:00:08] "GET / HTTP/1.1" 200 -
+2019-07-28 14:00:08,464 - 127.0.0.1 - - [28/Jul/2019 14:00:08] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:00:08,465 - 127.0.0.1 - - [28/Jul/2019 14:00:08] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:00:08,488 - 127.0.0.1 - - [28/Jul/2019 14:00:08] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:00:08,500 - 127.0.0.1 - - [28/Jul/2019 14:00:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:01:42,527 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-28 14:01:42,529 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-28 14:01:42,533 - 127.0.0.1 - - [28/Jul/2019 14:01:42] "POST /generate HTTP/1.1" 302 -
+2019-07-28 14:01:42,548 - 127.0.0.1 - - [28/Jul/2019 14:01:42] "GET /server-error HTTP/1.1" 200 -
+2019-07-28 14:03:32,814 - 127.0.0.1 - - [28/Jul/2019 14:03:32] "GET / HTTP/1.1" 200 -
+2019-07-28 14:03:38,395 - 127.0.0.1 - - [28/Jul/2019 14:03:38] "GET / HTTP/1.1" 200 -
+2019-07-28 14:03:38,434 - 127.0.0.1 - - [28/Jul/2019 14:03:38] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:03:38,463 - 127.0.0.1 - - [28/Jul/2019 14:03:38] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:03:38,475 - 127.0.0.1 - - [28/Jul/2019 14:03:38] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:03:38,477 - 127.0.0.1 - - [28/Jul/2019 14:03:38] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:04:40,879 - 127.0.0.1 - - [28/Jul/2019 14:04:40] "POST /generate HTTP/1.1" 500 -
+2019-07-28 14:06:31,990 - 127.0.0.1 - - [28/Jul/2019 14:06:31] "GET / HTTP/1.1" 200 -
+2019-07-28 14:06:32,037 - 127.0.0.1 - - [28/Jul/2019 14:06:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:06:32,048 - 127.0.0.1 - - [28/Jul/2019 14:06:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:06:32,058 - 127.0.0.1 - - [28/Jul/2019 14:06:32] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:06:32,080 - 127.0.0.1 - - [28/Jul/2019 14:06:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:06:34,440 - 127.0.0.1 - - [28/Jul/2019 14:06:34] "GET / HTTP/1.1" 200 -
+2019-07-28 14:06:34,478 - 127.0.0.1 - - [28/Jul/2019 14:06:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:06:34,509 - 127.0.0.1 - - [28/Jul/2019 14:06:34] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:06:34,514 - 127.0.0.1 - - [28/Jul/2019 14:06:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:06:34,532 - 127.0.0.1 - - [28/Jul/2019 14:06:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:06:35,185 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET / HTTP/1.1" 200 -
+2019-07-28 14:06:35,241 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:06:35,276 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:06:35,281 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:06:35,288 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:06:35,925 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET / HTTP/1.1" 200 -
+2019-07-28 14:06:35,972 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:06:35,996 - 127.0.0.1 - - [28/Jul/2019 14:06:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:06:36,005 - 127.0.0.1 - - [28/Jul/2019 14:06:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:06:36,006 - 127.0.0.1 - - [28/Jul/2019 14:06:36] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:07:34,721 - 127.0.0.1 - - [28/Jul/2019 14:07:34] "POST /generate HTTP/1.1" 500 -
+2019-07-28 14:08:44,920 - 127.0.0.1 - - [28/Jul/2019 14:08:44] "GET / HTTP/1.1" 200 -
+2019-07-28 14:08:44,983 - 127.0.0.1 - - [28/Jul/2019 14:08:44] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:08:44,989 - 127.0.0.1 - - [28/Jul/2019 14:08:44] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:08:44,997 - 127.0.0.1 - - [28/Jul/2019 14:08:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:08:45,004 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:08:45,156 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET / HTTP/1.1" 200 -
+2019-07-28 14:08:45,205 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:08:45,227 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:08:45,234 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:08:45,239 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:08:45,410 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET / HTTP/1.1" 200 -
+2019-07-28 14:08:45,788 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:08:45,802 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:08:45,816 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:08:45,820 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:08:45,877 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET / HTTP/1.1" 200 -
+2019-07-28 14:08:45,989 - 127.0.0.1 - - [28/Jul/2019 14:08:45] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-28 14:08:46,002 - 127.0.0.1 - - [28/Jul/2019 14:08:46] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-28 14:08:46,005 - 127.0.0.1 - - [28/Jul/2019 14:08:46] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-28 14:08:46,017 - 127.0.0.1 - - [28/Jul/2019 14:08:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-28 14:09:37,428 - 127.0.0.1 - - [28/Jul/2019 14:09:37] "POST /generate HTTP/1.1" 500 -
+2019-07-28 14:09:37,586 - 127.0.0.1 - - [28/Jul/2019 14:09:37] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-29 17:02:25,289 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-29 17:02:25,324 -  * Restarting with stat
+2019-07-29 17:02:25,762 -  * Debugger is active!
+2019-07-29 17:02:25,787 -  * Debugger PIN: 447-554-036
+2019-07-29 17:02:38,541 - 127.0.0.1 - - [29/Jul/2019 17:02:38] "GET / HTTP/1.1" 200 -
+2019-07-29 17:02:38,633 - 127.0.0.1 - - [29/Jul/2019 17:02:38] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 17:02:38,634 - 127.0.0.1 - - [29/Jul/2019 17:02:38] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 17:02:38,644 - 127.0.0.1 - - [29/Jul/2019 17:02:38] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 17:02:38,659 - 127.0.0.1 - - [29/Jul/2019 17:02:38] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 17:02:39,943 - 127.0.0.1 - - [29/Jul/2019 17:02:39] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-07-29 17:08:25,434 - 127.0.0.1 - - [29/Jul/2019 17:08:25] "POST /generate HTTP/1.1" 302 -
+2019-07-29 17:08:25,593 - 127.0.0.1 - - [29/Jul/2019 17:08:25] "GET /user-error HTTP/1.1" 500 -
+2019-07-29 17:08:25,638 - 127.0.0.1 - - [29/Jul/2019 17:08:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-29 17:08:25,650 - 127.0.0.1 - - [29/Jul/2019 17:08:25] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-29 17:08:25,714 - 127.0.0.1 - - [29/Jul/2019 17:08:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-29 17:08:25,889 - 127.0.0.1 - - [29/Jul/2019 17:08:25] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-29 17:08:26,043 - 127.0.0.1 - - [29/Jul/2019 17:08:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-29 17:37:38,502 - 127.0.0.1 - - [29/Jul/2019 17:37:38] "GET / HTTP/1.1" 200 -
+2019-07-29 17:38:50,252 - 127.0.0.1 - - [29/Jul/2019 17:38:50] "POST /generate HTTP/1.1" 302 -
+2019-07-29 17:38:50,291 - 127.0.0.1 - - [29/Jul/2019 17:38:50] "GET /user-error HTTP/1.1" 500 -
+2019-07-29 17:38:50,322 - 127.0.0.1 - - [29/Jul/2019 17:38:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-29 17:38:50,324 - 127.0.0.1 - - [29/Jul/2019 17:38:50] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-29 17:38:50,361 - 127.0.0.1 - - [29/Jul/2019 17:38:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-29 17:38:50,551 - 127.0.0.1 - - [29/Jul/2019 17:38:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-29 17:40:17,302 - 127.0.0.1 - - [29/Jul/2019 17:40:17] "GET / HTTP/1.1" 200 -
+2019-07-29 17:41:17,804 - 127.0.0.1 - - [29/Jul/2019 17:41:17] "POST /generate HTTP/1.1" 302 -
+2019-07-29 17:41:17,813 - 127.0.0.1 - - [29/Jul/2019 17:41:17] "GET /user-error HTTP/1.1" 200 -
+2019-07-29 17:42:32,822 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-29 17:42:32,823 -  * Restarting with stat
+2019-07-29 17:42:33,300 -  * Debugger is active!
+2019-07-29 17:42:33,301 -  * Debugger PIN: 447-554-036
+2019-07-29 17:51:40,605 - 127.0.0.1 - - [29/Jul/2019 17:51:40] "GET / HTTP/1.1" 200 -
+2019-07-29 17:52:26,238 - 127.0.0.1 - - [29/Jul/2019 17:52:26] "POST /generate HTTP/1.1" 302 -
+2019-07-29 17:52:26,250 - 127.0.0.1 - - [29/Jul/2019 17:52:26] "GET /user-error HTTP/1.1" 200 -
+2019-07-29 17:54:01,231 - 127.0.0.1 - - [29/Jul/2019 17:54:01] "GET / HTTP/1.1" 200 -
+2019-07-29 17:54:03,719 - 127.0.0.1 - - [29/Jul/2019 17:54:03] "GET / HTTP/1.1" 200 -
+2019-07-29 17:54:03,783 - 127.0.0.1 - - [29/Jul/2019 17:54:03] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 17:54:03,791 - 127.0.0.1 - - [29/Jul/2019 17:54:03] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 17:54:03,792 - 127.0.0.1 - - [29/Jul/2019 17:54:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 17:54:03,794 - 127.0.0.1 - - [29/Jul/2019 17:54:03] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 17:54:04,181 - 127.0.0.1 - - [29/Jul/2019 17:54:04] "GET / HTTP/1.1" 200 -
+2019-07-29 17:54:04,270 - 127.0.0.1 - - [29/Jul/2019 17:54:04] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 17:54:04,284 - 127.0.0.1 - - [29/Jul/2019 17:54:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 17:54:04,297 - 127.0.0.1 - - [29/Jul/2019 17:54:04] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 17:54:04,299 - 127.0.0.1 - - [29/Jul/2019 17:54:04] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 17:54:05,136 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET / HTTP/1.1" 200 -
+2019-07-29 17:54:05,213 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 17:54:05,217 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 17:54:05,231 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 17:54:05,250 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 17:54:05,251 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET / HTTP/1.1" 200 -
+2019-07-29 17:54:05,350 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 17:54:05,366 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 17:54:05,371 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 17:54:05,387 - 127.0.0.1 - - [29/Jul/2019 17:54:05] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 17:54:48,473 - 127.0.0.1 - - [29/Jul/2019 17:54:48] "POST /generate HTTP/1.1" 302 -
+2019-07-29 17:54:48,480 - 127.0.0.1 - - [29/Jul/2019 17:54:48] "GET /user-error HTTP/1.1" 200 -
+2019-07-29 18:03:47,689 - 127.0.0.1 - - [29/Jul/2019 18:03:47] "GET / HTTP/1.1" 200 -
+2019-07-29 18:03:47,716 - 127.0.0.1 - - [29/Jul/2019 18:03:47] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 18:03:47,721 - 127.0.0.1 - - [29/Jul/2019 18:03:47] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 18:03:47,745 - 127.0.0.1 - - [29/Jul/2019 18:03:47] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 18:03:47,746 - 127.0.0.1 - - [29/Jul/2019 18:03:47] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 18:03:48,380 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET / HTTP/1.1" 200 -
+2019-07-29 18:03:48,418 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 18:03:48,427 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 18:03:48,427 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 18:03:48,431 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 18:03:48,913 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET / HTTP/1.1" 200 -
+2019-07-29 18:03:48,957 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 18:03:48,958 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 18:03:48,966 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 18:03:48,970 - 127.0.0.1 - - [29/Jul/2019 18:03:48] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 18:04:41,263 - 127.0.0.1 - - [29/Jul/2019 18:04:41] "POST /generate HTTP/1.1" 302 -
+2019-07-29 18:04:41,273 - 127.0.0.1 - - [29/Jul/2019 18:04:41] "GET /user-error HTTP/1.1" 200 -
+2019-07-29 18:09:06,242 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-29 18:09:06,357 -  * Restarting with stat
+2019-07-29 18:09:07,237 -  * Debugger is active!
+2019-07-29 18:09:07,238 -  * Debugger PIN: 447-554-036
+2019-07-29 18:09:17,245 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-29 18:09:17,246 -  * Restarting with stat
+2019-07-29 18:09:17,702 -  * Debugger is active!
+2019-07-29 18:09:17,703 -  * Debugger PIN: 447-554-036
+2019-07-29 18:09:23,185 - 127.0.0.1 - - [29/Jul/2019 18:09:23] "GET / HTTP/1.1" 200 -
+2019-07-29 18:09:23,221 - 127.0.0.1 - - [29/Jul/2019 18:09:23] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 18:09:23,222 - 127.0.0.1 - - [29/Jul/2019 18:09:23] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 18:09:23,229 - 127.0.0.1 - - [29/Jul/2019 18:09:23] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 18:09:23,232 - 127.0.0.1 - - [29/Jul/2019 18:09:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 18:10:01,122 - 127.0.0.1 - - [29/Jul/2019 18:10:01] "POST /generate HTTP/1.1" 302 -
+2019-07-29 18:10:01,141 - 127.0.0.1 - - [29/Jul/2019 18:10:01] "GET /user-error HTTP/1.1" 200 -
+2019-07-29 18:12:06,296 - 127.0.0.1 - - [29/Jul/2019 18:12:06] "GET / HTTP/1.1" 200 -
+2019-07-29 18:12:53,636 - 127.0.0.1 - - [29/Jul/2019 18:12:53] "POST /generate HTTP/1.1" 302 -
+2019-07-29 18:12:53,644 - 127.0.0.1 - - [29/Jul/2019 18:12:53] "GET /user-error HTTP/1.1" 200 -
+2019-07-29 18:16:26,394 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-29 18:16:26,475 -  * Restarting with stat
+2019-07-29 18:16:27,117 -  * Debugger is active!
+2019-07-29 18:16:27,119 -  * Debugger PIN: 447-554-036
+2019-07-29 18:16:55,485 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-29 18:16:55,637 -  * Restarting with stat
+2019-07-29 18:16:56,413 -  * Debugger is active!
+2019-07-29 18:16:56,414 -  * Debugger PIN: 447-554-036
+2019-07-29 18:16:57,775 - 127.0.0.1 - - [29/Jul/2019 18:16:57] "GET / HTTP/1.1" 200 -
+2019-07-29 18:16:57,818 - 127.0.0.1 - - [29/Jul/2019 18:16:57] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-29 18:16:57,832 - 127.0.0.1 - - [29/Jul/2019 18:16:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-29 18:16:57,838 - 127.0.0.1 - - [29/Jul/2019 18:16:57] "GET /static/js/loadingView.js HTTP/1.1" 200 -
+2019-07-29 18:16:57,839 - 127.0.0.1 - - [29/Jul/2019 18:16:57] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-29 18:17:43,983 - An unexpected error occurred: [('x509 certificate routines', 'X509_check_private_key', 'key values mismatch')]
+2019-07-29 18:17:43,984 - Pem file not created: local variable 'pfx_data' referenced before assignment
+2019-07-29 18:17:43,986 - 127.0.0.1 - - [29/Jul/2019 18:17:43] "POST /generate HTTP/1.1" 302 -
+2019-07-29 18:17:43,993 - 127.0.0.1 - - [29/Jul/2019 18:17:43] "GET /server-error HTTP/1.1" 200 -
+2019-07-29 18:52:08,057 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-29 18:52:08,058 -  * Restarting with stat
+2019-07-29 18:52:08,593 -  * Debugger is active!
+2019-07-29 18:52:08,594 -  * Debugger PIN: 447-554-036
+2019-07-29 18:52:15,886 - 127.0.0.1 - - [29/Jul/2019 18:52:15] "GET /generate HTTP/1.1" 200 -
+2019-07-29 18:55:11,164 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-29 18:55:11,242 -  * Restarting with stat
+2019-07-29 18:55:11,822 -  * Debugger is active!
+2019-07-29 18:55:11,823 -  * Debugger PIN: 447-554-036
+2019-07-29 18:56:03,938 - 127.0.0.1 - - [29/Jul/2019 18:56:03] "GET /generate HTTP/1.1" 200 -
+2019-07-29 18:57:24,523 - 127.0.0.1 - - [29/Jul/2019 18:57:24] "GET / HTTP/1.1" 200 -

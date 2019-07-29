@@ -4,7 +4,7 @@ from __future__ import absolute_import
 import os
 import logging
 import pathlib
-from flask import Flask, request, Response, render_template
+from flask import Flask, request, Response, render_template, send_from_directory, abort, redirect, url_for, make_response, jsonify
 import OpenSSL.crypto as crypt
 from csr import CsrGenerator
 from selenium import webdriver
@@ -18,6 +18,9 @@ app = Flask(__name__)
 directory = os.path.dirname(os.path.abspath(__file__))
 logging.basicConfig(filename=directory + '/logs/enrolment.log', format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
+app.config['P12_PATH'] = directory + '/p12'
+user_errors = []
+server_errors = []
 
 
 @app.route('/')
@@ -32,29 +35,39 @@ def security():
 
 @app.route('/generate', methods=['POST'])
 def generate_csr():
-    csr = CsrGenerator(request.form)
-    response = b'\n'.join([csr.csr, csr.private_key])
     nic_id = request.form['CN']
+
+    csr = CsrGenerator(request.form)
+    # response = b'\n'.join([csr.csr, csr.private_key])
+    # nic_id = request.form['CN']
     password = request.form['password']
     generate_pem(nic_id, password, csr.csr)
     generate_p12(nic_id, password, csr.private_key)
-    return Response(response, mimetype='text/plain')
+
+    if user_errors:
+        return redirect('/user-error')
+
+    elif server_errors:
+        return redirect('/server-error')
+
+    return redirect('/certificate' + nic_id + '.pem')
+    # return Response(response, mimetype='text/plain')
 
 
 def generate_pem(nic_id, password, csr):
     downloads = directory + '/downloads'
-    for file in os.listdir(downloads):
-        file_name = os.path.join(downloads, file)
-        try:
-            if os.path.isfile(file_name):
-                os.unlink(file_name)
-        except OSError as error:
-            print('Unable to delete file:', error)
-            logger.error('Unable to delete file: %s', error)
+    # for file in os.listdir(downloads):
+    #     file_name = os.path.join(downloads, file)
+    #     try:
+    #         if os.path.isfile(file_name):
+    #             os.unlink(file_name)
+    #     except OSError as error:
+    #         print('Unable to delete file:', error)
+    #         logger.error('Unable to delete file: %s', error)
 
     opts = webdriver.ChromeOptions()
     opts.add_argument('--no-sandbox')
-    opts.add_argument('--headless')
+    #  opts.add_argument('--headless')
     opts.add_argument('--disable-dev-shm-usage')
     log_path = directory + '/logs/chromedriver.log'
     prefs = {'download.default_directory': directory + '/downloads'}
@@ -86,29 +99,39 @@ def generate_pem(nic_id, password, csr):
 
     else:
         try:
-            element = WebDriverWait(browser, 15).until(expected_conditions.presence_of_element_located((By.CLASS_NAME, 'iceMsgsError')))
+            element = WebDriverWait(browser, 30).until(expected_conditions.presence_of_element_located((By.CLASS_NAME, 'iceMsgsError')))
             error_msg = element.text
+            browser.implicitly_wait(3)
             browser.close()
             browser.quit()
 
-            if error_msg:
-                return Response(error_msg, mimetype='text/plain')
+            if error_msg not in user_errors:
+                user_errors.append(error_msg)
+            print(user_errors)
 
         except TimeoutException as error:
             print(error)
             logger.error('Unable to retrieve error. Operation timeout: %s', error)
+            server_errors.append(error)
 
         except NoSuchElementException as error:
             print(error)
             logger.error('Unable to retrieve error message: %s', error)
+            server_errors.append(error)
 
-            return Response(error, mimetype='text/plain')
+    if user_errors:
+        # abort(jsonify({'code': 412, 'message': 'You are not authorized to access'}), 412)  # Precondition
+        abort(412, jsonify({'code': 412, 'url': '/user-errors', 'errors': user_errors}))
+    if server_errors:
+        # abort(make_response(jsonify({'code': 500, 'message': 'You are not authorized to access'}), 500))
+        # abort(500, 'Server error occurred', server_errors)
+        abort(500, jsonify({'code': 500, 'url': '/user-errors', 'errors': user_errors}))
 
 
 def generate_p12(nic_id, password, private_key):
     download_path = directory + '/downloads'
     pem_file = download_path + '/' + nic_id + '.pem'
-    output = download_path + '/' + nic_id + '.p12'
+    output = directory + '/p12/' + nic_id + '.p12'
 
     try:
         with open(pem_file, 'rb') as pem_file:
@@ -118,6 +141,7 @@ def generate_p12(nic_id, password, private_key):
     except IOError as error:
         print('Could not read pem file. Make sure file exists and you have the right permission. ', error)
         logger.error('Could not read pem file. Make sure file exists and you have the right permission: %s', error)
+        server_errors.append(error)
 
     try:
         private_key = crypt.load_privatekey(crypt.FILETYPE_PEM, private_key)
@@ -131,6 +155,7 @@ def generate_p12(nic_id, password, private_key):
         except crypt.Error as error:
             print('An unexpected error occurred', error)
             logger.error('An unexpected error occurred: %s', error)
+            server_errors.append(error)
 
         try:
             with open(output, 'wb') as p12_file:
@@ -139,14 +164,62 @@ def generate_p12(nic_id, password, private_key):
         except IOError as error:
             print('Unable to write p12 file ', error)
             logger.error('Unable to write p12 file: %s', error)
+            server_errors.append(error)
 
     except UnboundLocalError as error:
         print('Pem file not created:', error)
         logger.error('Pem file not created: %s', error)
+        server_errors.append(error)
 
     except crypt.Error as error:
         print('An unexpected error occurred while generating p12 file:', error)
         logger.error('An unexpected error occurred while generating p12 file: %s', error)
+        server_errors.append(error)
+
+    return jsonify({'url': '/certificate/' + output})
+
+
+@app.route('/certificate/<file_name>')
+def get_certificate(file_name):
+    if request.form['NC']:
+        try:
+            return send_from_directory(app.config['P12_PATH'], filename=file_name, as_attachment=True)
+
+        except FileNotFoundError:
+            abort(404)
+    else:
+        abort(404)
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+
+@app.errorhandler(500)
+def server_error(e):
+    return render_template('server_error.html'), 500
+
+
+@app.errorhandler(412)
+def user_error(e):
+    # return render_template('user_error.html'), 412
+    return redirect(url_for('show_user_error'))
+
+
+@app.errorhandler(405)
+def method_not_allowed(e):
+    return render_template('405.html')
+
+
+@app.route('/user-error')
+def show_user_error():
+    return render_template('user_error.html', user_errors=user_errors)
+
+
+@app.route('/server-error')
+def show_server_error():
+    return render_template('server_error.html')
 
 
 if __name__ == '__main__':

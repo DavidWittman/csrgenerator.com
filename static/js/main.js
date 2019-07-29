@@ -7,13 +7,36 @@ $(function() {
     });
 
 
-    $("#csr-form").submit(function(e) {
+   /* $("#csr-form").submit(function(e) {
         e.preventDefault();
         $.post("/generate", $(this).serialize(), function(data) {
             $("#csr").val(data);
+            console.log(data);
         }, "text");
         $("#csr-modal").addClass("active");
-    });
+    }); */
+
+   $("#csr-form").submit(function (e) {
+       e.preventDefault();
+       $("#csr-modal").addClass("active");
+
+       $.post("/generate", $(this).serialize())
+           .done(function (data) {
+              // $("#csr").html(data)
+              // alert('Finished successfully');
+               console.log(data);
+               // window.location.replace(data.url) //The url will be returned by back end
+               $("html").html(data);
+           })
+           .fail(function (data) {
+               // alert('Failed to complete');
+               console.log(data.responseText);
+               // window.location.replace(data.url)
+               $("html").html(data.responseText);
+           })
+
+
+   });
 
     $("#csr").on("click focus", function() { this.select() } );
 
@@ -29,7 +52,7 @@ $(function() {
               let select = document.querySelector("select");
 
 
-        nicIds = ["IS001 - AFRINIC","ATU1-AFRINIC"]
+        nicIds = ["IS001-AFRINIC","ATU1-AFRINIC"];
         console.log(nicIds);
         for (let nicId in nicIds) {
             console.log(nicId);
@@ -39,14 +62,13 @@ $(function() {
             option.innerText = textValue;
             select.append(option);
 
-       /*     let option = document.createElement("option");
+       /*   let option = document.createElement("option");
             console.log(nicIds[nicId]);
             let textValue = nicIds[nicId].handle;
             option.value = textValue;
             option.innerText = textValue;
             select.append(option); */
         }
-
         /*
                 }).fail(function () {
                     alert("Enter a valid Org Handle");
@@ -74,7 +96,7 @@ $(function() {
 
         function fillForm(nicIds) {
             let nicId = $("#nic-id").val();
-            let address = [];
+            //let address = [];
             let roles = [];
             let orgUnit = "";
 
@@ -83,7 +105,7 @@ $(function() {
                 if (nicIds[counter].handle === nicId) {
                     let selectedNic = nicIds[counter];
                     roles = selectedNic.roles;
-                    address = selectedNic["vcardArray"][1][5][3];
+                    //address = selectedNic["vcardArray"][1][5][3];
                     //console.log(address);
                 }
             }

@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block title %}Not Allowed{% endblock %}
+{% block body %}
+    <h1>You are not allowed to perform such operation.</h1>
+
+    <p><a href="{{ url_for('index') }}">Go to homepage</a></p>
+{% endblock %}
