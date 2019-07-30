@@ -63,7 +63,7 @@ def generate_pem(nic_id, password, csr):
                 os.unlink(file_name)
         except OSError as error:
             print('Unable to delete file:', error)
-            logger.error('Unable to delete file: %s', error)
+            logger.error('Unable to delete file: %s --NIC Handle: %s', error, nic_id)
 
     opts = webdriver.ChromeOptions()
     opts.add_argument('--no-sandbox')
@@ -90,6 +90,7 @@ def generate_pem(nic_id, password, csr):
 
     submit = browser.find_element_by_id('form:j_id77')
     submit.click()
+    browser.implicitly_wait(5)
 
     downloaded_pem_path = Path(directory + '/downloads/' + nic_id + '.pem')
 
@@ -112,12 +113,12 @@ def generate_pem(nic_id, password, csr):
 
         except TimeoutException as error:
             print(error)
-            logger.error('Unable to retrieve error. Operation timeout: %s', error)
+            logger.error('Unable to retrieve error. Operation timeout: %s --NIC Handle: %s', error, nic_id)
             server_errors.append(error)
 
         except NoSuchElementException as error:
             print(error)
-            logger.error('Unable to retrieve error message: %s', error)
+            logger.error('Unable to retrieve error message: %s --NIC Handle: %s', error, nic_id)
             server_errors.append(error)
 
     if user_errors:
@@ -141,7 +142,8 @@ def generate_p12(nic_id, password, private_key):
 
     except IOError as error:
         print('Could not read pem file. Make sure file exists and you have the right permission. ', error)
-        logger.error('Could not read pem file. Make sure file exists and you have the right permission: %s', error)
+        logger.error('Could not read pem file. Make sure file exists and you have the right permission: %s '
+                     '-- NIC Handle: %s', error, nic_id)
         server_errors.append(error)
 
     try:
@@ -155,7 +157,7 @@ def generate_p12(nic_id, password, private_key):
 
         except crypt.Error as error:
             print('An unexpected error occurred', error)
-            logger.error('An unexpected error occurred: %s', error)
+            logger.error('An unexpected error occurred: %s -- NIC Handle: %s', error, nic_id)
             server_errors.append(error)
 
         try:
@@ -164,17 +166,17 @@ def generate_p12(nic_id, password, private_key):
 
         except IOError as error:
             print('Unable to write p12 file ', error)
-            logger.error('Unable to write p12 file: %s', error)
+            logger.error('Unable to write p12 file: %s --NIC Handle: %s', error, nic_id)
             server_errors.append(error)
 
     except UnboundLocalError as error:
         print('Pem file not created:', error)
-        logger.error('Pem file not created: %s', error)
+        logger.error('Pem file not created: %s --NIC Handle: %s', error, nic_id)
         server_errors.append(error)
 
     except crypt.Error as error:
         print('An unexpected error occurred while generating p12 file:', error)
-        logger.error('An unexpected error occurred while generating p12 file: %s', error)
+        logger.error('An unexpected error occurred while generating p12 file: %s --NIC Handle: %s', error, nic_id)
         server_errors.append(error)
 
     return get_certificate(output)
@@ -207,22 +209,12 @@ def server_error(e):
 @app.errorhandler(412)
 def user_error(e):
     # return render_template('user_error.html'), 412
-    return redirect(url_for('show_user_error'))
+    return render_template('user_error.html', user_errors=user_errors)
 
 
 @app.errorhandler(405)
 def method_not_allowed(e):
     return render_template('405.html')
-
-
-@app.route('/user-error')
-def show_user_error():
-    return render_template('user_error.html', user_errors=user_errors)
-
-
-@app.route('/server-error')
-def show_server_error():
-    return render_template('server_error.html')
 
 
 if __name__ == '__main__':
