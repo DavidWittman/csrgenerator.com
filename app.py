@@ -1,10 +1,9 @@
 
-
 from __future__ import absolute_import
 import os
 import logging
-import pathlib
-from flask import Flask, request, Response, render_template, send_from_directory, abort, redirect, url_for, make_response, jsonify
+from pathlib import Path
+from flask import Flask, request, render_template, send_from_directory, abort, redirect, url_for, jsonify
 import OpenSSL.crypto as crypt
 from csr import CsrGenerator
 from selenium import webdriver
@@ -24,6 +23,7 @@ server_errors = []
 
 
 @app.route('/')
+@app.route('/index')
 def index():
     return render_template('index.html')
 
@@ -56,14 +56,14 @@ def generate_csr():
 
 def generate_pem(nic_id, password, csr):
     downloads = directory + '/downloads'
-    # for file in os.listdir(downloads):
-    #     file_name = os.path.join(downloads, file)
-    #     try:
-    #         if os.path.isfile(file_name):
-    #             os.unlink(file_name)
-    #     except OSError as error:
-    #         print('Unable to delete file:', error)
-    #         logger.error('Unable to delete file: %s', error)
+    for file in os.listdir(downloads):
+        file_name = os.path.join(downloads, file)
+        try:
+            if os.path.isfile(file_name):
+                os.unlink(file_name)
+        except OSError as error:
+            print('Unable to delete file:', error)
+            logger.error('Unable to delete file: %s', error)
 
     opts = webdriver.ChromeOptions()
     opts.add_argument('--no-sandbox')
@@ -91,7 +91,7 @@ def generate_pem(nic_id, password, csr):
     submit = browser.find_element_by_id('form:j_id77')
     submit.click()
 
-    downloaded_pem_path = pathlib.Path(directory + '/downloads/' + nic_id + '.pem')
+    downloaded_pem_path = Path(directory + '/downloads/' + nic_id + '.pem')
 
     if downloaded_pem_path.exists() and downloaded_pem_path.is_file():
         browser.close()
@@ -99,7 +99,8 @@ def generate_pem(nic_id, password, csr):
 
     else:
         try:
-            element = WebDriverWait(browser, 30).until(expected_conditions.presence_of_element_located((By.CLASS_NAME, 'iceMsgsError')))
+            element = WebDriverWait(browser, 30).until(expected_conditions.presence_of_element_located(
+                                                                                    (By.CLASS_NAME, 'iceMsgsError')))
             error_msg = element.text
             browser.implicitly_wait(3)
             browser.close()
@@ -176,18 +177,20 @@ def generate_p12(nic_id, password, private_key):
         logger.error('An unexpected error occurred while generating p12 file: %s', error)
         server_errors.append(error)
 
-    return jsonify({'url': '/certificate/' + output})
+    return get_certificate(output)
 
 
 @app.route('/certificate/<file_name>')
 def get_certificate(file_name):
-    if request.form['NC']:
-        try:
-            return send_from_directory(app.config['P12_PATH'], filename=file_name, as_attachment=True)
 
-        except FileNotFoundError:
-            abort(404)
-    else:
+    try:
+        request.form['NC']
+        return send_from_directory(app.config['P12_PATH'], filename=file_name, as_attachment=True)
+
+    except FileNotFoundError:
+        abort(404)
+
+    except KeyError:
         abort(404)
 
 

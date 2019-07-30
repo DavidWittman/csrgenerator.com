@@ -22,14 +22,11 @@ $(function() {
 
        $.post("/generate", $(this).serialize())
            .done(function (data) {
-              // $("#csr").html(data)
-              // alert('Finished successfully');
                console.log(data);
                // window.location.replace(data.url) //The url will be returned by back end
                $("html").html(data);
            })
            .fail(function (data) {
-               // alert('Failed to complete');
                console.log(data.responseText);
                // window.location.replace(data.url)
                $("html").html(data.responseText);
