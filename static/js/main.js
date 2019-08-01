@@ -1,20 +1,9 @@
 
-
 $(function() {
 
     $(".close").on("click", function() {
         $(this).closest(".modal").removeClass("active");
     });
-
-
-   /* $("#csr-form").submit(function(e) {
-        e.preventDefault();
-        $.post("/generate", $(this).serialize(), function(data) {
-            $("#csr").val(data);
-            console.log(data);
-        }, "text");
-        $("#csr-modal").addClass("active");
-    }); */
 
    $("#csr-form").submit(function (e) {
        e.preventDefault();
@@ -35,38 +24,36 @@ $(function() {
 
    });
 
-    $("#csr").on("click focus", function() { this.select() } );
-
     let endpoint = "https://rdap.afrinic.net/rdap/entity/";
     let orgId = $("#org-id");
     let nicIds;
 
     orgId.on("change", function () {
-        /*   $.getJSON(endpoint + orgId.val(),function(data) {
+           $.getJSON(endpoint + orgId.val(),function(data) {
               console.log(endpoint+orgId.val());
               console.info(data.entities[0]["vcardArray"][1][5][3]);
-               nicIds = data.entities;*/
+               nicIds = data.entities;
               let select = document.querySelector("select");
 
 
-        nicIds = ["IS001-AFRINIC","ATU1-AFRINIC"];
+        //nicIds = ["IS001-AFRINIC","ATU1-AFRINIC"];
         console.log(nicIds);
         for (let nicId in nicIds) {
             console.log(nicId);
-            let option = document.createElement("option");
-            let textValue = nicIds[nicId];
-            option.value = textValue;
-            option.innerText = textValue;
-            select.append(option);
+            // let option = document.createElement("option");
+            // let textValue = nicIds[nic_id];
+            // option.value = textValue;
+            // option.innerText = textValue;
+            // select.append(option);
 
-       /*   let option = document.createElement("option");
+          let option = document.createElement("option");
             console.log(nicIds[nicId]);
             let textValue = nicIds[nicId].handle;
             option.value = textValue;
             option.innerText = textValue;
-            select.append(option); */
+            select.append(option);
         }
-        /*
+
                 }).fail(function () {
                     alert("Enter a valid Org Handle");
                 })
@@ -76,7 +63,6 @@ $(function() {
             let nicHandle = $("#nic-id");
 
             nicHandle.on("change",showForm);
-        */
 
 
         function showForm() {
@@ -129,6 +115,5 @@ $(function() {
             $("#common-name").val(nicId);
             $("#org").val($("#org-id").val());
         }
-    })//remove these after uncommenting code
 
 });
