@@ -86,7 +86,7 @@ def generate_pem(nic_id: str, user_directory: str, password: str, csr: str):
     try:
         # browser = webdriver.Chrome(base_directory + '/chromedriver', options=opts,
         #                        service_args=['--verbose', '--log-directory=' + log_path])
-    browser = webdriver.Chrome(base_directory + '/chromedriver', options=opts)
+        browser = webdriver.Chrome(base_directory + '/chromedriver', options=opts)
     except WebDriverException as error:
         logger.error("Unable to launch chrome driver: %s -- NIC Handle: %s", error, nic_id)
         server_errors.append(error)
