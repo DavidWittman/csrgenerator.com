@@ -1,0 +1,965 @@
+2019-07-30 12:25:39,719 - 127.0.0.1 - - [30/Jul/2019 12:25:39] "POST /generate HTTP/1.1" 302 -
+2019-07-30 12:25:39,740 - 127.0.0.1 - - [30/Jul/2019 12:25:39] "GET /user-error HTTP/1.1" 200 -
+2019-07-30 12:26:16,550 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-30 12:26:16,661 -  * Restarting with stat
+2019-07-30 12:26:18,339 -  * Debugger is active!
+2019-07-30 12:26:18,340 -  * Debugger PIN: 447-554-036
+2019-07-30 12:26:29,656 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-30 12:26:29,746 -  * Restarting with stat
+2019-07-30 12:26:31,542 -  * Debugger is active!
+2019-07-30 12:26:31,543 -  * Debugger PIN: 447-554-036
+2019-07-30 12:26:37,844 - 127.0.0.1 - - [30/Jul/2019 12:26:37] "GET / HTTP/1.1" 200 -
+2019-07-30 12:33:28,130 - 127.0.0.1 - - [30/Jul/2019 12:33:28] "POST /generate HTTP/1.1" 200 -
+2019-07-30 12:41:20,232 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-30 12:41:20,233 -  * Restarting with stat
+2019-07-30 12:41:20,697 -  * Debugger is active!
+2019-07-30 12:41:20,698 -  * Debugger PIN: 447-554-036
+2019-07-30 12:41:23,652 - 127.0.0.1 - - [30/Jul/2019 12:41:23] "GET /server-error/ HTTP/1.1" 404 -
+2019-07-30 12:41:58,354 - 127.0.0.1 - - [30/Jul/2019 12:41:58] "GET /server-error HTTP/1.1" 200 -
+2019-07-30 12:42:11,828 - 127.0.0.1 - - [30/Jul/2019 12:42:11] "GET /user-error HTTP/1.1" 200 -
+2019-07-30 12:42:48,837 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-30 12:42:48,920 -  * Restarting with stat
+2019-07-30 12:42:49,566 -  * Debugger is active!
+2019-07-30 12:42:49,567 -  * Debugger PIN: 447-554-036
+2019-07-30 13:53:36,797 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-30 13:53:36,798 -  * Restarting with stat
+2019-07-30 13:53:37,287 -  * Debugger is active!
+2019-07-30 13:53:37,288 -  * Debugger PIN: 447-554-036
+2019-07-30 13:53:37,308 - 127.0.0.1 - - [30/Jul/2019 13:53:37] "GET /user-error HTTP/1.1" 404 -
+2019-07-30 13:53:40,416 - 127.0.0.1 - - [30/Jul/2019 13:53:40] "GET /user-error HTTP/1.1" 404 -
+2019-07-30 13:53:46,536 - 127.0.0.1 - - [30/Jul/2019 13:53:46] "GET / HTTP/1.1" 200 -
+2019-07-30 13:54:53,612 - 127.0.0.1 - - [30/Jul/2019 13:54:53] "POST /generate HTTP/1.1" 200 -
+2019-07-31 09:54:17,833 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 09:54:17,838 -  * Restarting with stat
+2019-07-31 09:54:19,586 -  * Debugger is active!
+2019-07-31 09:54:19,623 -  * Debugger PIN: 447-554-036
+2019-07-31 09:54:21,555 - 127.0.0.1 - - [31/Jul/2019 09:54:21] "GET / HTTP/1.1" 200 -
+2019-07-31 09:54:21,618 - 127.0.0.1 - - [31/Jul/2019 09:54:21] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 09:54:21,631 - 127.0.0.1 - - [31/Jul/2019 09:54:21] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 09:54:21,639 - 127.0.0.1 - - [31/Jul/2019 09:54:21] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 09:54:21,722 - 127.0.0.1 - - [31/Jul/2019 09:54:21] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 09:54:21,727 - 127.0.0.1 - - [31/Jul/2019 09:54:21] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 09:54:22,555 - 127.0.0.1 - - [31/Jul/2019 09:54:22] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 09:54:22,994 - 127.0.0.1 - - [31/Jul/2019 09:54:22] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-07-31 09:57:35,058 - 127.0.0.1 - - [31/Jul/2019 09:57:35] "POST /generate HTTP/1.1" 404 -
+2019-07-31 09:57:35,114 - 127.0.0.1 - - [31/Jul/2019 09:57:35] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 09:57:35,158 - 127.0.0.1 - - [31/Jul/2019 09:57:35] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-31 09:59:24,322 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-31 09:59:24,415 -  * Restarting with stat
+2019-07-31 09:59:26,049 -  * Debugger is active!
+2019-07-31 09:59:26,051 -  * Debugger PIN: 447-554-036
+2019-07-31 09:59:40,378 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-31 09:59:40,600 -  * Restarting with stat
+2019-07-31 09:59:42,680 -  * Debugger is active!
+2019-07-31 09:59:42,681 -  * Debugger PIN: 447-554-036
+2019-07-31 10:01:21,749 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-31 10:01:21,938 -  * Restarting with stat
+2019-07-31 10:01:24,269 -  * Debugger is active!
+2019-07-31 10:01:24,270 -  * Debugger PIN: 447-554-036
+2019-07-31 10:01:24,926 - 127.0.0.1 - - [31/Jul/2019 10:01:24] "GET / HTTP/1.1" 200 -
+2019-07-31 10:01:24,968 - 127.0.0.1 - - [31/Jul/2019 10:01:24] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:01:25,081 - 127.0.0.1 - - [31/Jul/2019 10:01:25] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:02:46,562 - 127.0.0.1 - - [31/Jul/2019 10:02:46] "POST /generate HTTP/1.1" 200 -
+2019-07-31 10:02:46,589 - 127.0.0.1 - - [31/Jul/2019 10:02:46] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:03:48,850 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 10:03:48,851 -  * Restarting with stat
+2019-07-31 10:03:49,309 -  * Debugger is active!
+2019-07-31 10:03:49,309 -  * Debugger PIN: 447-554-036
+2019-07-31 10:04:09,577 - 127.0.0.1 - - [31/Jul/2019 10:04:09] "GET / HTTP/1.1" 200 -
+2019-07-31 10:04:09,701 - 127.0.0.1 - - [31/Jul/2019 10:04:09] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:04:09,994 - 127.0.0.1 - - [31/Jul/2019 10:04:09] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:05:07,636 - 127.0.0.1 - - [31/Jul/2019 10:05:07] "POST /generate HTTP/1.1" 200 -
+2019-07-31 10:05:07,661 - 127.0.0.1 - - [31/Jul/2019 10:05:07] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:37:17,938 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 10:37:17,939 -  * Restarting with stat
+2019-07-31 10:37:18,392 -  * Debugger is active!
+2019-07-31 10:37:18,393 -  * Debugger PIN: 447-554-036
+2019-07-31 10:37:21,306 - 127.0.0.1 - - [31/Jul/2019 10:37:21] "GET / HTTP/1.1" 200 -
+2019-07-31 10:37:21,339 - 127.0.0.1 - - [31/Jul/2019 10:37:21] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:37:21,461 - 127.0.0.1 - - [31/Jul/2019 10:37:21] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:38:41,901 - 127.0.0.1 - - [31/Jul/2019 10:38:41] "POST /generate HTTP/1.1" 200 -
+2019-07-31 10:38:41,926 - 127.0.0.1 - - [31/Jul/2019 10:38:41] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:43:29,873 - 127.0.0.1 - - [31/Jul/2019 10:43:29] "GET / HTTP/1.1" 200 -
+2019-07-31 10:43:29,919 - 127.0.0.1 - - [31/Jul/2019 10:43:29] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:43:30,053 - 127.0.0.1 - - [31/Jul/2019 10:43:30] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:45:17,726 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-07-31 10:45:17,729 - 127.0.0.1 - - [31/Jul/2019 10:45:17] "POST /generate HTTP/1.1" 200 -
+2019-07-31 10:45:17,759 - 127.0.0.1 - - [31/Jul/2019 10:45:17] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:45:36,076 - 127.0.0.1 - - [31/Jul/2019 10:45:36] "GET / HTTP/1.1" 200 -
+2019-07-31 10:45:36,118 - 127.0.0.1 - - [31/Jul/2019 10:45:36] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:45:36,255 - 127.0.0.1 - - [31/Jul/2019 10:45:36] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:46:57,957 - 127.0.0.1 - - [31/Jul/2019 10:46:57] "POST /generate HTTP/1.1" 200 -
+2019-07-31 10:46:57,982 - 127.0.0.1 - - [31/Jul/2019 10:46:57] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:47:30,209 - 127.0.0.1 - - [31/Jul/2019 10:47:30] "GET / HTTP/1.1" 200 -
+2019-07-31 10:47:30,241 - 127.0.0.1 - - [31/Jul/2019 10:47:30] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:47:30,381 - 127.0.0.1 - - [31/Jul/2019 10:47:30] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:53:20,807 - 127.0.0.1 - - [31/Jul/2019 10:53:20] "POST /generate HTTP/1.1" 200 -
+2019-07-31 10:53:20,830 - 127.0.0.1 - - [31/Jul/2019 10:53:20] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:53:27,863 - 127.0.0.1 - - [31/Jul/2019 10:53:27] "GET / HTTP/1.1" 200 -
+2019-07-31 10:53:27,902 - 127.0.0.1 - - [31/Jul/2019 10:53:27] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 10:53:28,034 - 127.0.0.1 - - [31/Jul/2019 10:53:28] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 11:28:54,369 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-07-31 11:28:54,372 - 127.0.0.1 - - [31/Jul/2019 11:28:54] "POST /generate HTTP/1.1" 200 -
+2019-07-31 11:28:54,405 - 127.0.0.1 - - [31/Jul/2019 11:28:54] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 11:54:41,152 - 127.0.0.1 - - [31/Jul/2019 11:54:41] "GET / HTTP/1.1" 200 -
+2019-07-31 11:54:41,183 - 127.0.0.1 - - [31/Jul/2019 11:54:41] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 11:54:41,318 - 127.0.0.1 - - [31/Jul/2019 11:54:41] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 11:54:41,670 - 127.0.0.1 - - [31/Jul/2019 11:54:41] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-07-31 12:51:54,167 - 127.0.0.1 - - [31/Jul/2019 12:51:54] "POST /generate HTTP/1.1" 200 -
+2019-07-31 12:51:54,197 - 127.0.0.1 - - [31/Jul/2019 12:51:54] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:54:44,830 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 13:54:44,854 -  * Restarting with stat
+2019-07-31 13:54:45,434 -  * Debugger is active!
+2019-07-31 13:54:45,435 -  * Debugger PIN: 447-554-036
+2019-07-31 13:54:45,894 - 127.0.0.1 - - [31/Jul/2019 13:54:45] "GET / HTTP/1.1" 200 -
+2019-07-31 13:54:45,984 - 127.0.0.1 - - [31/Jul/2019 13:54:45] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 13:54:45,997 - 127.0.0.1 - - [31/Jul/2019 13:54:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 13:54:46,000 - 127.0.0.1 - - [31/Jul/2019 13:54:46] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 13:54:46,073 - 127.0.0.1 - - [31/Jul/2019 13:54:46] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:54:46,103 - 127.0.0.1 - - [31/Jul/2019 13:54:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 13:54:46,466 - 127.0.0.1 - - [31/Jul/2019 13:54:46] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:56:06,383 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-07-31 13:56:06,413 - 127.0.0.1 - - [31/Jul/2019 13:56:06] "POST /generate HTTP/1.1" 500 -
+2019-07-31 13:56:06,445 - 127.0.0.1 - - [31/Jul/2019 13:56:06] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:57:10,550 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 13:57:10,553 -  * Restarting with stat
+2019-07-31 13:57:11,993 -  * Debugger is active!
+2019-07-31 13:57:11,994 -  * Debugger PIN: 447-554-036
+2019-07-31 13:57:29,062 - 127.0.0.1 - - [31/Jul/2019 13:57:29] "GET / HTTP/1.1" 200 -
+2019-07-31 13:57:29,217 - 127.0.0.1 - - [31/Jul/2019 13:57:29] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:57:29,514 - 127.0.0.1 - - [31/Jul/2019 13:57:29] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:58:41,936 - 127.0.0.1 - - [31/Jul/2019 13:58:41] "POST /generate HTTP/1.1" 200 -
+2019-07-31 13:58:41,961 - 127.0.0.1 - - [31/Jul/2019 13:58:41] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:58:47,648 - 127.0.0.1 - - [31/Jul/2019 13:58:47] "GET / HTTP/1.1" 200 -
+2019-07-31 13:58:47,683 - 127.0.0.1 - - [31/Jul/2019 13:58:47] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 13:58:47,815 - 127.0.0.1 - - [31/Jul/2019 13:58:47] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:19:32,029 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 15:19:32,043 -  * Restarting with stat
+2019-07-31 15:19:33,826 -  * Debugger is active!
+2019-07-31 15:19:33,828 -  * Debugger PIN: 447-554-036
+2019-07-31 15:22:48,145 - 127.0.0.1 - - [31/Jul/2019 15:22:48] "GET / HTTP/1.1" 200 -
+2019-07-31 15:22:48,297 - 127.0.0.1 - - [31/Jul/2019 15:22:48] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:22:48,611 - 127.0.0.1 - - [31/Jul/2019 15:22:48] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:16,120 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 15:28:16,123 -  * Restarting with stat
+2019-07-31 15:28:17,861 -  * Debugger is active!
+2019-07-31 15:28:17,862 -  * Debugger PIN: 447-554-036
+2019-07-31 15:28:19,052 - 127.0.0.1 - - [31/Jul/2019 15:28:19] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:19,192 - 127.0.0.1 - - [31/Jul/2019 15:28:19] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:19,513 - 127.0.0.1 - - [31/Jul/2019 15:28:19] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:22,246 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:22,327 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:22,339 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:22,342 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:22,386 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:22,388 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:22,815 - 127.0.0.1 - - [31/Jul/2019 15:28:22] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:24,087 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:24,150 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:24,154 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:24,158 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:24,226 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:24,232 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:24,324 - 127.0.0.1 - - [31/Jul/2019 15:28:24] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:25,072 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:25,123 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:25,136 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:25,139 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:25,205 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:25,209 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:25,311 - 127.0.0.1 - - [31/Jul/2019 15:28:25] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:56,741 - 127.0.0.1 - - [31/Jul/2019 15:28:56] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:56,813 - 127.0.0.1 - - [31/Jul/2019 15:28:56] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:56,816 - 127.0.0.1 - - [31/Jul/2019 15:28:56] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:56,820 - 127.0.0.1 - - [31/Jul/2019 15:28:56] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:56,878 - 127.0.0.1 - - [31/Jul/2019 15:28:56] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:56,885 - 127.0.0.1 - - [31/Jul/2019 15:28:56] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:57,254 - 127.0.0.1 - - [31/Jul/2019 15:28:57] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:58,963 - 127.0.0.1 - - [31/Jul/2019 15:28:58] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:59,020 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:59,038 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:59,040 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:59,101 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:59,110 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:59,185 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:59,250 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:59,257 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:59,261 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:59,332 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:59,334 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:59,417 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:59,492 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET / HTTP/1.1" 200 -
+2019-07-31 15:28:59,552 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:28:59,556 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:28:59,563 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:28:59,622 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:28:59,624 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:28:59,734 - 127.0.0.1 - - [31/Jul/2019 15:28:59] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:00,724 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET / HTTP/1.1" 200 -
+2019-07-31 15:29:00,784 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:29:00,785 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:29:00,787 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:29:00,862 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:00,864 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:29:00,976 - 127.0.0.1 - - [31/Jul/2019 15:29:00] "GET / HTTP/1.1" 200 -
+2019-07-31 15:29:01,041 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:29:01,062 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:29:01,069 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:29:01,133 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:01,138 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:29:01,381 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET / HTTP/1.1" 200 -
+2019-07-31 15:29:01,424 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:29:01,443 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:29:01,451 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:29:01,517 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:01,527 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:29:01,645 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET / HTTP/1.1" 200 -
+2019-07-31 15:29:01,728 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:29:01,729 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:29:01,731 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:29:01,813 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:01,815 - 127.0.0.1 - - [31/Jul/2019 15:29:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:29:02,106 - 127.0.0.1 - - [31/Jul/2019 15:29:02] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:27,529 - 127.0.0.1 - - [31/Jul/2019 15:29:27] "GET / HTTP/1.1" 200 -
+2019-07-31 15:29:27,598 - 127.0.0.1 - - [31/Jul/2019 15:29:27] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:27,739 - 127.0.0.1 - - [31/Jul/2019 15:29:27] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:30,201 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET / HTTP/1.1" 200 -
+2019-07-31 15:29:30,250 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:29:30,265 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:29:30,268 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:29:30,329 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:29:30,335 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:29:30,457 - 127.0.0.1 - - [31/Jul/2019 15:29:30] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:42:35,119 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET / HTTP/1.1" 200 -
+2019-07-31 15:42:35,177 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-07-31 15:42:35,192 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-07-31 15:42:35,203 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-07-31 15:42:35,291 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:42:35,301 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-07-31 15:42:35,757 - 127.0.0.1 - - [31/Jul/2019 15:42:35] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:42:48,351 - 127.0.0.1 - - [31/Jul/2019 15:42:48] "GET / HTTP/1.1" 200 -
+2019-07-31 15:42:48,395 - 127.0.0.1 - - [31/Jul/2019 15:42:48] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:42:48,543 - 127.0.0.1 - - [31/Jul/2019 15:42:48] "GET /static/js/loadingView.js HTTP/1.1" 404 -
+2019-07-31 15:45:50,773 - 127.0.0.1 - - [31/Jul/2019 15:45:50] "GET / HTTP/1.1" 200 -
+2019-07-31 15:53:29,995 - 127.0.0.1 - - [31/Jul/2019 15:53:29] "POST /generate HTTP/1.1" 404 -
+2019-07-31 15:53:30,049 - 127.0.0.1 - - [31/Jul/2019 15:53:30] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-31 15:53:42,797 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-31 15:53:42,899 -  * Restarting with stat
+2019-07-31 15:53:44,544 -  * Debugger is active!
+2019-07-31 15:53:44,545 -  * Debugger PIN: 447-554-036
+2019-07-31 15:54:18,482 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-07-31 15:54:18,596 -  * Restarting with stat
+2019-07-31 15:54:21,033 -  * Debugger is active!
+2019-07-31 15:54:21,035 -  * Debugger PIN: 447-554-036
+2019-07-31 15:56:24,694 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-07-31 15:56:24,695 -  * Restarting with stat
+2019-07-31 15:56:25,138 -  * Debugger is active!
+2019-07-31 15:56:25,139 -  * Debugger PIN: 447-554-036
+2019-07-31 15:56:33,937 - 127.0.0.1 - - [31/Jul/2019 15:56:33] "GET / HTTP/1.1" 200 -
+2019-07-31 15:57:48,595 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-07-31 15:57:48,611 - 127.0.0.1 - - [31/Jul/2019 15:57:48] "POST /generate HTTP/1.1" 500 -
+2019-07-31 16:46:16,875 - 127.0.0.1 - - [31/Jul/2019 16:46:16] "GET / HTTP/1.1" 200 -
+2019-07-31 21:07:40,452 - 127.0.0.1 - - [31/Jul/2019 21:07:40] "POST /generate HTTP/1.1" 200 -
+2019-07-31 21:07:40,500 - 127.0.0.1 - - [31/Jul/2019 21:07:40] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-01 10:46:10,147 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 10:46:10,160 -  * Restarting with stat
+2019-08-01 10:46:10,610 -  * Debugger is active!
+2019-08-01 10:46:10,689 -  * Debugger PIN: 447-554-036
+2019-08-01 10:46:25,638 - 127.0.0.1 - - [01/Aug/2019 10:46:25] "GET / HTTP/1.1" 200 -
+2019-08-01 10:46:25,701 - 127.0.0.1 - - [01/Aug/2019 10:46:25] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-01 10:46:25,718 - 127.0.0.1 - - [01/Aug/2019 10:46:25] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-01 10:46:25,733 - 127.0.0.1 - - [01/Aug/2019 10:46:25] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-01 10:46:25,823 - 127.0.0.1 - - [01/Aug/2019 10:46:25] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-01 10:46:28,330 - 127.0.0.1 - - [01/Aug/2019 10:46:28] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-01 10:48:02,587 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-08-01 10:48:02,606 - 127.0.0.1 - - [01/Aug/2019 10:48:02] "POST /generate HTTP/1.1" 500 -
+2019-08-01 10:48:02,649 - 127.0.0.1 - - [01/Aug/2019 10:48:02] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-01 10:49:27,529 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 10:49:27,733 -  * Restarting with stat
+2019-08-01 10:49:28,516 -  * Debugger is active!
+2019-08-01 10:49:28,526 -  * Debugger PIN: 447-554-036
+2019-08-01 10:50:08,614 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 10:50:08,627 -  * Restarting with stat
+2019-08-01 10:50:10,710 -  * Debugger is active!
+2019-08-01 10:50:10,712 -  * Debugger PIN: 447-554-036
+2019-08-01 10:50:10,767 - 127.0.0.1 - - [01/Aug/2019 10:50:10] "GET / HTTP/1.1" 200 -
+2019-08-01 10:53:56,631 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 10:53:56,634 -  * Restarting with stat
+2019-08-01 10:53:58,259 -  * Debugger is active!
+2019-08-01 10:53:58,261 -  * Debugger PIN: 447-554-036
+2019-08-01 10:53:59,247 - 127.0.0.1 - - [01/Aug/2019 10:53:59] "GET / HTTP/1.1" 200 -
+2019-08-01 10:55:18,885 - 127.0.0.1 - - [01/Aug/2019 10:55:18] "GET / HTTP/1.1" 200 -
+2019-08-01 10:58:47,263 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 10:58:47,266 -  * Restarting with stat
+2019-08-01 10:58:48,845 -  * Debugger is active!
+2019-08-01 10:58:48,846 -  * Debugger PIN: 447-554-036
+2019-08-01 10:58:50,247 - 127.0.0.1 - - [01/Aug/2019 10:58:50] "GET / HTTP/1.1" 200 -
+2019-08-01 11:00:43,567 - 127.0.0.1 - - [01/Aug/2019 11:00:43] "POST /generate HTTP/1.1" 500 -
+2019-08-01 11:00:43,614 - 127.0.0.1 - - [01/Aug/2019 11:00:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-08-01 11:00:43,624 - 127.0.0.1 - - [01/Aug/2019 11:00:43] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-08-01 11:00:43,662 - 127.0.0.1 - - [01/Aug/2019 11:00:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-08-01 11:00:43,859 - 127.0.0.1 - - [01/Aug/2019 11:00:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-08-01 11:01:53,494 - 127.0.0.1 - - [01/Aug/2019 11:01:53] "GET / HTTP/1.1" 200 -
+2019-08-01 11:30:43,175 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 11:30:43,191 -  * Restarting with stat
+2019-08-01 11:30:45,959 -  * Debugger is active!
+2019-08-01 11:30:45,962 -  * Debugger PIN: 447-554-036
+2019-08-01 11:31:03,565 - 127.0.0.1 - - [01/Aug/2019 11:31:03] "GET / HTTP/1.1" 200 -
+2019-08-01 11:33:12,321 - 127.0.0.1 - - [01/Aug/2019 11:33:12] "POST /generate HTTP/1.1" 500 -
+2019-08-01 11:33:12,393 - 127.0.0.1 - - [01/Aug/2019 11:33:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-08-01 11:33:12,408 - 127.0.0.1 - - [01/Aug/2019 11:33:12] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-08-01 11:33:12,471 - 127.0.0.1 - - [01/Aug/2019 11:33:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-08-01 11:33:14,046 - 127.0.0.1 - - [01/Aug/2019 11:33:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-08-01 11:35:28,789 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 11:35:29,253 -  * Restarting with stat
+2019-08-01 11:35:33,853 -  * Debugger is active!
+2019-08-01 11:35:33,858 -  * Debugger PIN: 447-554-036
+2019-08-01 11:35:51,288 - 127.0.0.1 - - [01/Aug/2019 11:35:51] "GET /certificate/ATU1-AFRINIC.p12 HTTP/1.1" 200 -
+2019-08-01 11:36:13,285 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 11:36:13,758 -  * Restarting with stat
+2019-08-01 11:36:17,751 -  * Debugger is active!
+2019-08-01 11:36:17,755 -  * Debugger PIN: 447-554-036
+2019-08-01 11:36:17,790 - 127.0.0.1 - - [01/Aug/2019 11:36:17] "GET /certificate/ATU1-AFRINIC.p12 HTTP/1.1" 200 -
+2019-08-01 11:53:16,778 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 11:53:17,176 -  * Restarting with stat
+2019-08-01 11:53:20,686 -  * Debugger is active!
+2019-08-01 11:53:20,690 -  * Debugger PIN: 447-554-036
+2019-08-01 12:55:28,938 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 12:55:28,941 -  * Restarting with stat
+2019-08-01 12:55:30,467 -  * Debugger is active!
+2019-08-01 12:55:30,469 -  * Debugger PIN: 447-554-036
+2019-08-01 12:55:34,553 - 127.0.0.1 - - [01/Aug/2019 12:55:34] "GET / HTTP/1.1" 200 -
+2019-08-01 12:58:05,778 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 12:58:05,781 -  * Restarting with stat
+2019-08-01 12:58:07,461 -  * Debugger is active!
+2019-08-01 12:58:07,462 -  * Debugger PIN: 447-554-036
+2019-08-01 12:58:07,992 - 127.0.0.1 - - [01/Aug/2019 12:58:07] "GET / HTTP/1.1" 200 -
+2019-08-01 13:00:08,080 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 13:00:08,160 -  * Restarting with stat
+2019-08-01 13:00:09,646 -  * Debugger is active!
+2019-08-01 13:00:09,647 -  * Debugger PIN: 447-554-036
+2019-08-01 13:00:19,870 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 13:00:20,012 -  * Restarting with stat
+2019-08-01 13:00:21,766 -  * Debugger is active!
+2019-08-01 13:00:21,768 -  * Debugger PIN: 447-554-036
+2019-08-01 13:03:01,676 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 13:03:01,763 -  * Restarting with stat
+2019-08-01 13:03:03,981 -  * Debugger is active!
+2019-08-01 13:03:03,983 -  * Debugger PIN: 447-554-036
+2019-08-01 13:24:04,810 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 13:24:04,813 -  * Restarting with stat
+2019-08-01 13:24:06,327 -  * Debugger is active!
+2019-08-01 13:24:06,328 -  * Debugger PIN: 447-554-036
+2019-08-01 13:24:09,881 - 127.0.0.1 - - [01/Aug/2019 13:24:09] "GET / HTTP/1.1" 200 -
+2019-08-01 13:24:10,008 - 127.0.0.1 - - [01/Aug/2019 13:24:10] "GET / HTTP/1.1" 200 -
+2019-08-01 13:24:10,097 - 127.0.0.1 - - [01/Aug/2019 13:24:10] "GET / HTTP/1.1" 200 -
+2019-08-01 13:27:03,125 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 13:27:03,128 -  * Restarting with stat
+2019-08-01 13:27:04,891 -  * Debugger is active!
+2019-08-01 13:27:04,896 -  * Debugger PIN: 447-554-036
+2019-08-01 13:27:05,286 - 127.0.0.1 - - [01/Aug/2019 13:27:05] "GET / HTTP/1.1" 200 -
+2019-08-01 13:30:03,181 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 13:30:03,184 -  * Restarting with stat
+2019-08-01 13:30:04,744 -  * Debugger is active!
+2019-08-01 13:30:04,746 -  * Debugger PIN: 447-554-036
+2019-08-01 13:30:05,139 - 127.0.0.1 - - [01/Aug/2019 13:30:05] "GET / HTTP/1.1" 200 -
+2019-08-01 13:36:41,505 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 13:36:41,507 -  * Restarting with stat
+2019-08-01 13:36:43,172 -  * Debugger is active!
+2019-08-01 13:36:43,173 -  * Debugger PIN: 447-554-036
+2019-08-01 13:36:43,871 - 127.0.0.1 - - [01/Aug/2019 13:36:43] "GET / HTTP/1.1" 200 -
+2019-08-01 13:38:21,532 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-08-01 13:38:33,346 - 127.0.0.1 - - [01/Aug/2019 13:38:33] "POST /generate HTTP/1.1" 500 -
+2019-08-01 14:12:58,009 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 14:12:58,098 -  * Restarting with stat
+2019-08-01 14:12:59,761 -  * Debugger is active!
+2019-08-01 14:12:59,762 -  * Debugger PIN: 447-554-036
+2019-08-01 14:13:06,911 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 14:13:07,010 -  * Restarting with stat
+2019-08-01 14:13:08,537 -  * Debugger is active!
+2019-08-01 14:13:08,538 -  * Debugger PIN: 447-554-036
+2019-08-01 14:14:29,298 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 14:14:29,549 -  * Restarting with stat
+2019-08-01 14:14:31,962 -  * Debugger is active!
+2019-08-01 14:14:31,963 -  * Debugger PIN: 447-554-036
+2019-08-01 14:26:35,923 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 14:26:36,018 -  * Restarting with stat
+2019-08-01 14:58:33,988 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 14:58:33,991 -  * Restarting with stat
+2019-08-01 14:58:35,476 -  * Debugger is active!
+2019-08-01 14:58:35,477 -  * Debugger PIN: 447-554-036
+2019-08-01 14:58:39,528 - 127.0.0.1 - - [01/Aug/2019 14:58:39] "GET / HTTP/1.1" 200 -
+2019-08-01 15:00:21,251 - 127.0.0.1 - - [01/Aug/2019 15:00:21] "POST /generate HTTP/1.1" 500 -
+2019-08-01 15:00:21,287 - 127.0.0.1 - - [01/Aug/2019 15:00:21] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-08-01 15:00:21,288 - 127.0.0.1 - - [01/Aug/2019 15:00:21] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-08-01 15:00:21,328 - 127.0.0.1 - - [01/Aug/2019 15:00:21] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-08-01 15:00:21,531 - 127.0.0.1 - - [01/Aug/2019 15:00:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-08-01 15:03:09,886 - 127.0.0.1 - - [01/Aug/2019 15:03:09] "GET / HTTP/1.1" 200 -
+2019-08-01 15:04:29,017 - 127.0.0.1 - - [01/Aug/2019 15:04:29] "POST /generate HTTP/1.1" 200 -
+2019-08-01 15:04:39,504 - 127.0.0.1 - - [01/Aug/2019 15:04:39] "GET / HTTP/1.1" 200 -
+2019-08-01 15:08:17,585 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-08-01 15:08:17,590 - 127.0.0.1 - - [01/Aug/2019 15:08:17] "POST /generate HTTP/1.1" 200 -
+2019-08-01 15:10:57,153 - 127.0.0.1 - - [01/Aug/2019 15:10:57] "GET / HTTP/1.1" 200 -
+2019-08-01 15:53:07,187 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 15:53:07,188 -  * Restarting with stat
+2019-08-01 15:53:07,644 -  * Debugger is active!
+2019-08-01 15:53:07,645 -  * Debugger PIN: 447-554-036
+2019-08-01 15:53:17,661 - 127.0.0.1 - - [01/Aug/2019 15:53:17] "GET / HTTP/1.1" 200 -
+2019-08-01 15:54:40,951 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-08-01 15:54:40,957 - 127.0.0.1 - - [01/Aug/2019 15:54:40] "POST /generate HTTP/1.1" 500 -
+2019-08-01 15:55:41,369 - 127.0.0.1 - - [01/Aug/2019 15:55:41] "GET / HTTP/1.1" 200 -
+2019-08-01 16:01:13,787 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 16:01:13,789 -  * Restarting with stat
+2019-08-01 16:01:15,424 -  * Debugger is active!
+2019-08-01 16:01:15,425 -  * Debugger PIN: 447-554-036
+2019-08-01 16:01:15,891 - 127.0.0.1 - - [01/Aug/2019 16:01:15] "GET / HTTP/1.1" 200 -
+2019-08-01 16:01:53,575 - 127.0.0.1 - - [01/Aug/2019 16:01:53] "POST /generate HTTP/1.1" 200 -
+2019-08-01 16:03:08,025 - 127.0.0.1 - - [01/Aug/2019 16:03:08] "GET / HTTP/1.1" 200 -
+2019-08-01 16:05:13,207 - 127.0.0.1 - - [01/Aug/2019 16:05:13] "GET / HTTP/1.1" 200 -
+2019-08-01 16:10:06,177 - 127.0.0.1 - - [01/Aug/2019 16:10:06] "POST /generate HTTP/1.1" 200 -
+2019-08-01 16:11:21,037 - 127.0.0.1 - - [01/Aug/2019 16:11:21] "GET / HTTP/1.1" 200 -
+2019-08-01 16:19:06,576 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 16:19:06,578 -  * Restarting with stat
+2019-08-01 16:19:08,029 -  * Debugger is active!
+2019-08-01 16:19:08,030 -  * Debugger PIN: 447-554-036
+2019-08-01 16:25:41,069 - 127.0.0.1 - - [01/Aug/2019 16:25:41] "GET / HTTP/1.1" 200 -
+2019-08-01 16:26:58,620 - 127.0.0.1 - - [01/Aug/2019 16:26:58] "GET / HTTP/1.1" 200 -
+2019-08-01 16:29:13,677 - 127.0.0.1 - - [01/Aug/2019 16:29:13] "POST /generate HTTP/1.1" 500 -
+2019-08-01 16:29:13,719 - 127.0.0.1 - - [01/Aug/2019 16:29:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-08-01 16:29:13,726 - 127.0.0.1 - - [01/Aug/2019 16:29:13] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-08-01 16:29:13,770 - 127.0.0.1 - - [01/Aug/2019 16:29:13] "POST /generate HTTP/1.1" 500 -
+2019-08-01 16:29:13,771 - 127.0.0.1 - - [01/Aug/2019 16:29:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-08-01 16:29:13,846 - 127.0.0.1 - - [01/Aug/2019 16:29:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-08-01 16:31:38,328 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 16:31:38,417 -  * Restarting with stat
+2019-08-01 16:31:39,859 -  * Debugger is active!
+2019-08-01 16:31:39,860 -  * Debugger PIN: 447-554-036
+2019-08-01 16:32:38,151 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 16:32:38,152 -  * Restarting with stat
+2019-08-01 16:32:38,630 -  * Debugger is active!
+2019-08-01 16:32:38,631 -  * Debugger PIN: 447-554-036
+2019-08-01 16:33:04,052 - 127.0.0.1 - - [01/Aug/2019 16:33:04] "GET / HTTP/1.1" 200 -
+2019-08-01 16:33:44,392 - 127.0.0.1 - - [01/Aug/2019 16:33:44] "POST /generate HTTP/1.1" 200 -
+2019-08-01 16:33:49,192 - 127.0.0.1 - - [01/Aug/2019 16:33:49] "GET / HTTP/1.1" 200 -
+2019-08-01 16:35:35,878 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 16:35:35,946 -  * Restarting with stat
+2019-08-01 16:35:36,410 -  * Debugger is active!
+2019-08-01 16:35:36,411 -  * Debugger PIN: 447-554-036
+2019-08-01 16:38:13,439 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 16:38:13,539 -  * Restarting with stat
+2019-08-01 16:38:14,123 -  * Debugger is active!
+2019-08-01 16:38:14,123 -  * Debugger PIN: 447-554-036
+2019-08-01 16:38:25,066 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 16:38:25,067 -  * Restarting with stat
+2019-08-01 16:38:25,548 -  * Debugger is active!
+2019-08-01 16:38:25,549 -  * Debugger PIN: 447-554-036
+2019-08-01 16:39:19,184 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-08-01 16:39:19,201 - 127.0.0.1 - - [01/Aug/2019 16:39:19] "POST /generate HTTP/1.1" 500 -
+2019-08-01 16:40:49,402 - 127.0.0.1 - - [01/Aug/2019 16:40:49] "GET / HTTP/1.1" 200 -
+2019-08-01 16:47:24,355 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 16:47:24,358 -  * Restarting with stat
+2019-08-01 16:47:25,826 -  * Debugger is active!
+2019-08-01 16:47:25,827 -  * Debugger PIN: 447-554-036
+2019-08-01 16:51:01,210 - 127.0.0.1 - - [01/Aug/2019 16:51:01] "POST /generate HTTP/1.1" 200 -
+2019-08-01 16:52:43,003 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 16:52:43,106 -  * Restarting with stat
+2019-08-01 16:52:44,626 -  * Debugger is active!
+2019-08-01 16:52:44,627 -  * Debugger PIN: 447-554-036
+2019-08-01 16:54:31,984 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 16:54:32,100 -  * Restarting with stat
+2019-08-01 16:54:33,661 -  * Debugger is active!
+2019-08-01 16:54:33,663 -  * Debugger PIN: 447-554-036
+2019-08-01 16:55:09,465 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 16:55:09,554 -  * Restarting with stat
+2019-08-01 16:55:11,021 -  * Debugger is active!
+2019-08-01 16:55:11,022 -  * Debugger PIN: 447-554-036
+2019-08-01 16:57:50,350 - 127.0.0.1 - - [01/Aug/2019 16:57:50] "GET / HTTP/1.1" 200 -
+2019-08-01 16:58:07,853 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 16:58:07,856 -  * Restarting with stat
+2019-08-01 16:58:09,394 -  * Debugger is active!
+2019-08-01 16:58:09,395 -  * Debugger PIN: 447-554-036
+2019-08-01 17:01:02,148 - 127.0.0.1 - - [01/Aug/2019 17:01:02] "POST /generate HTTP/1.1" 200 -
+2019-08-01 17:01:12,643 - 127.0.0.1 - - [01/Aug/2019 17:01:12] "GET /certificate//home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:01:49,631 - 127.0.0.1 - - [01/Aug/2019 17:01:49] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:02:07,426 - 127.0.0.1 - - [01/Aug/2019 17:02:07] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:04:12,246 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 17:04:12,380 -  * Restarting with stat
+2019-08-01 17:04:13,881 -  * Debugger is active!
+2019-08-01 17:04:13,883 -  * Debugger PIN: 447-554-036
+2019-08-01 17:05:07,545 - 127.0.0.1 - - [01/Aug/2019 17:05:07] "GET /certificate//home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:21:37,761 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 17:21:37,762 -  * Restarting with stat
+2019-08-01 17:21:38,246 -  * Debugger is active!
+2019-08-01 17:21:38,246 -  * Debugger PIN: 447-554-036
+2019-08-01 17:21:43,212 - 127.0.0.1 - - [01/Aug/2019 17:21:43] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:21:46,564 - 127.0.0.1 - - [01/Aug/2019 17:21:46] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:21:47,809 - 127.0.0.1 - - [01/Aug/2019 17:21:47] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:21:48,970 - 127.0.0.1 - - [01/Aug/2019 17:21:48] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:22:31,986 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 17:22:32,058 -  * Restarting with stat
+2019-08-01 17:22:32,571 -  * Debugger is active!
+2019-08-01 17:22:32,572 -  * Debugger PIN: 447-554-036
+2019-08-01 17:22:42,695 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 17:22:42,758 -  * Restarting with stat
+2019-08-01 17:22:43,210 -  * Debugger is active!
+2019-08-01 17:22:43,210 -  * Debugger PIN: 447-554-036
+2019-08-01 17:23:31,927 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 17:23:31,930 -  * Restarting with stat
+2019-08-01 17:23:33,455 -  * Debugger is active!
+2019-08-01 17:23:33,456 -  * Debugger PIN: 447-554-036
+2019-08-01 17:24:34,610 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 17:24:34,613 -  * Restarting with stat
+2019-08-01 17:24:36,081 -  * Debugger is active!
+2019-08-01 17:24:36,083 -  * Debugger PIN: 447-554-036
+2019-08-01 17:25:33,329 - 127.0.0.1 - - [01/Aug/2019 17:25:33] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-01 17:27:27,856 -  * Detected change in '/home/minty/Documents/GitHub/bpki-enrolment-gui/app.py', reloading
+2019-08-01 17:27:27,972 -  * Restarting with stat
+2019-08-01 17:27:29,578 -  * Debugger is active!
+2019-08-01 17:27:29,580 -  * Debugger PIN: 447-554-036
+2019-08-01 17:27:59,697 - 127.0.0.1 - - [01/Aug/2019 17:27:59] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/168b51adef3b/ATU1-AFRINIC.p12 HTTP/1.1" 200 -
+2019-08-01 21:56:09,357 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-01 21:56:09,374 -  * Restarting with stat
+2019-08-01 21:56:11,097 -  * Debugger is active!
+2019-08-01 21:56:11,145 -  * Debugger PIN: 447-554-036
+2019-08-01 21:56:11,981 - 127.0.0.1 - - [01/Aug/2019 21:56:11] "GET / HTTP/1.1" 200 -
+2019-08-01 21:56:12,067 - 127.0.0.1 - - [01/Aug/2019 21:56:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-01 21:56:12,082 - 127.0.0.1 - - [01/Aug/2019 21:56:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-01 21:56:12,097 - 127.0.0.1 - - [01/Aug/2019 21:56:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-01 21:56:12,120 - 127.0.0.1 - - [01/Aug/2019 21:56:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-01 21:56:13,079 - 127.0.0.1 - - [01/Aug/2019 21:56:13] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-01 21:58:02,146 - 127.0.0.1 - - [01/Aug/2019 21:58:02] "POST /generate HTTP/1.1" 200 -
+2019-08-01 21:58:02,229 - 127.0.0.1 - - [01/Aug/2019 21:58:02] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-01 21:58:31,377 - 127.0.0.1 - - [01/Aug/2019 21:58:31] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/40f5091d474f/ATU1-AFRINIC.p12 HTTP/1.1" 200 -
+2019-08-02 09:52:35,597 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 09:52:35,641 -  * Restarting with stat
+2019-08-02 09:52:36,096 -  * Debugger is active!
+2019-08-02 09:52:36,116 -  * Debugger PIN: 447-554-036
+2019-08-02 09:53:33,645 - 127.0.0.1 - - [02/Aug/2019 09:53:33] "GET / HTTP/1.1" 200 -
+2019-08-02 09:53:33,703 - 127.0.0.1 - - [02/Aug/2019 09:53:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 09:53:33,724 - 127.0.0.1 - - [02/Aug/2019 09:53:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 09:53:33,739 - 127.0.0.1 - - [02/Aug/2019 09:53:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 09:53:33,782 - 127.0.0.1 - - [02/Aug/2019 09:53:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 09:53:34,454 - 127.0.0.1 - - [02/Aug/2019 09:53:34] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-02 09:54:37,915 - 127.0.0.1 - - [02/Aug/2019 09:54:37] "POST /generate HTTP/1.1" 200 -
+2019-08-02 09:54:37,975 - 127.0.0.1 - - [02/Aug/2019 09:54:37] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-02 10:24:05,117 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 10:24:05,118 -  * Restarting with stat
+2019-08-02 10:24:05,592 -  * Debugger is active!
+2019-08-02 10:24:05,593 -  * Debugger PIN: 447-554-036
+2019-08-02 10:24:10,167 - 127.0.0.1 - - [02/Aug/2019 10:24:10] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:53,659 - 127.0.0.1 - - [02/Aug/2019 10:24:53] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:53,739 - 127.0.0.1 - - [02/Aug/2019 10:24:53] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:53,755 - 127.0.0.1 - - [02/Aug/2019 10:24:53] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:53,764 - 127.0.0.1 - - [02/Aug/2019 10:24:53] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:53,865 - 127.0.0.1 - - [02/Aug/2019 10:24:53] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:57,890 - 127.0.0.1 - - [02/Aug/2019 10:24:57] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:57,950 - 127.0.0.1 - - [02/Aug/2019 10:24:57] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:57,963 - 127.0.0.1 - - [02/Aug/2019 10:24:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:57,972 - 127.0.0.1 - - [02/Aug/2019 10:24:57] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:58,054 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:58,253 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:58,336 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:58,350 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:58,355 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:58,447 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:58,603 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:58,662 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:58,669 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:58,694 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:58,819 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:58,871 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:58,940 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:58,954 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:58,967 - 127.0.0.1 - - [02/Aug/2019 10:24:58] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,089 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:59,154 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:59,243 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,251 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,264 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:59,352 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:59,367 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:59,484 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,491 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,496 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:59,611 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:24:59,630 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET / HTTP/1.1" 200 -
+2019-08-02 10:24:59,714 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,732 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:24:59,744 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:24:59,855 - 127.0.0.1 - - [02/Aug/2019 10:24:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:00,852 - 127.0.0.1 - - [02/Aug/2019 10:25:00] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:00,995 - 127.0.0.1 - - [02/Aug/2019 10:25:00] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:01,010 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:01,035 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:01,038 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:01,122 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:01,175 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:01,216 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:01,221 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:01,235 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:01,318 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:01,396 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:01,411 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:01,417 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:01,516 - 127.0.0.1 - - [02/Aug/2019 10:25:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:02,611 - 127.0.0.1 - - [02/Aug/2019 10:25:02] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:02,649 - 127.0.0.1 - - [02/Aug/2019 10:25:02] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:02,655 - 127.0.0.1 - - [02/Aug/2019 10:25:02] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:02,662 - 127.0.0.1 - - [02/Aug/2019 10:25:02] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:02,736 - 127.0.0.1 - - [02/Aug/2019 10:25:02] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:03,600 - 127.0.0.1 - - [02/Aug/2019 10:25:03] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:03,647 - 127.0.0.1 - - [02/Aug/2019 10:25:03] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:03,655 - 127.0.0.1 - - [02/Aug/2019 10:25:03] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:03,663 - 127.0.0.1 - - [02/Aug/2019 10:25:03] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:03,731 - 127.0.0.1 - - [02/Aug/2019 10:25:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:03,923 - 127.0.0.1 - - [02/Aug/2019 10:25:03] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:04,013 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:04,017 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:04,017 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:04,095 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:04,178 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:04,241 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:04,243 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:04,246 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:04,314 - 127.0.0.1 - - [02/Aug/2019 10:25:04] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:07,989 - 127.0.0.1 - - [02/Aug/2019 10:25:07] "POST /generate HTTP/1.1" 200 -
+2019-08-02 10:25:33,733 - 127.0.0.1 - - [02/Aug/2019 10:25:33] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:37,008 - 127.0.0.1 - - [02/Aug/2019 10:25:37] "GET / HTTP/1.1" 200 -
+2019-08-02 10:25:37,064 - 127.0.0.1 - - [02/Aug/2019 10:25:37] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 10:25:37,078 - 127.0.0.1 - - [02/Aug/2019 10:25:37] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 10:25:37,081 - 127.0.0.1 - - [02/Aug/2019 10:25:37] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 10:25:37,219 - 127.0.0.1 - - [02/Aug/2019 10:25:37] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 10:25:44,332 - 127.0.0.1 - - [02/Aug/2019 10:25:44] "POST /generate HTTP/1.1" 200 -
+2019-08-02 10:30:23,128 - 127.0.0.1 - - [02/Aug/2019 10:30:23] "POST /generate HTTP/1.1" 500 -
+2019-08-02 10:30:23,192 - 127.0.0.1 - - [02/Aug/2019 10:30:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-08-02 10:30:23,200 - 127.0.0.1 - - [02/Aug/2019 10:30:23] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-08-02 10:30:23,235 - 127.0.0.1 - - [02/Aug/2019 10:30:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-08-02 10:30:23,433 - 127.0.0.1 - - [02/Aug/2019 10:30:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-08-02 10:31:32,490 - 127.0.0.1 - - [02/Aug/2019 10:31:32] "GET / HTTP/1.1" 200 -
+2019-08-02 10:31:45,119 - 127.0.0.1 - - [02/Aug/2019 10:31:45] "GET / HTTP/1.1" 200 -
+2019-08-02 10:51:02,608 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 10:51:02,609 -  * Restarting with stat
+2019-08-02 10:51:03,067 -  * Debugger is active!
+2019-08-02 10:51:03,068 -  * Debugger PIN: 447-554-036
+2019-08-02 10:51:11,074 - 127.0.0.1 - - [02/Aug/2019 10:51:11] "GET / HTTP/1.1" 200 -
+2019-08-02 10:58:02,551 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 10:58:02,553 -  * Restarting with stat
+2019-08-02 10:58:03,091 -  * Debugger is active!
+2019-08-02 10:58:03,092 -  * Debugger PIN: 447-554-036
+2019-08-02 10:58:03,116 - 127.0.0.1 - - [02/Aug/2019 10:58:03] "GET / HTTP/1.1" 200 -
+2019-08-02 10:58:05,421 - 127.0.0.1 - - [02/Aug/2019 10:58:05] "GET / HTTP/1.1" 200 -
+2019-08-02 11:17:42,545 - 127.0.0.1 - - [02/Aug/2019 11:17:42] "GET / HTTP/1.1" 200 -
+2019-08-02 11:17:42,603 - 127.0.0.1 - - [02/Aug/2019 11:17:42] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:17:42,626 - 127.0.0.1 - - [02/Aug/2019 11:17:42] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:17:42,628 - 127.0.0.1 - - [02/Aug/2019 11:17:42] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:17:42,709 - 127.0.0.1 - - [02/Aug/2019 11:17:42] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:24:31,950 - 127.0.0.1 - - [02/Aug/2019 11:24:31] "GET / HTTP/1.1" 200 -
+2019-08-02 11:24:32,034 - 127.0.0.1 - - [02/Aug/2019 11:24:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:24:32,036 - 127.0.0.1 - - [02/Aug/2019 11:24:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:24:32,037 - 127.0.0.1 - - [02/Aug/2019 11:24:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:24:32,106 - 127.0.0.1 - - [02/Aug/2019 11:24:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:24:33,593 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET / HTTP/1.1" 200 -
+2019-08-02 11:24:33,638 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:24:33,642 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:24:33,657 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:24:33,714 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:24:33,903 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET / HTTP/1.1" 200 -
+2019-08-02 11:24:33,983 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:24:33,991 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:24:33,998 - 127.0.0.1 - - [02/Aug/2019 11:24:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:24:34,073 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:24:34,138 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET / HTTP/1.1" 200 -
+2019-08-02 11:24:34,178 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:24:34,183 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:24:34,188 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:24:34,269 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:24:34,348 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET / HTTP/1.1" 200 -
+2019-08-02 11:24:34,391 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:24:34,393 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:24:34,408 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:24:34,479 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:24:34,565 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET / HTTP/1.1" 200 -
+2019-08-02 11:24:34,624 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:24:34,624 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:24:34,631 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:24:34,687 - 127.0.0.1 - - [02/Aug/2019 11:24:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:30,286 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:30,320 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:30,336 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:30,337 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:30,398 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:30,571 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:30,617 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:30,617 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:30,619 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:30,685 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:30,787 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:30,822 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:30,829 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:30,838 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:30,903 - 127.0.0.1 - - [02/Aug/2019 11:57:30] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:31,007 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:31,061 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,064 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:31,066 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,138 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:31,205 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:31,239 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,243 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,249 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:31,319 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:31,445 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:31,504 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,505 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,507 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:31,589 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:31,656 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:31,706 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,716 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,722 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:31,791 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:31,872 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:31,926 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:31,940 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:31,946 - 127.0.0.1 - - [02/Aug/2019 11:57:31] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,021 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:32,064 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:32,141 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,146 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:32,147 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,224 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:32,266 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:32,303 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,307 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,310 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:32,386 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:32,438 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:32,475 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,476 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:32,484 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,560 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:32,624 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:32,661 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,663 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,668 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:32,740 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 11:57:32,806 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET / HTTP/1.1" 200 -
+2019-08-02 11:57:32,890 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,896 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 11:57:32,898 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 11:57:32,977 - 127.0.0.1 - - [02/Aug/2019 11:57:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:04,053 - 127.0.0.1 - - [02/Aug/2019 12:01:04] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:33,108 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:33,142 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:33,147 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:33,153 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:33,231 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:33,619 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:33,656 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:33,668 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:33,672 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:33,732 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:33,848 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:33,883 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:33,886 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:33,887 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:33,958 - 127.0.0.1 - - [02/Aug/2019 12:01:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:34,062 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:34,102 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,102 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,104 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:34,183 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:34,258 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:34,314 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,318 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:34,319 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,397 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:34,488 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:34,521 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,531 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,539 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:34,612 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:34,690 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:34,748 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,749 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:34,750 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:34,829 - 127.0.0.1 - - [02/Aug/2019 12:01:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:35,046 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:35,077 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,083 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,084 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:35,169 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:35,266 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:35,302 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,314 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,315 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:35,385 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:35,495 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:35,567 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,568 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,570 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:35,648 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:35,751 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:35,794 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:35,797 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,799 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:35,871 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:35,984 - 127.0.0.1 - - [02/Aug/2019 12:01:35] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:36,018 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,023 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,034 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:36,102 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:36,249 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:36,566 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:36,573 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,584 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,585 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:36,645 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:36,716 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,716 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,720 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:36,801 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 12:01:36,805 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET / HTTP/1.1" 200 -
+2019-08-02 12:01:36,887 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,901 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 12:01:36,901 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 12:01:36,970 - 127.0.0.1 - - [02/Aug/2019 12:01:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:13:52,771 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 13:13:52,772 -  * Restarting with stat
+2019-08-02 13:13:53,270 -  * Debugger is active!
+2019-08-02 13:13:53,271 -  * Debugger PIN: 447-554-036
+2019-08-02 13:25:52,654 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 13:25:52,655 -  * Restarting with stat
+2019-08-02 13:25:53,134 -  * Debugger is active!
+2019-08-02 13:25:53,135 -  * Debugger PIN: 447-554-036
+2019-08-02 13:25:58,018 - 127.0.0.1 - - [02/Aug/2019 13:25:58] "GET / HTTP/1.1" 200 -
+2019-08-02 13:42:41,063 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 13:42:41,064 -  * Restarting with stat
+2019-08-02 13:42:41,557 -  * Debugger is active!
+2019-08-02 13:42:41,558 -  * Debugger PIN: 447-554-036
+2019-08-02 13:42:43,954 - 127.0.0.1 - - [02/Aug/2019 13:42:43] "GET / HTTP/1.1" 200 -
+2019-08-02 13:42:43,993 - 127.0.0.1 - - [02/Aug/2019 13:42:43] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:42:44,005 - 127.0.0.1 - - [02/Aug/2019 13:42:44] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:42:44,010 - 127.0.0.1 - - [02/Aug/2019 13:42:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:42:44,107 - 127.0.0.1 - - [02/Aug/2019 13:42:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:42:46,485 - 127.0.0.1 - - [02/Aug/2019 13:42:46] "GET / HTTP/1.1" 200 -
+2019-08-02 13:42:46,517 - 127.0.0.1 - - [02/Aug/2019 13:42:46] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:42:46,520 - 127.0.0.1 - - [02/Aug/2019 13:42:46] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:42:46,523 - 127.0.0.1 - - [02/Aug/2019 13:42:46] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:42:46,604 - 127.0.0.1 - - [02/Aug/2019 13:42:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:42:55,067 - 127.0.0.1 - - [02/Aug/2019 13:42:55] "GET / HTTP/1.1" 200 -
+2019-08-02 13:42:55,099 - 127.0.0.1 - - [02/Aug/2019 13:42:55] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:42:55,107 - 127.0.0.1 - - [02/Aug/2019 13:42:55] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:42:55,109 - 127.0.0.1 - - [02/Aug/2019 13:42:55] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:42:55,184 - 127.0.0.1 - - [02/Aug/2019 13:42:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:46:04,506 - 127.0.0.1 - - [02/Aug/2019 13:46:04] "GET / HTTP/1.1" 200 -
+2019-08-02 13:46:04,539 - 127.0.0.1 - - [02/Aug/2019 13:46:04] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:46:04,553 - 127.0.0.1 - - [02/Aug/2019 13:46:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:46:04,558 - 127.0.0.1 - - [02/Aug/2019 13:46:04] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:46:04,642 - 127.0.0.1 - - [02/Aug/2019 13:46:04] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:46:32,107 - 127.0.0.1 - - [02/Aug/2019 13:46:32] "GET / HTTP/1.1" 200 -
+2019-08-02 13:46:32,140 - 127.0.0.1 - - [02/Aug/2019 13:46:32] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:46:32,144 - 127.0.0.1 - - [02/Aug/2019 13:46:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:46:32,148 - 127.0.0.1 - - [02/Aug/2019 13:46:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:46:32,232 - 127.0.0.1 - - [02/Aug/2019 13:46:32] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:55:39,665 - 127.0.0.1 - - [02/Aug/2019 13:55:39] "GET / HTTP/1.1" 200 -
+2019-08-02 13:55:39,719 - 127.0.0.1 - - [02/Aug/2019 13:55:39] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:55:39,721 - 127.0.0.1 - - [02/Aug/2019 13:55:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:55:39,738 - 127.0.0.1 - - [02/Aug/2019 13:55:39] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:55:39,802 - 127.0.0.1 - - [02/Aug/2019 13:55:39] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:57:11,670 - 127.0.0.1 - - [02/Aug/2019 13:57:11] "GET / HTTP/1.1" 200 -
+2019-08-02 13:57:11,699 - 127.0.0.1 - - [02/Aug/2019 13:57:11] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:57:11,719 - 127.0.0.1 - - [02/Aug/2019 13:57:11] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:57:11,725 - 127.0.0.1 - - [02/Aug/2019 13:57:11] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:57:11,806 - 127.0.0.1 - - [02/Aug/2019 13:57:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:57:12,315 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET / HTTP/1.1" 200 -
+2019-08-02 13:57:12,370 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,379 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,390 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:57:12,476 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:57:12,487 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET / HTTP/1.1" 200 -
+2019-08-02 13:57:12,551 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,558 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,569 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:57:12,640 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:57:12,651 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET / HTTP/1.1" 200 -
+2019-08-02 13:57:12,722 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,726 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,738 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:57:12,809 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 13:57:12,858 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET / HTTP/1.1" 200 -
+2019-08-02 13:57:12,938 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,947 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 13:57:12,960 - 127.0.0.1 - - [02/Aug/2019 13:57:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 13:57:13,037 - 127.0.0.1 - - [02/Aug/2019 13:57:13] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:00:41,042 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET / HTTP/1.1" 200 -
+2019-08-02 14:00:41,089 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:00:41,090 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:00:41,092 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:00:41,168 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:00:41,274 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET / HTTP/1.1" 200 -
+2019-08-02 14:00:41,580 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:00:41,588 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:00:41,589 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:00:41,655 - 127.0.0.1 - - [02/Aug/2019 14:00:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:03:12,077 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET / HTTP/1.1" 200 -
+2019-08-02 14:03:12,118 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,123 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,126 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:03:12,203 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:03:12,242 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET / HTTP/1.1" 200 -
+2019-08-02 14:03:12,279 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,282 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,291 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:03:12,357 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:03:12,393 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET / HTTP/1.1" 200 -
+2019-08-02 14:03:12,435 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,439 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:03:12,441 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,508 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:03:12,596 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET / HTTP/1.1" 200 -
+2019-08-02 14:03:12,627 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,636 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:03:12,637 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:03:12,712 - 127.0.0.1 - - [02/Aug/2019 14:03:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:04:11,056 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET / HTTP/1.1" 200 -
+2019-08-02 14:04:11,097 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:04:11,101 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:04:11,106 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:04:11,223 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:04:11,247 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET / HTTP/1.1" 200 -
+2019-08-02 14:04:11,321 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:04:11,336 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:04:11,340 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:04:11,421 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:04:11,439 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET / HTTP/1.1" 200 -
+2019-08-02 14:04:11,524 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:04:11,533 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:04:11,541 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:04:11,616 - 127.0.0.1 - - [02/Aug/2019 14:04:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:04:47,111 - 127.0.0.1 - - [02/Aug/2019 14:04:47] "GET / HTTP/1.1" 200 -
+2019-08-02 14:04:47,158 - 127.0.0.1 - - [02/Aug/2019 14:04:47] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:04:47,162 - 127.0.0.1 - - [02/Aug/2019 14:04:47] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:04:47,166 - 127.0.0.1 - - [02/Aug/2019 14:04:47] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:04:47,235 - 127.0.0.1 - - [02/Aug/2019 14:04:47] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:04:48,395 - 127.0.0.1 - - [02/Aug/2019 14:04:48] "GET / HTTP/1.1" 200 -
+2019-08-02 14:04:48,420 - 127.0.0.1 - - [02/Aug/2019 14:04:48] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-02 14:04:48,426 - 127.0.0.1 - - [02/Aug/2019 14:04:48] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-02 14:04:48,431 - 127.0.0.1 - - [02/Aug/2019 14:04:48] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-02 14:04:48,512 - 127.0.0.1 - - [02/Aug/2019 14:04:48] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-02 14:12:44,464 - 127.0.0.1 - - [02/Aug/2019 14:12:44] "POST /generate HTTP/1.1" 200 -
+2019-08-02 14:21:42,961 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-02 14:21:42,962 -  * Restarting with stat
+2019-08-02 14:21:43,441 -  * Debugger is active!
+2019-08-02 14:21:43,442 -  * Debugger PIN: 447-554-036
+2019-08-02 14:21:55,305 - 127.0.0.1 - - [02/Aug/2019 14:21:55] "GET / HTTP/1.1" 200 -
+2019-08-02 14:21:55,335 - 127.0.0.1 - - [02/Aug/2019 14:21:55] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -

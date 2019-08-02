@@ -12,15 +12,12 @@ $(function() {
        $.post("/generate", $(this).serialize())
            .done(function (data) {
                console.log(data);
-               // window.location.replace(data.url) //The url will be returned by back end
                $("html").html(data);
            })
            .fail(function (data) {
                console.log(data.responseText);
-               // window.location.replace(data.url)
                $("html").html(data.responseText);
            })
-
 
    });
 
@@ -30,14 +27,14 @@ $(function() {
 
     orgId.on("change", function () {
            $.getJSON(endpoint + orgId.val(),function(data) {
-              console.log(endpoint+orgId.val());
-              console.info(data.entities[0]["vcardArray"][1][5][3]);
+              // console.log(endpoint+orgId.val());
+              // console.info(data.entities[0]["vcardArray"][1][5][3]);
                nicIds = data.entities;
-              let select = document.querySelector("select");
+              let select = document.querySelector("datalist");
 
 
         //nicIds = ["IS001-AFRINIC","ATU1-AFRINIC"];
-        console.log(nicIds);
+        // console.log(nicIds);
         for (let nicId in nicIds) {
             console.log(nicId);
             // let option = document.createElement("option");

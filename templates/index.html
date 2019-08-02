@@ -18,10 +18,11 @@
 
            <div class="form-group">
                   <label class="form-label tooltip tooltip-left" data-tooltip="Your NIC Handle" for="nic-id">NIC Handle</label>
-                  <select class="form-select" name="nic_id" id="nic-id" required>
+                  <input class="form-input input-lg" type="text" id="nic-id" list="nic-ids" required placeholder="Enter Nic handle or select from dropdown"/>
+                  <datalist class="form-select" name="nic_id" id="nic-ids" >
                      <option value=""> Please select NIC-Handle</option>
 
-                  </select>
+                  </datalist>
            </div>
 
            <div class="form-group">
@@ -46,7 +47,7 @@
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Full legal company or personal name" for="org">Organization</label>
-              <input class="form-input input-lg" type="text" id="org" placeholder="Big Bob's Beepers" name="O" required />
+              <input class="form-input input-lg" type="text" id="org" placeholder="Big Bob's Beepers" name="O" readonly required />
             </div>
 
             <div class="form-group">
@@ -56,7 +57,7 @@
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="The FQDN for your domain" for="common-name">Common Name</label>
-              <input class="form-input input-lg" type="text" id="common-name" placeholder="example.com" name="CN" required />
+              <input class="form-input input-lg" type="text" id="common-name" placeholder="example.com" name="CN" readonly required />
             </div>
 
             <div class="form-group">
@@ -79,7 +80,7 @@
 
       </div>
 
-      <div id="csr-modal" class="modal">
+      <div id="csr-modal" class="modal modal-lg">
         <div class="modal-overlay"></div>
         <div class="modal-container tall no-max-height">
           <div class="modal-header">
@@ -88,8 +89,8 @@
 
           <div class="modal-body no-max-height">
             <div class="content">
-              <label for="csr"></label><textarea cols="65" id="csr" readonly="readonly" rows="47">
-            </textarea>
+          <!--    <label for="csr"></label><textarea cols="65" id="csr" readonly="readonly" rows="47">
+            </textarea> -->
             <span id="loader"><img src="/static/img/loading.gif" alt="Loading circle"></span>
             </div>
           </div>

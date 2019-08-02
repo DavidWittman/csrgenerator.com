@@ -6,8 +6,8 @@ li{
 }
 #loader{
     position: relative;
-    top: -30em;
-    right: -18em;
+    left: 40%;
+    top: 40%
 }
 .bg-grey {
     background-color: #efefef;
@@ -27,4 +27,13 @@ li{
     font-family: monospace;
     font-size: 80%;
     padding: .5rem;
+}
+
+#csr-modal > div.modal-container.tall.no-max-height > div.modal-header > button {
+    display: none;
+}
+
+#csr-modal > div.modal-container.tall.no-max-height {
+    height: 80vh;
+    background: rgba(0,0,0,0.3);
 }

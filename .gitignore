@@ -5,5 +5,4 @@ env
 venv/
 *.pem
 *.p12
-downloads/
-logs/
+
