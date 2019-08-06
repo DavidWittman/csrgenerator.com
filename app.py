@@ -1,6 +1,8 @@
 from __future__ import absolute_import
 import os
 import logging
+import time
+
 from pathlib import Path
 from flask import Flask, request, render_template, abort, send_from_directory
 import OpenSSL.crypto as crypt
@@ -75,9 +77,7 @@ def generate_pem(nic_id: str, user_directory: str, password: str, csr: str):
     profile.set_preference('browser.download.folderList', 2)
     profile.set_preference('browser.download.manager.showWhenStarting', False)
     profile.set_preference('browser.download.dir', downloads)
-    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", 'application/x-x509-ca-cert')
-    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", 'text/plain')
-    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", 'application/pem-certificate-chain')
+    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", 'application/x-pem-file')
 
     try:
         browser = webdriver.Firefox(executable_path=base_directory + '/geckodriver', options=options,
@@ -104,17 +104,42 @@ def generate_pem(nic_id: str, user_directory: str, password: str, csr: str):
     submit = browser.find_element_by_id('form:j_id77')
     submit.click()
 
-    try:
-        WebDriverWait(browser, 30).until(expected_conditions.presence_of_element_located((By.CLASS_NAME,
-                                                                                          'iceOutConStatInactv')))
-    except TimeoutError as error:
-        server_errors.append(error)
-        logger.error('Unable to receive pem file: %s -- NIC Handle: %s', error, nic_id)
-        browser.close()
-        browser.quit()
-        abort(500)
+    # pem_ready = browser.execute_script('''
+    #
+    # var checker = window.setInterval(checkLoadingComplete, 3000);
+    #
+    # function checkLoadingComplete() {
+    #     var loader = document.querySelector(".iceOutConStatInactv");
+    #     var inlineStyle = loader.getAttribute("style");
+    #      var styles = inlineStyle.split(":");
+    #
+    #     if (styles[1] === "active"){
+    #       window.clearInterval(checker);
+    #       interval = null
+    #       return true;
+    #     }
+    # }
+    #
+    # ''')
+    #
+    # try:
+    #     WebDriverWait(browser, 30).until(expected_conditions.presence_of_element_located((By.CLASS_NAME,
+    #                                                                                       'iceOutConStatInactv')))
+    # except TimeoutError as error:
+    #     server_errors.append(error)
+    #     logger.error('Unable to receive pem file: %s -- NIC Handle: %s', error, nic_id)
+    #     browser.close()
+    #     browser.quit()
+    #     abort(500)
 
     downloaded_pem_path = Path(downloads + '/' + nic_id + '.pem')
+    time_to_wait = 30
+    time_counter = 0
+    while not os.path.exists(downloaded_pem_path):
+        time.sleep(1)
+        time_counter += 1
+        if time_counter > time_to_wait:
+            break
 
     if downloaded_pem_path.exists() and downloaded_pem_path.is_file():
         browser.close()

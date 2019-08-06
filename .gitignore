@@ -7,3 +7,5 @@ venv/
 *.p12
 *.log
 
+
+logs/
