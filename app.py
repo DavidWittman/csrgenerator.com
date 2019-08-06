@@ -72,7 +72,7 @@ def generate_pem(nic_id: str, user_directory: str, password: str, csr: str):
         logger.error('Unable to create path: %s -- %s', error, nic_id)
 
     options = webdriver.FirefoxOptions()
-    # options.add_argument('-headless')
+    options.add_argument('-headless')
     profile = webdriver.FirefoxProfile()
     profile.set_preference('browser.download.folderList', 2)
     profile.set_preference('browser.download.manager.showWhenStarting', False)
@@ -103,34 +103,6 @@ def generate_pem(nic_id: str, user_directory: str, password: str, csr: str):
 
     submit = browser.find_element_by_id('form:j_id77')
     submit.click()
-
-    # pem_ready = browser.execute_script('''
-    #
-    # var checker = window.setInterval(checkLoadingComplete, 3000);
-    #
-    # function checkLoadingComplete() {
-    #     var loader = document.querySelector(".iceOutConStatInactv");
-    #     var inlineStyle = loader.getAttribute("style");
-    #      var styles = inlineStyle.split(":");
-    #
-    #     if (styles[1] === "active"){
-    #       window.clearInterval(checker);
-    #       interval = null
-    #       return true;
-    #     }
-    # }
-    #
-    # ''')
-    #
-    # try:
-    #     WebDriverWait(browser, 30).until(expected_conditions.presence_of_element_located((By.CLASS_NAME,
-    #                                                                                       'iceOutConStatInactv')))
-    # except TimeoutError as error:
-    #     server_errors.append(error)
-    #     logger.error('Unable to receive pem file: %s -- NIC Handle: %s', error, nic_id)
-    #     browser.close()
-    #     browser.quit()
-    #     abort(500)
 
     downloaded_pem_path = Path(downloads + '/' + nic_id + '.pem')
     time_to_wait = 30

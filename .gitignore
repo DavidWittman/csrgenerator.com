@@ -6,6 +6,4 @@ venv/
 *.pem
 *.p12
 *.log
-
-
 logs/
