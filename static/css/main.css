@@ -9,6 +9,18 @@ li{
     left: 40%;
     top: 40%
 }
+strong, a{
+    color: #d15e14;
+}
+
+.btn.btn-primary:hover{
+    background-color: #d15e14;
+}
+
+#notice {
+    font-size: 1.2em;
+}
+
 .bg-grey {
     background-color: #efefef;
     padding: 1rem;
