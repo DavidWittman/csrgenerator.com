@@ -73,7 +73,7 @@ def generate_pem(nic_id: str, user_directory: str, password: str, csr: str):
 
     opts = webdriver.ChromeOptions()
     opts.add_argument('--no-sandbox')
-    # opts.add_argument('--headless')
+    opts.add_argument('--headless')
     opts.add_argument('--disable-dev-shm-usage')
     log_path = base_directory + '/logs/chromedriver.log'
     prefs = {'download.default_directory': downloads}
