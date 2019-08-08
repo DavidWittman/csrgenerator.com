@@ -40,7 +40,7 @@ def generate_csr() -> html:
     csr = CsrGenerator(request.form)
     nic_id = request.form['CN']
     password = request.form['password']
-    org_id = request.form['org_id']
+    org_id = request.form['O']
     user_directory = generate_hash(nic_id, org_id)[:12]
     generate_pem(nic_id, user_directory, password, csr.csr)
     generate_p12(nic_id, user_directory, password, csr.private_key)

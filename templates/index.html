@@ -9,21 +9,24 @@
       <div class="columns">
         <div class="centered column col-10 bg-grey">
 
-            <form id="csr-form">
+            <form id="csr-form" enctype="multipart/form-data">
 
-            <div class="form-group" id="basic-details">
+          <!--  <div class="form-group" id="basic-details">
               <label class="form-label tooltip tooltip-left" data-tooltip="Your Org Handle" for="org-id">Org Handle</label>
               <input class="form-input input-lg" type="text" name="org_id" id="org-id" placeholder="Org Handle" autofocus required/>
-            </div>
+            </div> -->
+             <div class="form-group">
+                <label class="form-label tooltip tooltip-left" data-tooltip="Organization Handle" for="org">Organization Handle</label>
+                <input class="form-input input-lg" type="text" id="org-id" placeholder="Org Handle" name="O" autofocus required />
+             </div>
 
-           <div class="form-group">
-                  <label class="form-label tooltip tooltip-left" data-tooltip="Your NIC Handle" for="nic-id">NIC Handle</label>
-                  <input class="form-input input-lg" type="text" name="nic-id" id="nic-id" list="nic-ids" required placeholder="Enter Nic handle or select from dropdown"/>
-                  <datalist class="form-select" id="nic-ids" >
-                     <option value=""> Please select NIC-Handle</option>
-
-                  </datalist>
-           </div>
+        <div class="form-group">
+           <label class="form-label tooltip tooltip-left" data-tooltip="Your NIC Handle" for="nic-id">NIC Handle</label>
+            <input class="form-input input-lg" type="text" name="CN" id="nic-id" list="nic-ids" required placeholder="XXXX-XXXXXX"/>
+                    <datalist class="form-select" id="nic-ids" >
+                       <option value=""> Please select NIC-Handle</option>
+                     </datalist>
+        </div>
 
            <div class="form-group">
                 <label class="form-label tooltip-left" data-tooltip="Your password" for="password">Password</label>
@@ -46,19 +49,10 @@
             </div>
 
             <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="Full legal company or personal name" for="org">Organization</label>
-              <input class="form-input input-lg" type="text" id="org" placeholder="Your Company Name" name="O" readonly required />
-            </div>
-
-            <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Branch of organization" for="org-unit">Organizational Unit</label>
               <input class="form-input input-lg" type="text" id="org-unit" placeholder="Marketing" name="OU" required />
             </div>
 
-            <div class="form-group">
-              <label class="form-label tooltip tooltip-left" data-tooltip="The FQDN for your domain" for="common-name">Common Name</label>
-              <input class="form-input input-lg" type="text" id="common-name" placeholder="example.com" name="CN" readonly required />
-            </div>
 
             <div class="form-group">
 

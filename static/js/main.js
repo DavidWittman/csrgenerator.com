@@ -1,14 +1,9 @@
 
 $(function() {
 
-    $(".close").on("click", function() {
-        $(this).closest(".modal").removeClass("active");
-    });
-
    $("#csr-form").submit(function (e) {
        e.preventDefault();
        $("#csr-modal").addClass("active");
-
        $.post("/generate", $(this).serialize())
            .done(function (data) {
               // console.log(data);
