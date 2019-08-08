@@ -226,7 +226,7 @@ def get_certificate(file_path):
             modified_time = os.path.getctime('/' + file_path)
             current_time = time.time()
 
-            if (current_time - modified_time) / 60 < 10:
+            if current_time - modified_time <= 600:
                 return send_from_directory(file_directory, filename=file_name, as_attachment=True)
             else:
                 abort(410)

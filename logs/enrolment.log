@@ -233,3 +233,4 @@
 2019-08-08 16:21:01,518 - 127.0.0.1 - - [08/Aug/2019 16:21:01] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 500 -
 2019-08-08 16:21:11,204 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
 2019-08-08 16:21:15,577 - 127.0.0.1 - - [08/Aug/2019 16:21:15] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 200 -
+2019-08-08 20:40:33,517 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
