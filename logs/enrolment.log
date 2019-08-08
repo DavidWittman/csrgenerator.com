@@ -74,3 +74,162 @@
 2019-08-08 13:10:02,377 - 127.0.0.1 - - [08/Aug/2019 13:10:02] "GET /static/img/loading.gif HTTP/1.1" 200 -
 2019-08-08 13:10:02,468 - 127.0.0.1 - - [08/Aug/2019 13:10:02] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
 2019-08-08 13:10:02,471 - 127.0.0.1 - - [08/Aug/2019 13:10:02] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 13:18:02,342 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 13:56:40,919 - 127.0.0.1 - - [08/Aug/2019 13:56:40] "GET / HTTP/1.1" 200 -
+2019-08-08 14:09:46,292 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:09:55,044 - 127.0.0.1 - - [08/Aug/2019 14:09:55] "GET / HTTP/1.1" 200 -
+2019-08-08 14:11:27,792 - 127.0.0.1 - - [08/Aug/2019 14:11:27] "GET / HTTP/1.1" 200 -
+2019-08-08 14:11:36,404 - 127.0.0.1 - - [08/Aug/2019 14:11:36] "GET / HTTP/1.1" 200 -
+2019-08-08 14:11:36,451 - 127.0.0.1 - - [08/Aug/2019 14:11:36] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:11:36,460 - 127.0.0.1 - - [08/Aug/2019 14:11:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:11:36,471 - 127.0.0.1 - - [08/Aug/2019 14:11:36] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:11:36,511 - 127.0.0.1 - - [08/Aug/2019 14:11:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:11:36,521 - 127.0.0.1 - - [08/Aug/2019 14:11:36] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:11:39,927 - 127.0.0.1 - - [08/Aug/2019 14:11:39] "GET / HTTP/1.1" 200 -
+2019-08-08 14:11:39,967 - 127.0.0.1 - - [08/Aug/2019 14:11:39] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:11:39,968 - 127.0.0.1 - - [08/Aug/2019 14:11:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:11:39,974 - 127.0.0.1 - - [08/Aug/2019 14:11:39] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:11:40,039 - 127.0.0.1 - - [08/Aug/2019 14:11:40] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:11:40,042 - 127.0.0.1 - - [08/Aug/2019 14:11:40] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:11:54,013 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:11:57,421 - 127.0.0.1 - - [08/Aug/2019 14:11:57] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:41,283 - 127.0.0.1 - - [08/Aug/2019 14:13:41] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:41,324 - 127.0.0.1 - - [08/Aug/2019 14:13:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:13:41,326 - 127.0.0.1 - - [08/Aug/2019 14:13:41] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:13:41,331 - 127.0.0.1 - - [08/Aug/2019 14:13:41] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:13:41,414 - 127.0.0.1 - - [08/Aug/2019 14:13:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:13:41,415 - 127.0.0.1 - - [08/Aug/2019 14:13:41] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:13:43,366 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:43,396 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:13:43,398 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:13:43,401 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:13:43,489 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:13:43,490 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:13:43,718 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:43,758 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:13:43,761 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:13:43,761 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:13:43,834 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:13:43,839 - 127.0.0.1 - - [08/Aug/2019 14:13:43] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:13:44,471 - 127.0.0.1 - - [08/Aug/2019 14:13:44] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:44,501 - 127.0.0.1 - - [08/Aug/2019 14:13:44] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:13:44,507 - 127.0.0.1 - - [08/Aug/2019 14:13:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:13:44,511 - 127.0.0.1 - - [08/Aug/2019 14:13:44] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:13:44,586 - 127.0.0.1 - - [08/Aug/2019 14:13:44] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:13:44,590 - 127.0.0.1 - - [08/Aug/2019 14:13:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:13:45,190 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:45,215 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:13:45,222 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:13:45,227 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:13:45,329 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:13:45,330 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:13:45,825 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET / HTTP/1.1" 200 -
+2019-08-08 14:13:45,865 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:13:45,873 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:13:45,874 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:13:45,950 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:13:45,950 - 127.0.0.1 - - [08/Aug/2019 14:13:45] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:15:39,823 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:15:43,788 - 127.0.0.1 - - [08/Aug/2019 14:15:43] "GET / HTTP/1.1" 200 -
+2019-08-08 14:21:29,364 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:21:33,408 - 127.0.0.1 - - [08/Aug/2019 14:21:33] "GET / HTTP/1.1" 200 -
+2019-08-08 14:27:11,437 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:27:14,323 - 127.0.0.1 - - [08/Aug/2019 14:27:14] "GET / HTTP/1.1" 200 -
+2019-08-08 14:28:05,581 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:28:08,772 - 127.0.0.1 - - [08/Aug/2019 14:28:08] "GET / HTTP/1.1" 200 -
+2019-08-08 14:29:10,623 - 127.0.0.1 - - [08/Aug/2019 14:29:10] "POST /generate HTTP/1.1" 400 -
+2019-08-08 14:29:45,386 - 127.0.0.1 - - [08/Aug/2019 14:29:45] "GET / HTTP/1.1" 200 -
+2019-08-08 14:30:37,818 - 127.0.0.1 - - [08/Aug/2019 14:30:37] "POST /generate HTTP/1.1" 400 -
+2019-08-08 14:35:49,585 - 127.0.0.1 - - [08/Aug/2019 14:35:49] "GET / HTTP/1.1" 200 -
+2019-08-08 14:35:49,694 - 127.0.0.1 - - [08/Aug/2019 14:35:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:35:49,706 - 127.0.0.1 - - [08/Aug/2019 14:35:49] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:35:49,721 - 127.0.0.1 - - [08/Aug/2019 14:35:49] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:35:49,729 - 127.0.0.1 - - [08/Aug/2019 14:35:49] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:35:49,738 - 127.0.0.1 - - [08/Aug/2019 14:35:49] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:35:50,988 - 127.0.0.1 - - [08/Aug/2019 14:35:50] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-08 14:37:03,959 - 127.0.0.1 - - [08/Aug/2019 14:37:03] "POST /generate HTTP/1.1" 400 -
+2019-08-08 14:46:02,319 - 127.0.0.1 - - [08/Aug/2019 14:46:02] "GET / HTTP/1.1" 200 -
+2019-08-08 14:46:02,407 - 127.0.0.1 - - [08/Aug/2019 14:46:02] "GET /static/css/spectre.min.css HTTP/1.1" 304 -
+2019-08-08 14:46:02,410 - 127.0.0.1 - - [08/Aug/2019 14:46:02] "GET /static/css/main.css HTTP/1.1" 304 -
+2019-08-08 14:46:02,414 - 127.0.0.1 - - [08/Aug/2019 14:46:02] "GET /static/js/datalist-polyfill.js HTTP/1.1" 304 -
+2019-08-08 14:46:02,417 - 127.0.0.1 - - [08/Aug/2019 14:46:02] "GET /static/js/main.js HTTP/1.1" 304 -
+2019-08-08 14:46:02,419 - 127.0.0.1 - - [08/Aug/2019 14:46:02] "GET /static/img/loading.gif HTTP/1.1" 304 -
+2019-08-08 14:46:15,044 - 127.0.0.1 - - [08/Aug/2019 14:46:15] "POST /generate HTTP/1.1" 400 -
+2019-08-08 14:46:33,859 - 127.0.0.1 - - [08/Aug/2019 14:46:33] "GET / HTTP/1.1" 200 -
+2019-08-08 14:46:49,932 - 127.0.0.1 - - [08/Aug/2019 14:46:49] "POST /generate HTTP/1.1" 400 -
+2019-08-08 14:51:26,480 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:51:29,397 - 127.0.0.1 - - [08/Aug/2019 14:51:29] "GET / HTTP/1.1" 200 -
+2019-08-08 14:51:29,441 - 127.0.0.1 - - [08/Aug/2019 14:51:29] "GET /static/css/spectre.min.css HTTP/1.1" 304 -
+2019-08-08 14:51:29,445 - 127.0.0.1 - - [08/Aug/2019 14:51:29] "GET /static/css/main.css HTTP/1.1" 304 -
+2019-08-08 14:51:29,453 - 127.0.0.1 - - [08/Aug/2019 14:51:29] "GET /static/js/main.js HTTP/1.1" 304 -
+2019-08-08 14:51:29,456 - 127.0.0.1 - - [08/Aug/2019 14:51:29] "GET /static/js/datalist-polyfill.js HTTP/1.1" 304 -
+2019-08-08 14:51:29,463 - 127.0.0.1 - - [08/Aug/2019 14:51:29] "GET /static/img/loading.gif HTTP/1.1" 304 -
+2019-08-08 14:51:48,217 - 127.0.0.1 - - [08/Aug/2019 14:51:48] "GET / HTTP/1.1" 200 -
+2019-08-08 14:51:48,276 - 127.0.0.1 - - [08/Aug/2019 14:51:48] "GET /static/css/spectre.min.css HTTP/1.1" 304 -
+2019-08-08 14:51:48,279 - 127.0.0.1 - - [08/Aug/2019 14:51:48] "GET /static/css/main.css HTTP/1.1" 304 -
+2019-08-08 14:51:48,292 - 127.0.0.1 - - [08/Aug/2019 14:51:48] "GET /static/js/datalist-polyfill.js HTTP/1.1" 304 -
+2019-08-08 14:51:48,293 - 127.0.0.1 - - [08/Aug/2019 14:51:48] "GET /static/js/main.js HTTP/1.1" 304 -
+2019-08-08 14:51:48,294 - 127.0.0.1 - - [08/Aug/2019 14:51:48] "GET /static/img/loading.gif HTTP/1.1" 304 -
+2019-08-08 14:51:50,522 - 127.0.0.1 - - [08/Aug/2019 14:51:50] "GET / HTTP/1.1" 200 -
+2019-08-08 14:51:50,570 - 127.0.0.1 - - [08/Aug/2019 14:51:50] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:51:50,577 - 127.0.0.1 - - [08/Aug/2019 14:51:50] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:51:50,579 - 127.0.0.1 - - [08/Aug/2019 14:51:50] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:51:50,581 - 127.0.0.1 - - [08/Aug/2019 14:51:50] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:51:50,583 - 127.0.0.1 - - [08/Aug/2019 14:51:50] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:51:51,269 - 127.0.0.1 - - [08/Aug/2019 14:51:51] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-08 14:51:52,071 - 127.0.0.1 - - [08/Aug/2019 14:51:52] "GET / HTTP/1.1" 200 -
+2019-08-08 14:51:52,114 - 127.0.0.1 - - [08/Aug/2019 14:51:52] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:51:52,119 - 127.0.0.1 - - [08/Aug/2019 14:51:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:51:52,122 - 127.0.0.1 - - [08/Aug/2019 14:51:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 14:51:52,124 - 127.0.0.1 - - [08/Aug/2019 14:51:52] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:51:52,128 - 127.0.0.1 - - [08/Aug/2019 14:51:52] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:51:53,048 - 127.0.0.1 - - [08/Aug/2019 14:51:53] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-08 14:52:18,319 - 127.0.0.1 - - [08/Aug/2019 14:52:18] "POST /generate HTTP/1.1" 200 -
+2019-08-08 14:52:56,547 - 127.0.0.1 - - [08/Aug/2019 14:52:56] "GET / HTTP/1.1" 200 -
+2019-08-08 14:52:56,597 - 127.0.0.1 - - [08/Aug/2019 14:52:56] "GET /static/css/spectre.min.css HTTP/1.1" 304 -
+2019-08-08 14:52:56,607 - 127.0.0.1 - - [08/Aug/2019 14:52:56] "GET /static/css/main.css HTTP/1.1" 304 -
+2019-08-08 14:52:56,614 - 127.0.0.1 - - [08/Aug/2019 14:52:56] "GET /static/js/datalist-polyfill.js HTTP/1.1" 304 -
+2019-08-08 14:52:56,617 - 127.0.0.1 - - [08/Aug/2019 14:52:56] "GET /static/js/main.js HTTP/1.1" 304 -
+2019-08-08 14:52:56,619 - 127.0.0.1 - - [08/Aug/2019 14:52:56] "GET /static/img/loading.gif HTTP/1.1" 304 -
+2019-08-08 14:53:07,066 - 127.0.0.1 - - [08/Aug/2019 14:53:07] "GET / HTTP/1.1" 200 -
+2019-08-08 14:53:46,093 - Unable to retrieve error. Operation timeout: Message: 
+ --NIC Handle: ATU1-AFRINIC
+2019-08-08 14:53:46,096 - 127.0.0.1 - - [08/Aug/2019 14:53:46] "POST /generate HTTP/1.1" 200 -
+2019-08-08 14:54:05,973 - 127.0.0.1 - - [08/Aug/2019 14:54:05] "POST /generate HTTP/1.1" 200 -
+2019-08-08 14:54:06,069 - 127.0.0.1 - - [08/Aug/2019 14:54:06] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-08 14:59:13,484 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 14:59:13,616 - 127.0.0.1 - - [08/Aug/2019 14:59:13] "GET / HTTP/1.1" 200 -
+2019-08-08 14:59:46,901 - 127.0.0.1 - - [08/Aug/2019 14:59:46] "GET / HTTP/1.1" 200 -
+2019-08-08 14:59:46,993 - 127.0.0.1 - - [08/Aug/2019 14:59:46] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 14:59:47,020 - 127.0.0.1 - - [08/Aug/2019 14:59:47] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 14:59:47,029 - 127.0.0.1 - - [08/Aug/2019 14:59:47] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 14:59:47,125 - 127.0.0.1 - - [08/Aug/2019 14:59:47] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 14:59:47,128 - 127.0.0.1 - - [08/Aug/2019 14:59:47] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 15:00:11,724 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 15:00:25,879 - 127.0.0.1 - - [08/Aug/2019 15:00:25] "GET / HTTP/1.1" 200 -
+2019-08-08 15:00:25,941 - 127.0.0.1 - - [08/Aug/2019 15:00:25] "GET /static/css/spectre.min.css HTTP/1.1" 200 -
+2019-08-08 15:00:25,951 - 127.0.0.1 - - [08/Aug/2019 15:00:25] "GET /static/css/main.css HTTP/1.1" 200 -
+2019-08-08 15:00:25,956 - 127.0.0.1 - - [08/Aug/2019 15:00:25] "GET /static/img/loading.gif HTTP/1.1" 200 -
+2019-08-08 15:00:26,051 - 127.0.0.1 - - [08/Aug/2019 15:00:26] "GET /static/js/datalist-polyfill.js HTTP/1.1" 200 -
+2019-08-08 15:00:26,056 - 127.0.0.1 - - [08/Aug/2019 15:00:26] "GET /static/js/main.js HTTP/1.1" 200 -
+2019-08-08 15:00:26,831 - 127.0.0.1 - - [08/Aug/2019 15:00:26] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+2019-08-08 15:01:29,368 - 127.0.0.1 - - [08/Aug/2019 15:01:29] "POST /generate HTTP/1.1" 200 -
+2019-08-08 15:31:58,064 - 127.0.0.1 - - [08/Aug/2019 15:31:58] "GET / HTTP/1.1" 200 -
+2019-08-08 16:11:00,290 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 16:11:04,471 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 16:11:10,992 - 127.0.0.1 - - [08/Aug/2019 16:11:10] "GET / HTTP/1.1" 200 -
+2019-08-08 16:11:38,496 - 127.0.0.1 - - [08/Aug/2019 16:11:38] "GET /certificate//home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-08 16:12:38,061 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 16:12:44,441 - 127.0.0.1 - - [08/Aug/2019 16:12:44] "GET /certificate//home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 404 -
+2019-08-08 16:13:04,517 - Unable to get file modified date: [Errno 2] No such file or directory: '/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3dATU1-AFRINIC.p12' -- File: /home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3dATU1-AFRINIC.p12
+2019-08-08 16:13:04,539 - 127.0.0.1 - - [08/Aug/2019 16:13:04] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 500 -
+2019-08-08 16:15:32,431 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 16:18:46,142 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 16:18:49,937 - Unable to get file modified date: [Errno 2] No such file or directory: 'home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12' -- File: home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12
+2019-08-08 16:18:49,960 - 127.0.0.1 - - [08/Aug/2019 16:18:49] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 500 -
+2019-08-08 16:18:58,921 - Unable to get file modified date: [Errno 2] No such file or directory: 'home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12' -- File: home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12
+2019-08-08 16:18:58,923 - 127.0.0.1 - - [08/Aug/2019 16:18:58] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 500 -
+2019-08-08 16:21:01,517 - Unable to get file modified date: [Errno 2] No such file or directory: 'home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12' -- File: home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12
+2019-08-08 16:21:01,518 - 127.0.0.1 - - [08/Aug/2019 16:21:01] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 500 -
+2019-08-08 16:21:11,204 -  * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+2019-08-08 16:21:15,577 - 127.0.0.1 - - [08/Aug/2019 16:21:15] "GET /certificate/home/minty/Documents/GitHub/bpki-enrolment-gui/downloads/2b4d8f561d3d/ATU1-AFRINIC.p12 HTTP/1.1" 200 -

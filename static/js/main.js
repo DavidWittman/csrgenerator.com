@@ -3,16 +3,19 @@ $(function() {
 
    $("#csr-form").submit(function (e) {
        e.preventDefault();
-       $("#csr-modal").addClass("active");
-       $.post("/generate", $(this).serialize())
-           .done(function (data) {
-              // console.log(data);
-               $("html").html(data);
-           })
-           .fail(function (data) {
-               // console.log(data.responseText);
-               $("html").html(data.responseText);
-           })
+       if($("#password").val().trim() !== ''){
+           $("#csr-modal").addClass("active");
+           $.post("/generate", $(this).serialize())
+               .done(function (data) {
+                   // console.log(data);
+                   $("html").html(data);
+               })
+               .fail(function (data) {
+                   // console.log(data.responseText);
+                   $("html").html(data.responseText);
+               })
+       }
+
 
    });
 

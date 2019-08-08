@@ -6,7 +6,6 @@ import time
 from pathlib import Path
 from flask import Flask, request, render_template, abort, send_from_directory
 import OpenSSL.crypto as crypt
-from werkzeug.utils import html
 
 from csr import CsrGenerator
 from selenium import webdriver
@@ -222,7 +221,25 @@ def get_certificate(file_path):
         path_arr = file_path.split('/')
         file_name = path_arr[-1]
         file_directory = '/' + '/'.join(path_arr[:len(path_arr) - 1])
-        return send_from_directory(file_directory, filename=file_name, as_attachment=True)
+
+        try:
+            modified_time = os.path.getctime('/' + file_path)
+            current_time = time.time()
+
+            if (current_time - modified_time) / 60 < 10:
+                return send_from_directory(file_directory, filename=file_name, as_attachment=True)
+            else:
+                abort(410)
+
+        except AttributeError as error:
+            print(error)
+            logger.error("Unable to get file modified date: %s -- File: %s", error, '/' + file_path)
+            abort(500)
+
+        except OSError as error:
+            print(error)
+            logger.error("Unable to get file modified date: %s -- File: %s", error, '/' + file_path)
+            abort(500)
 
     except FileNotFoundError:
         abort(404)
@@ -274,6 +291,15 @@ def method_not_allowed(e):
     :param e: event
     """
     return render_template('405.html')
+
+
+@app.errorhandler(410)
+def link_expired(e):
+    """
+    Handle HTTP error 410 exception. We raise this when the link the user followed has expired. Link expires in 10 mins.
+    :param e:
+    """
+    return render_template('410.html')
 
 
 if __name__ == '__main__':
