@@ -109,8 +109,8 @@ $(function() {
             //$("#country").val(address[2]);
             //$("#locality").val(address[1]);
             $("#org-unit").val(orgUnit);
-            $("#common-name").val(nicId);
-            $("#org").val($("#org-id").val());
+            // $("#common-name").val(nicId);
+            // $("#org").val($("#org-id").val());
         }
 
 });

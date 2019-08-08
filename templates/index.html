@@ -2,8 +2,8 @@
 {% block body %}
 
       <div class="text-center">
-        <h4>Generate a Certificate Signing Request</h4>
-        <p>Complete this form to generate a new CSR and private key.</p>
+       <!-- <h4>Generate a BPKI Certificate</h4>
+        <p>Complete this form to generate a new CSR and private key.</p> -->
       </div>
 
       <div class="columns">
@@ -32,22 +32,22 @@
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Two letter abbreviation" for="country">Country</label>
-              <input class="form-input input-lg" type="text" id="country" name="C" placeholder="US" required maxlength="2"  pattern="[A-Z]{2}" />
+              <input class="form-input input-lg" type="text" id="country" name="C" placeholder="CC" required maxlength="2"  pattern="[A-Z]{2}" />
             </div>
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Full state name" for="state">State</label>
-              <input class="form-input input-lg" type="text" id="state" placeholder="Texas" name="ST" required />
+              <input class="form-input input-lg" type="text" id="state" placeholder="State" name="ST" required />
             </div>
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Full city name" for="locality">Locality</label>
-              <input class="form-input input-lg" type="text" id="locality" placeholder="San Antonio" name="L" required />
+              <input class="form-input input-lg" type="text" id="locality" placeholder="Locality" name="L" required />
             </div>
 
             <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Full legal company or personal name" for="org">Organization</label>
-              <input class="form-input input-lg" type="text" id="org" placeholder="Big Bob's Beepers" name="O" readonly required />
+              <input class="form-input input-lg" type="text" id="org" placeholder="Your Company Name" name="O" readonly required />
             </div>
 
             <div class="form-group">
@@ -74,7 +74,7 @@
 
             </div>
 
-            <button class="btn btn-primary centered">Generate CSR</button>
+            <button class="btn btn-primary centered">Generate BPKI</button>
           </form>
         </div>
 

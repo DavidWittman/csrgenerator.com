@@ -2,3 +2,4 @@ werkzeug
 Flask
 pyOpenSSL
 selenium
+uwsgi

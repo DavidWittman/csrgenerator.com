@@ -7,3 +7,9 @@ venv/
 *.p12
 *.log
 logs/
+
+*.conf
+
+*.ini
+
+*.sh
