@@ -1,14 +1,23 @@
-requirements:
-	pip install -r requirements.txt
+test:
+	pipenv run test
 
-check:
-	flake8 --max-line-length=120 *.py
+lint:
+	pipenv run check
+
+requirements: requirements.txt requirements-dev.txt
+
+requirements-dev.txt: Pipfile.lock
+	echo "-r requirements.txt" > requirements-dev.txt
+	pipenv lock --dev --requirements >> requirements-dev.txt
+
+requirements.txt: Pipfile.lock
+	pipenv lock --requirements > requirements.txt
 
 clean:
 	-find . -type f -name '*.pyc' -delete
 	-rm -rf build dist *.egg-info
 
-test:
-	nosetests
+docker:
+	docker build -t wittman/csrgenerator.com .
 
-.PHONY: requirements check clean test
+.PHONY: clean test

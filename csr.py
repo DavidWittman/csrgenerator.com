@@ -53,7 +53,7 @@ class CsrGenerator(object):
 
         try:
             valid['keySize'] = int(valid.get('keySize', self.DEFAULT_KEYSIZE))
-        except:
+        except ValueError:
             raise ValueError("RSA key size must be an integer")
 
         return valid

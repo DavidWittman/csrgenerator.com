@@ -1,2 +1,13 @@
-Flask
-pyOpenSSL
+-i https://pypi.org/simple
+asn1crypto==0.24.0
+cffi==1.12.3
+click==7.0
+cryptography==2.7
+flask==1.1.1
+itsdangerous==1.1.0
+jinja2==2.10.1
+markupsafe==1.1.1
+pycparser==2.19
+pyopenssl==19.0.0
+six==1.12.0
+werkzeug==0.15.5
