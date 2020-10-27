@@ -1,5 +1,4 @@
--r requirements.txt
--i https://pypi.org/simple
+-i https://pypi.org/simple/
 entrypoints==0.3
 flake8==3.7.8
 mccabe==0.6.1
