@@ -3,7 +3,6 @@ LABEL maintainer="David Wittman"
 
 ADD . /app/
 
-# Install deps before we add our project to cache this layer
 RUN apk add --no-cache \
     gcc python3-dev musl-dev libffi-dev openssl openssl-dev && \
     export CRYPTOGRAPHY_DONT_BUILD_RUST=1 && \
