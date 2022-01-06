@@ -10,13 +10,13 @@ from csr import CsrGenerator
 class GenerationTests(unittest.TestCase):
     def setUp(self):
         self.csr_info = {
-                         'C': 'US',
-                         'ST': 'Texas',
-                         'L': 'San Antonio',
-                         'O': 'Big Bob\'s Beepers',
-                         'OU': 'Marketing',
-                         'CN': 'example.com'
-                        }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'OU': 'Marketing',
+            'CN': 'example.com'
+        }
 
     def test_keypair_type(self):
         import OpenSSL.crypto
@@ -63,112 +63,107 @@ class GenerationTests(unittest.TestCase):
 
 
 class ExceptionTests(unittest.TestCase):
-    @raises(KeyError)
     def test_missing_country(self):
         csr_info = {
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'CN': 'example.com'
-                   }
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
-    @raises(KeyError)
     def test_empty_country(self):
         csr_info = {
-                    'C': '',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'CN': 'example.com'
-                   }
+            'C': '',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
-    @raises(KeyError)
     def test_missing_state(self):
         csr_info = {
-                    'C': 'US',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'CN': 'example.com'
-                   }
+            'C': 'US',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
-    @raises(KeyError)
     def test_missing_locality(self):
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'O': 'Big Bob\'s Beepers',
-                    'CN': 'example.com'
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'O': 'Big Bob\'s Beepers',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
-    @raises(KeyError)
     def test_missing_organization(self):
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'CN': 'example.com'
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_missing_common_name(self):
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers'
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers'
+        }
         CsrGenerator(csr_info)
 
     def test_missing_ou(self):
         "This should _not_ raise any exceptions"
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'CN': 'example.com'
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
     def test_empty_ou(self):
         "This should _not_ raise any exceptions"
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'OU': '',
-                    'CN': 'example.com'
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'OU': '',
+            'CN': 'example.com'
+        }
         CsrGenerator(csr_info)
 
     @raises(KeyError)
     def test_zero_key_size(self):
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'OU': 'Marketing',
-                    'CN': 'example.com',
-                    'keySize': 0
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'OU': 'Marketing',
+            'CN': 'example.com',
+            'keySize': 0
+        }
         CsrGenerator(csr_info)
 
     @raises(ValueError)
     def test_invalid_key_size(self):
         csr_info = {
-                    'C': 'US',
-                    'ST': 'Texas',
-                    'L': 'San Antonio',
-                    'O': 'Big Bob\'s Beepers',
-                    'OU': 'Marketing',
-                    'CN': 'example.com',
-                    'keySize': 'penguins'
-                   }
+            'C': 'US',
+            'ST': 'Texas',
+            'L': 'San Antonio',
+            'O': 'Big Bob\'s Beepers',
+            'OU': 'Marketing',
+            'CN': 'example.com',
+            'keySize': 'penguins'
+        }
         CsrGenerator(csr_info)

@@ -5,7 +5,7 @@
  csr.py
  CSR Generator for csrgenerator.com
 
- Copyright (c) 2016 David Wittman <david@wittman.com>
+ Copyright (c) 2022 David Wittman <david@wittman.com>
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -31,7 +31,6 @@ class CsrGenerator(object):
     DEFAULT_KEYSIZE = 2048
 
     def __init__(self, form_values):
-        # TODO(dw): Better docstrings, rename form_values
         self.csr_info = self._validate(form_values)
         key_size = self.csr_info.pop('keySize')
         self.keypair = self.generate_rsa_keypair(key_size)
@@ -39,7 +38,7 @@ class CsrGenerator(object):
     def _validate(self, form_values):
         valid = {}
         fields = ('C', 'ST', 'L', 'O', 'OU', 'CN', 'keySize')
-        optional = ('OU', 'keySize')
+        required = ('CN',)
 
         for field in fields:
             try:
@@ -48,7 +47,7 @@ class CsrGenerator(object):
                     raise KeyError("%s cannot be empty" % field)
                 valid[field] = form_values[field]
             except KeyError:
-                if field not in optional:
+                if field in required:
                     raise
 
         try:
