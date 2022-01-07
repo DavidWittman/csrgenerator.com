@@ -10,6 +10,7 @@ flake8 = "*"
 [packages]
 Flask = "*"
 pyOpenSSL = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"

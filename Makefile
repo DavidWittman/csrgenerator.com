@@ -8,7 +8,7 @@ requirements: requirements.txt requirements-dev.txt
 
 requirements-dev.txt: Pipfile.lock
 	echo "-r requirements.txt" > requirements-dev.txt
-	pipenv lock --dev --requirements >> requirements-dev.txt
+	pipenv lock --dev-only --requirements >> requirements-dev.txt
 
 requirements.txt: Pipfile.lock
 	pipenv lock --requirements > requirements.txt
