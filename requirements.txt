@@ -8,7 +8,7 @@
 -i https://pypi.org/simple
 cffi==1.15.0
 click==8.0.3; python_version >= '3.6'
-cryptography==36.0.1; python_version >= '3.6'
+cryptography==39.0.1; python_version >= '3.6'
 flask==2.0.2
 gunicorn==20.1.0
 itsdangerous==2.0.1; python_version >= '3.6'
