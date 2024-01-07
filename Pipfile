@@ -4,17 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-nose = "*"
+pytest = "*"
 flake8 = "*"
 
 [packages]
 Flask = "*"
-pyOpenSSL = "*"
-gunicorn = "*"
+# X509Extension is deprecated in 23.3.0+
+pyOpenSSL = "23.2.*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.11"
 
 [scripts]
-test = "nosetests"
-check = "flake8 --max-line-length=120 *.py"
+test = "pytest tests.py"
+check = "flake8 --max-line-length=120"

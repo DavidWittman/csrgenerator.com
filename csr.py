@@ -5,7 +5,7 @@
  csr.py
  CSR Generator for csrgenerator.com
 
- Copyright (c) 2022 David Wittman <david@wittman.com>
+ Copyright (c) 2024 David Wittman <david@wittman.com>
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -33,11 +33,24 @@ class CsrGenerator(object):
     def __init__(self, form_values):
         self.csr_info = self._validate(form_values)
         key_size = self.csr_info.pop('keySize')
+
+        if 'subjectAltNames' in self.csr_info:
+            # The SAN list should contain the CN as well
+            # TODO(dw): do list(set())
+            sans = f"{self.csr_info['CN']},{self.csr_info.pop('subjectAltNames')}"
+        else:
+            sans = self.csr_info['CN']
+            if sans.count('.') == 1:
+                # root domain, add www. as well
+                sans += ",www.{}".format(sans)
+
+        self.subjectAltNames = list(map(lambda d: "DNS:{}".format(d.strip()), sans.split(',')))
+
         self.keypair = self.generate_rsa_keypair(key_size)
 
     def _validate(self, form_values):
         valid = {}
-        fields = ('C', 'ST', 'L', 'O', 'OU', 'CN', 'keySize')
+        fields = ('C', 'ST', 'L', 'O', 'OU', 'CN', 'keySize', 'subjectAltNames')
         required = ('CN',)
 
         for field in fields:
@@ -82,6 +95,13 @@ class CsrGenerator(object):
         for (k, v) in self.csr_info.items():
             setattr(subject, k, v)
 
+        request.add_extensions([
+            crypt.X509Extension(
+                "subjectAltName".encode('utf8'),
+                False,
+                ", ".join(self.subjectAltNames).encode('utf8')
+            )
+        ])
         request.set_pubkey(self.keypair)
         request.sign(self.keypair, self.DIGEST)
         return crypt.dump_certificate_request(crypt.FILETYPE_PEM, request)

@@ -1,16 +1,6 @@
-FROM jazzdd/alpine-flask:python3
+FROM unit:1.31.1-python3.11
 LABEL maintainer="David Wittman"
-
-RUN apk add --no-cache \
-        gcc \
-        python3-dev \
-        musl-dev \
-        libffi-dev \
-        openssl \
-        openssl-dev
-
-ADD . /app/
-
-RUN export CRYPTOGRAPHY_DONT_BUILD_RUST=1 && \
-    pip install -r requirements.txt && \
-    apk del gcc git python3-dev musl-dev libffi-dev openssl-dev
+EXPOSE 8080
+COPY config.json /docker-entrypoint.d/config.json
+COPY . /www/
+RUN pip install -r /www/requirements.txt

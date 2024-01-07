@@ -7,17 +7,16 @@ lint:
 requirements: requirements.txt requirements-dev.txt
 
 requirements-dev.txt: Pipfile.lock
-	echo "-r requirements.txt" > requirements-dev.txt
-	pipenv lock --dev-only --requirements >> requirements-dev.txt
+	pipenv requirements --dev > requirements-dev.txt
 
 requirements.txt: Pipfile.lock
-	pipenv lock --requirements > requirements.txt
+	pipenv requirements > requirements.txt
 
 clean:
 	-find . -type f -name '*.pyc' -delete
 	-rm -rf build dist *.egg-info
 
 docker:
-	docker build -t wittman/csrgenerator.com .
+	docker build --platform linux/amd64 -t wittman/csrgenerator.com .
 
 .PHONY: clean test
