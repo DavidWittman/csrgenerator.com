@@ -32,6 +32,10 @@
               <input class="form-input input-lg" type="text" placeholder="example.com" name="CN" required />
             </div>
             <div class="form-group">
+              <label class="form-label tooltip tooltip-left" data-tooltip="Comma-separated list of alternative DNS names" for="subjectAltNames">Alternative Names</label>
+              <input class="form-input input-lg" type="text" placeholder="foo.example.com, bar.example.com" name="subjectAltNames" />
+            </div>
+            <div class="form-group">
               <label class="form-label tooltip tooltip-left" data-tooltip="Size of the RSA modulus in bits">Key Size</label>
               <label class="form-radio">
                 <input type="radio" name="keySize" value="2048" checked />

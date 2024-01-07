@@ -1,0 +1,15 @@
+{
+  "listeners": {
+    "*:8080": {
+      "pass": "applications/flask"
+    }
+  },
+  "applications": {
+    "flask": {
+      "type": "python",
+      "path": "/www/",
+      "module": "app",
+      "callable": "app"
+    }
+  }
+}
