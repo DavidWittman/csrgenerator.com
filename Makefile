@@ -1,16 +1,16 @@
 test:
-	pipenv run test
+	uv run pytest tests.py
 
 lint:
-	pipenv run check
+	uv run flake8 --max-line-length=120 --exclude=.venv
 
 requirements: requirements.txt requirements-dev.txt
 
-requirements-dev.txt: Pipfile.lock
-	pipenv requirements --dev > requirements-dev.txt
+requirements-dev.txt: uv.lock
+	uv export --group dev -o requirements-dev.txt
 
-requirements.txt: Pipfile.lock
-	pipenv requirements > requirements.txt
+requirements.txt: uv.lock
+	uv export --no-dev -o requirements.txt
 
 clean:
 	-find . -type f -name '*.pyc' -delete
