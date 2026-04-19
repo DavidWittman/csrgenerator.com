@@ -4,6 +4,11 @@ test:
 lint:
 	uv run flake8 --max-line-length=120 --exclude=.venv
 
+upgrade:
+	uv sync --upgrade
+
+update: upgrade requirements
+
 requirements: requirements.txt requirements-dev.txt
 
 requirements-dev.txt: uv.lock
@@ -19,4 +24,4 @@ clean:
 docker:
 	docker build --platform linux/amd64 -t wittman/csrgenerator.com .
 
-.PHONY: clean test
+.PHONY: clean test docker requirements upgrade sync lint
