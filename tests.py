@@ -1,5 +1,7 @@
 import pytest
+from cryptography import x509
 from cryptography.hazmat.primitives.asymmetric.rsa import RSAPrivateKey
+from cryptography.x509.oid import NameOID
 from csr import CsrGenerator
 
 
@@ -67,6 +69,25 @@ class TestGeneration:
     def test_default_subject_alt_name(self, csr_info):
         csr = CsrGenerator(csr_info)
         assert csr.subjectAltNames == ["DNS:example.com", "DNS:www.example.com"]
+
+    def test_csr_subject_fields(self, csr_info):
+        csr = CsrGenerator(csr_info)
+        parsed = x509.load_pem_x509_csr(csr.csr)
+        subject = parsed.subject
+        assert subject.get_attributes_for_oid(NameOID.COUNTRY_NAME)[0].value == 'US'
+        assert subject.get_attributes_for_oid(NameOID.STATE_OR_PROVINCE_NAME)[0].value == 'Texas'
+        assert subject.get_attributes_for_oid(NameOID.LOCALITY_NAME)[0].value == 'San Antonio'
+        assert subject.get_attributes_for_oid(NameOID.ORGANIZATION_NAME)[0].value == "Big Bob's Beepers"
+        assert subject.get_attributes_for_oid(NameOID.ORGANIZATIONAL_UNIT_NAME)[0].value == 'Marketing'
+        assert subject.get_attributes_for_oid(NameOID.COMMON_NAME)[0].value == 'example.com'
+
+    def test_csr_san_extension(self, csr_info):
+        csr_info['subjectAltNames'] = "www.example.com,*.example.com"
+        csr = CsrGenerator(csr_info)
+        parsed = x509.load_pem_x509_csr(csr.csr)
+        san = parsed.extensions.get_extension_for_class(x509.SubjectAlternativeName)
+        dns_names = san.value.get_values_for_type(x509.DNSName)
+        assert sorted(dns_names) == sorted(['example.com', 'www.example.com', '*.example.com'])
 
 
 class TestException:
