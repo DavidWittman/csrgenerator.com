@@ -4,8 +4,7 @@ version = "1.0.0"
 requires-python = ">=3.11"
 dependencies = [
     "flask",
-    # X509Extension is deprecated in 23.3.0+
-    "pyopenssl==23.2.*",
+    "cryptography",
 ]
 
 [dependency-groups]

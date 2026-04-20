@@ -1,5 +1,5 @@
 import pytest
-import OpenSSL.crypto
+from cryptography.hazmat.primitives.asymmetric.rsa import RSAPrivateKey
 from csr import CsrGenerator
 
 
@@ -17,21 +17,21 @@ class TestGeneration:
 
     def test_keypair_type(self, csr_info):
         csr = CsrGenerator(csr_info)
-        assert isinstance(csr.keypair, OpenSSL.crypto.PKey)
+        assert isinstance(csr.keypair, RSAPrivateKey)
 
     def test_keypair_bits_default(self, csr_info):
         csr = CsrGenerator(csr_info)
-        assert csr.keypair.bits() == 2048
+        assert csr.keypair.key_size == 2048
 
     def test_keypair_1024_bits(self, csr_info):
         csr_info['keySize'] = 1024
         csr = CsrGenerator(csr_info)
-        assert csr.keypair.bits() == 1024
+        assert csr.keypair.key_size == 1024
 
     def test_keypair_4096_bits(self, csr_info):
         csr_info['keySize'] = 4096
         csr = CsrGenerator(csr_info)
-        assert csr.keypair.bits() == 4096
+        assert csr.keypair.key_size == 4096
 
     def test_csr_length(self, csr_info):
         csr = CsrGenerator(csr_info)

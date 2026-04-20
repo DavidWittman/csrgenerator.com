@@ -22,13 +22,25 @@
 
 """
 
-import OpenSSL.crypto as crypt
+from cryptography import x509
+from cryptography.hazmat.primitives import hashes, serialization
+from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.x509.oid import NameOID
 
 
 class CsrGenerator(object):
     DIGEST = "sha256"
     SUPPORTED_KEYSIZES = (1024, 2048, 4096)
     DEFAULT_KEYSIZE = 2048
+    # Map short field names to cryptography NameOID attributes
+    _NAME_OID_MAP = {
+        'C': NameOID.COUNTRY_NAME,
+        'ST': NameOID.STATE_OR_PROVINCE_NAME,
+        'L': NameOID.LOCALITY_NAME,
+        'O': NameOID.ORGANIZATION_NAME,
+        'OU': NameOID.ORGANIZATIONAL_UNIT_NAME,
+        'CN': NameOID.COMMON_NAME,
+    }
 
     def __init__(self, form_values):
         self.csr_info = self._validate(form_values)
@@ -78,30 +90,34 @@ class CsrGenerator(object):
         if bits not in self.SUPPORTED_KEYSIZES:
             raise KeyError("Only 2048 and 4096-bit RSA keys are supported")
 
-        key = crypt.PKey()
-        key.generate_key(crypt.TYPE_RSA, bits)
-
-        return key
+        return rsa.generate_private_key(
+            public_exponent=65537,
+            key_size=bits,
+        )
 
     @property
     def private_key(self):
-        return crypt.dump_privatekey(crypt.FILETYPE_PEM, self.keypair)
+        return self.keypair.private_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PrivateFormat.TraditionalOpenSSL,
+            encryption_algorithm=serialization.NoEncryption(),
+        )
 
     @property
     def csr(self):
-        request = crypt.X509Req()
-        subject = request.get_subject()
+        name_attrs = [
+            x509.NameAttribute(self._NAME_OID_MAP[k], v)
+            for k, v in self.csr_info.items()
+            if k in self._NAME_OID_MAP
+        ]
 
-        for (k, v) in self.csr_info.items():
-            setattr(subject, k, v)
+        san_entries = [x509.DNSName(d.removeprefix('DNS:')) for d in self.subjectAltNames]
 
-        request.add_extensions([
-            crypt.X509Extension(
-                "subjectAltName".encode('utf8'),
-                False,
-                ", ".join(self.subjectAltNames).encode('utf8')
-            )
-        ])
-        request.set_pubkey(self.keypair)
-        request.sign(self.keypair, self.DIGEST)
-        return crypt.dump_certificate_request(crypt.FILETYPE_PEM, request)
+        builder = (
+            x509.CertificateSigningRequestBuilder()
+            .subject_name(x509.Name(name_attrs))
+            .add_extension(x509.SubjectAlternativeName(san_entries), critical=False)
+        )
+
+        request = builder.sign(self.keypair, hashes.SHA256())
+        return request.public_bytes(serialization.Encoding.PEM)
