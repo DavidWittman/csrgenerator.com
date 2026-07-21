@@ -89,6 +89,30 @@ class TestGeneration:
         dns_names = san.value.get_values_for_type(x509.DNSName)
         assert sorted(dns_names) == sorted(['example.com', 'www.example.com', '*.example.com'])
 
+    def test_unicode_cn_is_idna_encoded(self):
+        csr_info = {'CN': 'münchen.de'}
+        csr = CsrGenerator(csr_info)
+        parsed = x509.load_pem_x509_csr(csr.csr)
+        san = parsed.extensions.get_extension_for_class(x509.SubjectAlternativeName)
+        dns_names = san.value.get_values_for_type(x509.DNSName)
+        assert 'xn--mnchen-3ya.de' in dns_names
+
+    def test_unicode_san_is_idna_encoded(self, csr_info):
+        csr_info['subjectAltNames'] = 'münchen.de'
+        csr = CsrGenerator(csr_info)
+        parsed = x509.load_pem_x509_csr(csr.csr)
+        san = parsed.extensions.get_extension_for_class(x509.SubjectAlternativeName)
+        dns_names = san.value.get_values_for_type(x509.DNSName)
+        assert 'xn--mnchen-3ya.de' in dns_names
+
+    def test_unicode_wildcard_san_is_idna_encoded(self, csr_info):
+        csr_info['subjectAltNames'] = '*.münchen.de'
+        csr = CsrGenerator(csr_info)
+        parsed = x509.load_pem_x509_csr(csr.csr)
+        san = parsed.extensions.get_extension_for_class(x509.SubjectAlternativeName)
+        dns_names = san.value.get_values_for_type(x509.DNSName)
+        assert '*.xn--mnchen-3ya.de' in dns_names
+
 
 class TestException:
     def test_missing_country(self):

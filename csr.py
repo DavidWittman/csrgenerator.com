@@ -95,6 +95,19 @@ class CsrGenerator(object):
             key_size=bits,
         )
 
+    @staticmethod
+    def _to_a_label(name):
+        """Convert a DNS name to A-label (ASCII Compatible Encoding) form."""
+        try:
+            name.encode('ascii')
+            return name
+        except UnicodeEncodeError:
+            prefix = ''
+            if name.startswith('*.'):
+                prefix = '*.'
+                name = name[2:]
+            return prefix + name.encode('idna').decode('ascii')
+
     @property
     def private_key(self):
         return self.keypair.private_bytes(
@@ -111,7 +124,7 @@ class CsrGenerator(object):
             if k in self._NAME_OID_MAP
         ]
 
-        san_entries = [x509.DNSName(d.removeprefix('DNS:')) for d in self.subjectAltNames]
+        san_entries = [x509.DNSName(self._to_a_label(d.removeprefix('DNS:'))) for d in self.subjectAltNames]
 
         builder = (
             x509.CertificateSigningRequestBuilder()
